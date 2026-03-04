@@ -1,0 +1,56 @@
+{
+  "signal": "NEUTRAL",
+  "score": -0.0223,
+  "articles_analysed": 9,
+  "top_articles": [
+    {
+      "title": "CHF: Policy support seen as FX intervention focus \u2013 Nomura",
+      "source": "FXStreet",
+      "score": 0.718,
+      "url": "https://www.fxstreet.com/news/chf-policy-support-seen-as-fx-intervention-focus-nomura-202603040929"
+    },
+    {
+      "title": "Eurozone: Energy shock risks keep ECB on guard \u2013 Rabobank",
+      "source": "FXStreet",
+      "score": -0.718,
+      "url": "https://www.fxstreet.com/news/eurozone-energy-shock-risks-keep-ecb-on-guard-rabobank-202603040916"
+    },
+    {
+      "title": "Eurozone Unemployment Rate came in at 6.1% below forecasts (6.2%) in January",
+      "source": "FXStreet",
+      "score": -0.7,
+      "url": "https://www.fxstreet.com/news/eurozone-unemployment-rate-came-in-at-61-below-forecasts-62-in-january-202603041000"
+    },
+    {
+      "title": "USD/INR remains stronger due to increased safe-haven demand",
+      "source": "FXStreet",
+      "score": 0.66,
+      "url": "https://www.fxstreet.com/news/indian-rupee-hits-record-low-as-usd-inr-surges-on-oil-risk-aversion-202603040533"
+    },
+    {
+      "title": "EUR/USD remains subdued near 1.1600 following HCOB PMI data",
+      "source": "FXStreet",
+      "score": -0.421,
+      "url": "https://www.fxstreet.com/news/eur-usd-remains-subdued-near-11600-following-hcob-pmi-data-202603040921"
+    },
+    {
+      "title": "Gold lacks bullish conviction; remains below $5,200 despite Middle East tensions",
+      "source": "FXStreet",
+      "score": 0.286,
+      "url": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-faces-pressure-near-upper-rising-channel-boundary-around-5-400-202603031120"
+    },
+    {
+      "title": "PLN: Dovish NBP path to weigh on zloty \u2013 Commerzbank",
+      "source": "FXStreet",
+      "score": -0.026,
+      "url": "https://www.fxstreet.com/news/pln-dovish-nbp-path-to-weigh-on-zloty-commerzbank-202603040957"
+    },
+    {
+      "title": "Silver price today: Silver rises, according to FXStreet data",
+      "source": "FXStreet",
+      "score": 0.0,
+      "url": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202603040930"
+    }
+  ],
+  "timestamp": "2026-03-04T11:15:31.890399"
+}

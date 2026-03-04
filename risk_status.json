@@ -1,0 +1,18 @@
+{
+  "risk_pct": 0.101,
+  "mode": "NORMAL",
+  "god_mode": false,
+  "trade_allowed": true,
+  "session": "LONDON_OPEN",
+  "session_mult": 1.0,
+  "conf_mult": 0.5,
+  "regime_mult": 0.5,
+  "ec_mult": 0.25,
+  "vol_mult": 1.62,
+  "news_mult": 1.0,
+  "atr_pct": 0.619,
+  "current_balance": 987.61,
+  "prop_firm_mode": false,
+  "reason": "NORMAL | session:LONDON_OPEN | regime:VOLATILE | conf:56%",
+  "timestamp": "2026-03-04 10:31:18"
+}

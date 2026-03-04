@@ -1,0 +1,6764 @@
+{
+  "trades": [
+    {
+      "entry_bar": 100,
+      "exit_bar": 106,
+      "entry_time": "2025-12-29 09:00:00",
+      "exit_time": "2025-12-29 15:00:00",
+      "direction": "SELL",
+      "entry_price": 4493.0,
+      "exit_price": 4343.1,
+      "pnl_pct": 3.333,
+      "pnl_gbp": 3.3333,
+      "balance_after": 103.33
+    },
+    {
+      "entry_bar": 110,
+      "exit_bar": 116,
+      "entry_time": "2025-12-29 19:00:00",
+      "exit_time": "2025-12-30 02:00:00",
+      "direction": "BUY",
+      "entry_price": 4354.2,
+      "exit_price": 4376.3,
+      "pnl_pct": 0.505,
+      "pnl_gbp": 0.5214,
+      "balance_after": 103.85
+    },
+    {
+      "entry_bar": 118,
+      "exit_bar": 124,
+      "entry_time": "2025-12-30 04:00:00",
+      "exit_time": "2025-12-30 10:00:00",
+      "direction": "BUY",
+      "entry_price": 4377.6,
+      "exit_price": 4400.5,
+      "pnl_pct": 0.52,
+      "pnl_gbp": 0.5402,
+      "balance_after": 104.39
+    },
+    {
+      "entry_bar": 147,
+      "exit_bar": 153,
+      "entry_time": "2025-12-31 10:00:00",
+      "exit_time": "2025-12-31 16:00:00",
+      "direction": "BUY",
+      "entry_price": 4318.8,
+      "exit_price": 4336.8,
+      "pnl_pct": 0.414,
+      "pnl_gbp": 0.432,
+      "balance_after": 104.83
+    },
+    {
+      "entry_bar": 155,
+      "exit_bar": 161,
+      "entry_time": "2025-12-31 18:00:00",
+      "exit_time": "2026-01-02 07:00:00",
+      "direction": "BUY",
+      "entry_price": 4333.5,
+      "exit_price": 4394.7,
+      "pnl_pct": 1.409,
+      "pnl_gbp": 1.4773,
+      "balance_after": 106.3
+    },
+    {
+      "entry_bar": 171,
+      "exit_bar": 177,
+      "entry_time": "2026-01-02 17:00:00",
+      "exit_time": "2026-01-05 00:00:00",
+      "direction": "BUY",
+      "entry_price": 4332.9,
+      "exit_price": 4404.5,
+      "pnl_pct": 1.649,
+      "pnl_gbp": 1.7535,
+      "balance_after": 108.06
+    },
+    {
+      "entry_bar": 177,
+      "exit_bar": 183,
+      "entry_time": "2026-01-05 00:00:00",
+      "exit_time": "2026-01-05 06:00:00",
+      "direction": "BUY",
+      "entry_price": 4404.5,
+      "exit_price": 4429.7,
+      "pnl_pct": 0.569,
+      "pnl_gbp": 0.615,
+      "balance_after": 108.67
+    },
+    {
+      "entry_bar": 187,
+      "exit_bar": 193,
+      "entry_time": "2026-01-05 10:00:00",
+      "exit_time": "2026-01-05 16:00:00",
+      "direction": "BUY",
+      "entry_price": 4447.4,
+      "exit_price": 4452.7,
+      "pnl_pct": 0.116,
+      "pnl_gbp": 0.1263,
+      "balance_after": 108.8
+    },
+    {
+      "entry_bar": 198,
+      "exit_bar": 204,
+      "entry_time": "2026-01-05 21:00:00",
+      "exit_time": "2026-01-06 04:00:00",
+      "direction": "BUY",
+      "entry_price": 4459.7,
+      "exit_price": 4478.0,
+      "pnl_pct": 0.407,
+      "pnl_gbp": 0.4432,
+      "balance_after": 109.24
+    },
+    {
+      "entry_bar": 243,
+      "exit_bar": 249,
+      "entry_time": "2026-01-07 20:00:00",
+      "exit_time": "2026-01-08 03:00:00",
+      "direction": "SELL",
+      "entry_price": 4462.6,
+      "exit_price": 4448.2,
+      "pnl_pct": 0.32,
+      "pnl_gbp": 0.3492,
+      "balance_after": 109.59
+    },
+    {
+      "entry_bar": 251,
+      "exit_bar": 257,
+      "entry_time": "2026-01-08 05:00:00",
+      "exit_time": "2026-01-08 11:00:00",
+      "direction": "BUY",
+      "entry_price": 4433.6,
+      "exit_price": 4431.0,
+      "pnl_pct": -0.062,
+      "pnl_gbp": -0.0676,
+      "balance_after": 109.52
+    },
+    {
+      "entry_bar": 257,
+      "exit_bar": 263,
+      "entry_time": "2026-01-08 11:00:00",
+      "exit_time": "2026-01-08 17:00:00",
+      "direction": "BUY",
+      "entry_price": 4431.0,
+      "exit_price": 4472.8,
+      "pnl_pct": 0.94,
+      "pnl_gbp": 1.0299,
+      "balance_after": 110.55
+    },
+    {
+      "entry_bar": 283,
+      "exit_bar": 289,
+      "entry_time": "2026-01-09 14:00:00",
+      "exit_time": "2026-01-09 20:00:00",
+      "direction": "SELL",
+      "entry_price": 4503.9,
+      "exit_price": 4516.1,
+      "pnl_pct": -0.274,
+      "pnl_gbp": -0.3028,
+      "balance_after": 110.25
+    },
+    {
+      "entry_bar": 291,
+      "exit_bar": 297,
+      "entry_time": "2026-01-11 23:00:00",
+      "exit_time": "2026-01-12 05:00:00",
+      "direction": "BUY",
+      "entry_price": 4550.1,
+      "exit_price": 4591.3,
+      "pnl_pct": 0.902,
+      "pnl_gbp": 0.995,
+      "balance_after": 111.25
+    },
+    {
+      "entry_bar": 297,
+      "exit_bar": 303,
+      "entry_time": "2026-01-12 05:00:00",
+      "exit_time": "2026-01-12 11:00:00",
+      "direction": "BUY",
+      "entry_price": 4591.3,
+      "exit_price": 4594.8,
+      "pnl_pct": 0.073,
+      "pnl_gbp": 0.0815,
+      "balance_after": 111.33
+    },
+    {
+      "entry_bar": 303,
+      "exit_bar": 309,
+      "entry_time": "2026-01-12 11:00:00",
+      "exit_time": "2026-01-12 17:00:00",
+      "direction": "BUY",
+      "entry_price": 4594.8,
+      "exit_price": 4626.9,
+      "pnl_pct": 0.696,
+      "pnl_gbp": 0.7744,
+      "balance_after": 112.1
+    },
+    {
+      "entry_bar": 309,
+      "exit_bar": 315,
+      "entry_time": "2026-01-12 17:00:00",
+      "exit_time": "2026-01-13 00:00:00",
+      "direction": "SELL",
+      "entry_price": 4626.9,
+      "exit_price": 4595.8,
+      "pnl_pct": 0.669,
+      "pnl_gbp": 0.7501,
+      "balance_after": 112.85
+    },
+    {
+      "entry_bar": 315,
+      "exit_bar": 321,
+      "entry_time": "2026-01-13 00:00:00",
+      "exit_time": "2026-01-13 06:00:00",
+      "direction": "BUY",
+      "entry_price": 4595.8,
+      "exit_price": 4590.5,
+      "pnl_pct": -0.118,
+      "pnl_gbp": -0.1335,
+      "balance_after": 112.72
+    },
+    {
+      "entry_bar": 321,
+      "exit_bar": 327,
+      "entry_time": "2026-01-13 06:00:00",
+      "exit_time": "2026-01-13 12:00:00",
+      "direction": "BUY",
+      "entry_price": 4590.5,
+      "exit_price": 4602.0,
+      "pnl_pct": 0.248,
+      "pnl_gbp": 0.279,
+      "balance_after": 113.0
+    },
+    {
+      "entry_bar": 357,
+      "exit_bar": 363,
+      "entry_time": "2026-01-14 19:00:00",
+      "exit_time": "2026-01-15 02:00:00",
+      "direction": "SELL",
+      "entry_price": 4646.7,
+      "exit_price": 4606.9,
+      "pnl_pct": 0.854,
+      "pnl_gbp": 0.9645,
+      "balance_after": 113.96
+    },
+    {
+      "entry_bar": 364,
+      "exit_bar": 370,
+      "entry_time": "2026-01-15 03:00:00",
+      "exit_time": "2026-01-15 09:00:00",
+      "direction": "BUY",
+      "entry_price": 4596.1,
+      "exit_price": 4616.9,
+      "pnl_pct": 0.45,
+      "pnl_gbp": 0.5123,
+      "balance_after": 114.47
+    },
+    {
+      "entry_bar": 378,
+      "exit_bar": 384,
+      "entry_time": "2026-01-15 17:00:00",
+      "exit_time": "2026-01-16 00:00:00",
+      "direction": "SELL",
+      "entry_price": 4621.5,
+      "exit_price": 4604.4,
+      "pnl_pct": 0.367,
+      "pnl_gbp": 0.4201,
+      "balance_after": 114.89
+    },
+    {
+      "entry_bar": 406,
+      "exit_bar": 412,
+      "entry_time": "2026-01-19 04:00:00",
+      "exit_time": "2026-01-20 10:00:00",
+      "direction": "BUY",
+      "entry_price": 4671.2,
+      "exit_price": 4732.3,
+      "pnl_pct": 1.305,
+      "pnl_gbp": 1.4994,
+      "balance_after": 116.39
+    },
+    {
+      "entry_bar": 412,
+      "exit_bar": 418,
+      "entry_time": "2026-01-20 10:00:00",
+      "exit_time": "2026-01-20 16:00:00",
+      "direction": "BUY",
+      "entry_price": 4732.3,
+      "exit_price": 4758.0,
+      "pnl_pct": 0.54,
+      "pnl_gbp": 0.6286,
+      "balance_after": 117.02
+    },
+    {
+      "entry_bar": 418,
+      "exit_bar": 424,
+      "entry_time": "2026-01-20 16:00:00",
+      "exit_time": "2026-01-20 23:00:00",
+      "direction": "BUY",
+      "entry_price": 4758.0,
+      "exit_price": 4779.8,
+      "pnl_pct": 0.455,
+      "pnl_gbp": 0.5327,
+      "balance_after": 117.55
+    },
+    {
+      "entry_bar": 426,
+      "exit_bar": 432,
+      "entry_time": "2026-01-21 01:00:00",
+      "exit_time": "2026-01-21 07:00:00",
+      "direction": "BUY",
+      "entry_price": 4838.5,
+      "exit_price": 4857.5,
+      "pnl_pct": 0.39,
+      "pnl_gbp": 0.4581,
+      "balance_after": 118.01
+    },
+    {
+      "entry_bar": 434,
+      "exit_bar": 440,
+      "entry_time": "2026-01-21 09:00:00",
+      "exit_time": "2026-01-21 15:00:00",
+      "direction": "SELL",
+      "entry_price": 4862.4,
+      "exit_price": 4850.0,
+      "pnl_pct": 0.252,
+      "pnl_gbp": 0.2974,
+      "balance_after": 118.31
+    },
+    {
+      "entry_bar": 440,
+      "exit_bar": 446,
+      "entry_time": "2026-01-21 15:00:00",
+      "exit_time": "2026-01-21 21:00:00",
+      "direction": "SELL",
+      "entry_price": 4850.0,
+      "exit_price": 4836.2,
+      "pnl_pct": 0.282,
+      "pnl_gbp": 0.3331,
+      "balance_after": 118.64
+    },
+    {
+      "entry_bar": 449,
+      "exit_bar": 455,
+      "entry_time": "2026-01-22 01:00:00",
+      "exit_time": "2026-01-22 07:00:00",
+      "direction": "BUY",
+      "entry_price": 4799.2,
+      "exit_price": 4833.5,
+      "pnl_pct": 0.712,
+      "pnl_gbp": 0.8444,
+      "balance_after": 119.49
+    },
+    {
+      "entry_bar": 455,
+      "exit_bar": 461,
+      "entry_time": "2026-01-22 07:00:00",
+      "exit_time": "2026-01-22 13:00:00",
+      "direction": "BUY",
+      "entry_price": 4833.5,
+      "exit_price": 4823.8,
+      "pnl_pct": -0.204,
+      "pnl_gbp": -0.2434,
+      "balance_after": 119.24
+    },
+    {
+      "entry_bar": 461,
+      "exit_bar": 467,
+      "entry_time": "2026-01-22 13:00:00",
+      "exit_time": "2026-01-22 19:00:00",
+      "direction": "BUY",
+      "entry_price": 4823.8,
+      "exit_price": 4915.2,
+      "pnl_pct": 1.892,
+      "pnl_gbp": 2.2558,
+      "balance_after": 121.5
+    },
+    {
+      "entry_bar": 483,
+      "exit_bar": 489,
+      "entry_time": "2026-01-23 12:00:00",
+      "exit_time": "2026-01-23 18:00:00",
+      "direction": "BUY",
+      "entry_price": 4940.0,
+      "exit_price": 4967.8,
+      "pnl_pct": 0.56,
+      "pnl_gbp": 0.6801,
+      "balance_after": 122.18
+    },
+    {
+      "entry_bar": 494,
+      "exit_bar": 500,
+      "entry_time": "2026-01-26 00:00:00",
+      "exit_time": "2026-01-26 06:00:00",
+      "direction": "BUY",
+      "entry_price": 5041.0,
+      "exit_price": 5074.2,
+      "pnl_pct": 0.656,
+      "pnl_gbp": 0.801,
+      "balance_after": 122.98
+    },
+    {
+      "entry_bar": 503,
+      "exit_bar": 509,
+      "entry_time": "2026-01-26 09:00:00",
+      "exit_time": "2026-01-26 15:00:00",
+      "direction": "SELL",
+      "entry_price": 5082.2,
+      "exit_price": 5088.4,
+      "pnl_pct": -0.125,
+      "pnl_gbp": -0.1537,
+      "balance_after": 122.83
+    },
+    {
+      "entry_bar": 509,
+      "exit_bar": 515,
+      "entry_time": "2026-01-26 15:00:00",
+      "exit_time": "2026-01-26 21:00:00",
+      "direction": "SELL",
+      "entry_price": 5088.4,
+      "exit_price": 5004.8,
+      "pnl_pct": 1.64,
+      "pnl_gbp": 2.0143,
+      "balance_after": 124.84
+    },
+    {
+      "entry_bar": 516,
+      "exit_bar": 522,
+      "entry_time": "2026-01-26 23:00:00",
+      "exit_time": "2026-01-27 05:00:00",
+      "direction": "SELL",
+      "entry_price": 5037.7,
+      "exit_price": 5078.1,
+      "pnl_pct": -0.805,
+      "pnl_gbp": -1.0049,
+      "balance_after": 123.84
+    },
+    {
+      "entry_bar": 527,
+      "exit_bar": 533,
+      "entry_time": "2026-01-27 10:00:00",
+      "exit_time": "2026-01-27 16:00:00",
+      "direction": "BUY",
+      "entry_price": 5082.5,
+      "exit_price": 5085.1,
+      "pnl_pct": 0.048,
+      "pnl_gbp": 0.0596,
+      "balance_after": 123.9
+    },
+    {
+      "entry_bar": 533,
+      "exit_bar": 539,
+      "entry_time": "2026-01-27 16:00:00",
+      "exit_time": "2026-01-27 23:00:00",
+      "direction": "BUY",
+      "entry_price": 5085.1,
+      "exit_price": 5169.2,
+      "pnl_pct": 1.651,
+      "pnl_gbp": 2.0454,
+      "balance_after": 125.94
+    },
+    {
+      "entry_bar": 539,
+      "exit_bar": 545,
+      "entry_time": "2026-01-27 23:00:00",
+      "exit_time": "2026-01-28 05:00:00",
+      "direction": "BUY",
+      "entry_price": 5169.2,
+      "exit_price": 5253.9,
+      "pnl_pct": 1.636,
+      "pnl_gbp": 2.0598,
+      "balance_after": 128.0
+    },
+    {
+      "entry_bar": 545,
+      "exit_bar": 551,
+      "entry_time": "2026-01-28 05:00:00",
+      "exit_time": "2026-01-28 11:00:00",
+      "direction": "BUY",
+      "entry_price": 5253.9,
+      "exit_price": 5294.2,
+      "pnl_pct": 0.764,
+      "pnl_gbp": 0.978,
+      "balance_after": 128.98
+    },
+    {
+      "entry_bar": 569,
+      "exit_bar": 575,
+      "entry_time": "2026-01-29 06:00:00",
+      "exit_time": "2026-01-29 12:00:00",
+      "direction": "BUY",
+      "entry_price": 5591.0,
+      "exit_price": 5564.5,
+      "pnl_pct": -0.477,
+      "pnl_gbp": -0.6152,
+      "balance_after": 128.36
+    },
+    {
+      "entry_bar": 579,
+      "exit_bar": 585,
+      "entry_time": "2026-01-29 16:00:00",
+      "exit_time": "2026-01-29 23:00:00",
+      "direction": "SELL",
+      "entry_price": 5292.5,
+      "exit_price": 5467.6,
+      "pnl_pct": -3.311,
+      "pnl_gbp": -4.2507,
+      "balance_after": 124.11
+    },
+    {
+      "entry_bar": 585,
+      "exit_bar": 591,
+      "entry_time": "2026-01-29 23:00:00",
+      "exit_time": "2026-01-30 05:00:00",
+      "direction": "SELL",
+      "entry_price": 5467.6,
+      "exit_price": 5212.4,
+      "pnl_pct": 4.664,
+      "pnl_gbp": 5.7893,
+      "balance_after": 129.9
+    },
+    {
+      "entry_bar": 600,
+      "exit_bar": 606,
+      "entry_time": "2026-01-30 14:00:00",
+      "exit_time": "2026-01-30 20:00:00",
+      "direction": "BUY",
+      "entry_price": 5061.0,
+      "exit_price": 4870.8,
+      "pnl_pct": -3.761,
+      "pnl_gbp": -4.8859,
+      "balance_after": 125.02
+    },
+    {
+      "entry_bar": 613,
+      "exit_bar": 619,
+      "entry_time": "2026-02-02 04:00:00",
+      "exit_time": "2026-02-02 10:00:00",
+      "direction": "BUY",
+      "entry_price": 4701.4,
+      "exit_price": 4727.3,
+      "pnl_pct": 0.548,
+      "pnl_gbp": 0.685,
+      "balance_after": 125.7
+    },
+    {
+      "entry_bar": 633,
+      "exit_bar": 639,
+      "entry_time": "2026-02-03 01:00:00",
+      "exit_time": "2026-02-03 07:00:00",
+      "direction": "BUY",
+      "entry_price": 4862.7,
+      "exit_price": 4940.0,
+      "pnl_pct": 1.587,
+      "pnl_gbp": 1.9945,
+      "balance_after": 127.7
+    },
+    {
+      "entry_bar": 639,
+      "exit_bar": 645,
+      "entry_time": "2026-02-03 07:00:00",
+      "exit_time": "2026-02-03 13:00:00",
+      "direction": "BUY",
+      "entry_price": 4940.0,
+      "exit_price": 4958.0,
+      "pnl_pct": 0.361,
+      "pnl_gbp": 0.4615,
+      "balance_after": 128.16
+    },
+    {
+      "entry_bar": 655,
+      "exit_bar": 661,
+      "entry_time": "2026-02-04 00:00:00",
+      "exit_time": "2026-02-04 06:00:00",
+      "direction": "BUY",
+      "entry_price": 5038.1,
+      "exit_price": 5096.6,
+      "pnl_pct": 1.158,
+      "pnl_gbp": 1.4843,
+      "balance_after": 129.64
+    },
+    {
+      "entry_bar": 662,
+      "exit_bar": 668,
+      "entry_time": "2026-02-04 07:00:00",
+      "exit_time": "2026-02-04 13:00:00",
+      "direction": "BUY",
+      "entry_price": 5106.8,
+      "exit_price": 5077.0,
+      "pnl_pct": -0.587,
+      "pnl_gbp": -0.7604,
+      "balance_after": 128.88
+    },
+    {
+      "entry_bar": 677,
+      "exit_bar": 683,
+      "entry_time": "2026-02-04 23:00:00",
+      "exit_time": "2026-02-05 05:00:00",
+      "direction": "BUY",
+      "entry_price": 5033.4,
+      "exit_price": 4911.8,
+      "pnl_pct": -2.419,
+      "pnl_gbp": -3.1175,
+      "balance_after": 125.76
+    },
+    {
+      "entry_bar": 697,
+      "exit_bar": 703,
+      "entry_time": "2026-02-05 19:00:00",
+      "exit_time": "2026-02-06 02:00:00",
+      "direction": "BUY",
+      "entry_price": 4852.5,
+      "exit_price": 4833.5,
+      "pnl_pct": -0.395,
+      "pnl_gbp": -0.4962,
+      "balance_after": 125.27
+    },
+    {
+      "entry_bar": 723,
+      "exit_bar": 729,
+      "entry_time": "2026-02-08 23:00:00",
+      "exit_time": "2026-02-09 05:00:00",
+      "direction": "BUY",
+      "entry_price": 5057.4,
+      "exit_price": 5058.0,
+      "pnl_pct": 0.009,
+      "pnl_gbp": 0.0111,
+      "balance_after": 125.28
+    },
+    {
+      "entry_bar": 734,
+      "exit_bar": 740,
+      "entry_time": "2026-02-09 10:00:00",
+      "exit_time": "2026-02-09 16:00:00",
+      "direction": "BUY",
+      "entry_price": 5011.3,
+      "exit_price": 5096.9,
+      "pnl_pct": 1.705,
+      "pnl_gbp": 2.1362,
+      "balance_after": 127.42
+    },
+    {
+      "entry_bar": 740,
+      "exit_bar": 746,
+      "entry_time": "2026-02-09 16:00:00",
+      "exit_time": "2026-02-09 23:00:00",
+      "direction": "BUY",
+      "entry_price": 5096.9,
+      "exit_price": 5055.3,
+      "pnl_pct": -0.819,
+      "pnl_gbp": -1.0438,
+      "balance_after": 126.37
+    },
+    {
+      "entry_bar": 746,
+      "exit_bar": 752,
+      "entry_time": "2026-02-09 23:00:00",
+      "exit_time": "2026-02-10 05:00:00",
+      "direction": "SELL",
+      "entry_price": 5055.3,
+      "exit_price": 5061.9,
+      "pnl_pct": -0.134,
+      "pnl_gbp": -0.1688,
+      "balance_after": 126.2
+    },
+    {
+      "entry_bar": 764,
+      "exit_bar": 770,
+      "entry_time": "2026-02-10 17:00:00",
+      "exit_time": "2026-02-11 00:00:00",
+      "direction": "SELL",
+      "entry_price": 5049.7,
+      "exit_price": 5060.9,
+      "pnl_pct": -0.225,
+      "pnl_gbp": -0.2837,
+      "balance_after": 125.92
+    },
+    {
+      "entry_bar": 770,
+      "exit_bar": 776,
+      "entry_time": "2026-02-11 00:00:00",
+      "exit_time": "2026-02-11 06:00:00",
+      "direction": "SELL",
+      "entry_price": 5060.9,
+      "exit_price": 5088.3,
+      "pnl_pct": -0.544,
+      "pnl_gbp": -0.6855,
+      "balance_after": 125.23
+    },
+    {
+      "entry_bar": 816,
+      "exit_bar": 822,
+      "entry_time": "2026-02-13 00:00:00",
+      "exit_time": "2026-02-13 06:00:00",
+      "direction": "BUY",
+      "entry_price": 4946.7,
+      "exit_price": 4986.7,
+      "pnl_pct": 0.806,
+      "pnl_gbp": 1.0089,
+      "balance_after": 126.24
+    },
+    {
+      "entry_bar": 834,
+      "exit_bar": 840,
+      "entry_time": "2026-02-13 18:00:00",
+      "exit_time": "2026-02-16 01:00:00",
+      "direction": "SELL",
+      "entry_price": 5054.1,
+      "exit_price": 5047.6,
+      "pnl_pct": 0.126,
+      "pnl_gbp": 0.1586,
+      "balance_after": 126.4
+    },
+    {
+      "entry_bar": 841,
+      "exit_bar": 847,
+      "entry_time": "2026-02-16 02:00:00",
+      "exit_time": "2026-02-17 08:00:00",
+      "direction": "SELL",
+      "entry_price": 5014.8,
+      "exit_price": 4939.5,
+      "pnl_pct": 1.499,
+      "pnl_gbp": 1.8942,
+      "balance_after": 128.3
+    },
+    {
+      "entry_bar": 856,
+      "exit_bar": 862,
+      "entry_time": "2026-02-17 17:00:00",
+      "exit_time": "2026-02-18 00:00:00",
+      "direction": "BUY",
+      "entry_price": 4884.0,
+      "exit_price": 4891.8,
+      "pnl_pct": 0.157,
+      "pnl_gbp": 0.201,
+      "balance_after": 128.5
+    },
+    {
+      "entry_bar": 870,
+      "exit_bar": 876,
+      "entry_time": "2026-02-18 08:00:00",
+      "exit_time": "2026-02-18 14:00:00",
+      "direction": "BUY",
+      "entry_price": 4937.7,
+      "exit_price": 5012.3,
+      "pnl_pct": 1.508,
+      "pnl_gbp": 1.9375,
+      "balance_after": 130.43
+    },
+    {
+      "entry_bar": 930,
+      "exit_bar": 936,
+      "entry_time": "2026-02-22 23:00:00",
+      "exit_time": "2026-02-23 05:00:00",
+      "direction": "BUY",
+      "entry_price": 5187.2,
+      "exit_price": 5179.9,
+      "pnl_pct": -0.144,
+      "pnl_gbp": -0.1875,
+      "balance_after": 130.25
+    },
+    {
+      "entry_bar": 936,
+      "exit_bar": 942,
+      "entry_time": "2026-02-23 05:00:00",
+      "exit_time": "2026-02-23 11:00:00",
+      "direction": "BUY",
+      "entry_price": 5179.9,
+      "exit_price": 5170.3,
+      "pnl_pct": -0.188,
+      "pnl_gbp": -0.2453,
+      "balance_after": 130.0
+    },
+    {
+      "entry_bar": 951,
+      "exit_bar": 957,
+      "entry_time": "2026-02-23 20:00:00",
+      "exit_time": "2026-02-24 03:00:00",
+      "direction": "SELL",
+      "entry_price": 5255.6,
+      "exit_price": 5192.0,
+      "pnl_pct": 1.207,
+      "pnl_gbp": 1.5693,
+      "balance_after": 131.57
+    },
+    {
+      "entry_bar": 959,
+      "exit_bar": 965,
+      "entry_time": "2026-02-24 05:00:00",
+      "exit_time": "2026-02-24 11:00:00",
+      "direction": "SELL",
+      "entry_price": 5203.0,
+      "exit_price": 5191.9,
+      "pnl_pct": 0.21,
+      "pnl_gbp": 0.2767,
+      "balance_after": 131.85
+    },
+    {
+      "entry_bar": 966,
+      "exit_bar": 972,
+      "entry_time": "2026-02-24 12:00:00",
+      "exit_time": "2026-02-24 18:00:00",
+      "direction": "BUY",
+      "entry_price": 5168.8,
+      "exit_price": 5178.9,
+      "pnl_pct": 0.192,
+      "pnl_gbp": 0.2537,
+      "balance_after": 132.1
+    },
+    {
+      "entry_bar": 976,
+      "exit_bar": 982,
+      "entry_time": "2026-02-24 23:00:00",
+      "exit_time": "2026-02-25 05:00:00",
+      "direction": "SELL",
+      "entry_price": 5165.0,
+      "exit_price": 5221.2,
+      "pnl_pct": -1.091,
+      "pnl_gbp": -1.4414,
+      "balance_after": 130.66
+    },
+    {
+      "entry_bar": 1016,
+      "exit_bar": 1022,
+      "entry_time": "2026-02-26 16:00:00",
+      "exit_time": "2026-02-26 23:00:00",
+      "direction": "SELL",
+      "entry_price": 5196.3,
+      "exit_price": 5200.9,
+      "pnl_pct": -0.092,
+      "pnl_gbp": -0.1196,
+      "balance_after": 130.54
+    },
+    {
+      "entry_bar": 1022,
+      "exit_bar": 1028,
+      "entry_time": "2026-02-26 23:00:00",
+      "exit_time": "2026-02-27 05:00:00",
+      "direction": "SELL",
+      "entry_price": 5200.9,
+      "exit_price": 5214.7,
+      "pnl_pct": -0.268,
+      "pnl_gbp": -0.3503,
+      "balance_after": 130.19
+    },
+    {
+      "entry_bar": 1049,
+      "exit_bar": 1055,
+      "entry_time": "2026-03-02 03:00:00",
+      "exit_time": "2026-03-02 09:00:00",
+      "direction": "BUY",
+      "entry_price": 5378.7,
+      "exit_price": 5406.9,
+      "pnl_pct": 0.521,
+      "pnl_gbp": 0.6787,
+      "balance_after": 130.87
+    },
+    {
+      "entry_bar": 1065,
+      "exit_bar": 1071,
+      "entry_time": "2026-03-02 19:00:00",
+      "exit_time": "2026-03-03 02:00:00",
+      "direction": "BUY",
+      "entry_price": 5344.2,
+      "exit_price": 5380.0,
+      "pnl_pct": 0.667,
+      "pnl_gbp": 0.8727,
+      "balance_after": 131.74
+    }
+  ],
+  "equity_curve": [
+    {
+      "bar": 100,
+      "time": "2025-12-29 09:00:00",
+      "price": 4493.0,
+      "balance": 100.0
+    },
+    {
+      "bar": 101,
+      "time": "2025-12-29 10:00:00",
+      "price": 4482.89990234375,
+      "balance": 100.0
+    },
+    {
+      "bar": 102,
+      "time": "2025-12-29 11:00:00",
+      "price": 4466.2001953125,
+      "balance": 100.0
+    },
+    {
+      "bar": 103,
+      "time": "2025-12-29 12:00:00",
+      "price": 4484.5,
+      "balance": 100.0
+    },
+    {
+      "bar": 104,
+      "time": "2025-12-29 13:00:00",
+      "price": 4440.89990234375,
+      "balance": 100.0
+    },
+    {
+      "bar": 105,
+      "time": "2025-12-29 14:00:00",
+      "price": 4378.60009765625,
+      "balance": 100.0
+    },
+    {
+      "bar": 106,
+      "time": "2025-12-29 15:00:00",
+      "price": 4343.10009765625,
+      "balance": 100.0
+    },
+    {
+      "bar": 107,
+      "time": "2025-12-29 16:00:00",
+      "price": 4359.7998046875,
+      "balance": 103.33
+    },
+    {
+      "bar": 108,
+      "time": "2025-12-29 17:00:00",
+      "price": 4346.2001953125,
+      "balance": 103.33
+    },
+    {
+      "bar": 109,
+      "time": "2025-12-29 18:00:00",
+      "price": 4349.5,
+      "balance": 103.33
+    },
+    {
+      "bar": 110,
+      "time": "2025-12-29 19:00:00",
+      "price": 4354.2001953125,
+      "balance": 103.33
+    },
+    {
+      "bar": 111,
+      "time": "2025-12-29 20:00:00",
+      "price": 4354.2998046875,
+      "balance": 103.33
+    },
+    {
+      "bar": 112,
+      "time": "2025-12-29 21:00:00",
+      "price": 4350.2001953125,
+      "balance": 103.33
+    },
+    {
+      "bar": 113,
+      "time": "2025-12-29 23:00:00",
+      "price": 4361.2001953125,
+      "balance": 103.33
+    },
+    {
+      "bar": 114,
+      "time": "2025-12-30 00:00:00",
+      "price": 4354.7001953125,
+      "balance": 103.33
+    },
+    {
+      "bar": 115,
+      "time": "2025-12-30 01:00:00",
+      "price": 4374.7001953125,
+      "balance": 103.33
+    },
+    {
+      "bar": 116,
+      "time": "2025-12-30 02:00:00",
+      "price": 4376.2998046875,
+      "balance": 103.33
+    },
+    {
+      "bar": 117,
+      "time": "2025-12-30 03:00:00",
+      "price": 4373.7998046875,
+      "balance": 103.85
+    },
+    {
+      "bar": 118,
+      "time": "2025-12-30 04:00:00",
+      "price": 4377.60009765625,
+      "balance": 103.85
+    },
+    {
+      "bar": 119,
+      "time": "2025-12-30 05:00:00",
+      "price": 4392.0,
+      "balance": 103.85
+    },
+    {
+      "bar": 120,
+      "time": "2025-12-30 06:00:00",
+      "price": 4379.7001953125,
+      "balance": 103.85
+    },
+    {
+      "bar": 121,
+      "time": "2025-12-30 07:00:00",
+      "price": 4388.2998046875,
+      "balance": 103.85
+    },
+    {
+      "bar": 122,
+      "time": "2025-12-30 08:00:00",
+      "price": 4380.7998046875,
+      "balance": 103.85
+    },
+    {
+      "bar": 123,
+      "time": "2025-12-30 09:00:00",
+      "price": 4387.60009765625,
+      "balance": 103.85
+    },
+    {
+      "bar": 124,
+      "time": "2025-12-30 10:00:00",
+      "price": 4400.5,
+      "balance": 103.85
+    },
+    {
+      "bar": 125,
+      "time": "2025-12-30 11:00:00",
+      "price": 4399.60009765625,
+      "balance": 104.39
+    },
+    {
+      "bar": 126,
+      "time": "2025-12-30 12:00:00",
+      "price": 4417.0,
+      "balance": 104.39
+    },
+    {
+      "bar": 127,
+      "time": "2025-12-30 13:00:00",
+      "price": 4403.7001953125,
+      "balance": 104.39
+    },
+    {
+      "bar": 128,
+      "time": "2025-12-30 14:00:00",
+      "price": 4381.39990234375,
+      "balance": 104.39
+    },
+    {
+      "bar": 129,
+      "time": "2025-12-30 15:00:00",
+      "price": 4381.89990234375,
+      "balance": 104.39
+    },
+    {
+      "bar": 130,
+      "time": "2025-12-30 16:00:00",
+      "price": 4393.5,
+      "balance": 104.39
+    },
+    {
+      "bar": 131,
+      "time": "2025-12-30 17:00:00",
+      "price": 4385.5,
+      "balance": 104.39
+    },
+    {
+      "bar": 132,
+      "time": "2025-12-30 18:00:00",
+      "price": 4380.2001953125,
+      "balance": 104.39
+    },
+    {
+      "bar": 133,
+      "time": "2025-12-30 19:00:00",
+      "price": 4364.0,
+      "balance": 104.39
+    },
+    {
+      "bar": 134,
+      "time": "2025-12-30 20:00:00",
+      "price": 4357.5,
+      "balance": 104.39
+    },
+    {
+      "bar": 135,
+      "time": "2025-12-30 21:00:00",
+      "price": 4352.2998046875,
+      "balance": 104.39
+    },
+    {
+      "bar": 136,
+      "time": "2025-12-30 23:00:00",
+      "price": 4350.89990234375,
+      "balance": 104.39
+    },
+    {
+      "bar": 137,
+      "time": "2025-12-31 00:00:00",
+      "price": 4354.89990234375,
+      "balance": 104.39
+    },
+    {
+      "bar": 138,
+      "time": "2025-12-31 01:00:00",
+      "price": 4378.10009765625,
+      "balance": 104.39
+    },
+    {
+      "bar": 139,
+      "time": "2025-12-31 02:00:00",
+      "price": 4360.5,
+      "balance": 104.39
+    },
+    {
+      "bar": 140,
+      "time": "2025-12-31 03:00:00",
+      "price": 4360.39990234375,
+      "balance": 104.39
+    },
+    {
+      "bar": 141,
+      "time": "2025-12-31 04:00:00",
+      "price": 4344.60009765625,
+      "balance": 104.39
+    },
+    {
+      "bar": 142,
+      "time": "2025-12-31 05:00:00",
+      "price": 4296.5,
+      "balance": 104.39
+    },
+    {
+      "bar": 143,
+      "time": "2025-12-31 06:00:00",
+      "price": 4339.0,
+      "balance": 104.39
+    },
+    {
+      "bar": 144,
+      "time": "2025-12-31 07:00:00",
+      "price": 4342.7001953125,
+      "balance": 104.39
+    },
+    {
+      "bar": 145,
+      "time": "2025-12-31 08:00:00",
+      "price": 4319.39990234375,
+      "balance": 104.39
+    },
+    {
+      "bar": 146,
+      "time": "2025-12-31 09:00:00",
+      "price": 4338.60009765625,
+      "balance": 104.39
+    },
+    {
+      "bar": 147,
+      "time": "2025-12-31 10:00:00",
+      "price": 4318.7998046875,
+      "balance": 104.39
+    },
+    {
+      "bar": 148,
+      "time": "2025-12-31 11:00:00",
+      "price": 4323.7998046875,
+      "balance": 104.39
+    },
+    {
+      "bar": 149,
+      "time": "2025-12-31 12:00:00",
+      "price": 4326.10009765625,
+      "balance": 104.39
+    },
+    {
+      "bar": 150,
+      "time": "2025-12-31 13:00:00",
+      "price": 4358.7001953125,
+      "balance": 104.39
+    },
+    {
+      "bar": 151,
+      "time": "2025-12-31 14:00:00",
+      "price": 4360.10009765625,
+      "balance": 104.39
+    },
+    {
+      "bar": 152,
+      "time": "2025-12-31 15:00:00",
+      "price": 4350.89990234375,
+      "balance": 104.39
+    },
+    {
+      "bar": 153,
+      "time": "2025-12-31 16:00:00",
+      "price": 4336.7998046875,
+      "balance": 104.39
+    },
+    {
+      "bar": 154,
+      "time": "2025-12-31 17:00:00",
+      "price": 4335.7001953125,
+      "balance": 104.83
+    },
+    {
+      "bar": 155,
+      "time": "2025-12-31 18:00:00",
+      "price": 4333.5,
+      "balance": 104.83
+    },
+    {
+      "bar": 156,
+      "time": "2025-12-31 19:00:00",
+      "price": 4323.89990234375,
+      "balance": 104.83
+    },
+    {
+      "bar": 157,
+      "time": "2025-12-31 20:00:00",
+      "price": 4326.0,
+      "balance": 104.83
+    },
+    {
+      "bar": 158,
+      "time": "2025-12-31 21:00:00",
+      "price": 4332.10009765625,
+      "balance": 104.83
+    },
+    {
+      "bar": 159,
+      "time": "2026-01-02 05:00:00",
+      "price": 4394.10009765625,
+      "balance": 104.83
+    },
+    {
+      "bar": 160,
+      "time": "2026-01-02 06:00:00",
+      "price": 4387.60009765625,
+      "balance": 104.83
+    },
+    {
+      "bar": 161,
+      "time": "2026-01-02 07:00:00",
+      "price": 4394.7001953125,
+      "balance": 104.83
+    },
+    {
+      "bar": 162,
+      "time": "2026-01-02 08:00:00",
+      "price": 4399.2001953125,
+      "balance": 106.3
+    },
+    {
+      "bar": 163,
+      "time": "2026-01-02 09:00:00",
+      "price": 4397.5,
+      "balance": 106.3
+    },
+    {
+      "bar": 164,
+      "time": "2026-01-02 10:00:00",
+      "price": 4408.7001953125,
+      "balance": 106.3
+    },
+    {
+      "bar": 165,
+      "time": "2026-01-02 11:00:00",
+      "price": 4405.5,
+      "balance": 106.3
+    },
+    {
+      "bar": 166,
+      "time": "2026-01-02 12:00:00",
+      "price": 4407.0,
+      "balance": 106.3
+    },
+    {
+      "bar": 167,
+      "time": "2026-01-02 13:00:00",
+      "price": 4377.60009765625,
+      "balance": 106.3
+    },
+    {
+      "bar": 168,
+      "time": "2026-01-02 14:00:00",
+      "price": 4364.7001953125,
+      "balance": 106.3
+    },
+    {
+      "bar": 169,
+      "time": "2026-01-02 15:00:00",
+      "price": 4346.5,
+      "balance": 106.3
+    },
+    {
+      "bar": 170,
+      "time": "2026-01-02 16:00:00",
+      "price": 4337.5,
+      "balance": 106.3
+    },
+    {
+      "bar": 171,
+      "time": "2026-01-02 17:00:00",
+      "price": 4332.89990234375,
+      "balance": 106.3
+    },
+    {
+      "bar": 172,
+      "time": "2026-01-02 18:00:00",
+      "price": 4325.2998046875,
+      "balance": 106.3
+    },
+    {
+      "bar": 173,
+      "time": "2026-01-02 19:00:00",
+      "price": 4328.10009765625,
+      "balance": 106.3
+    },
+    {
+      "bar": 174,
+      "time": "2026-01-02 20:00:00",
+      "price": 4341.2998046875,
+      "balance": 106.3
+    },
+    {
+      "bar": 175,
+      "time": "2026-01-02 21:00:00",
+      "price": 4329.60009765625,
+      "balance": 106.3
+    },
+    {
+      "bar": 176,
+      "time": "2026-01-04 23:00:00",
+      "price": 4381.39990234375,
+      "balance": 106.3
+    },
+    {
+      "bar": 177,
+      "time": "2026-01-05 00:00:00",
+      "price": 4404.5,
+      "balance": 106.3
+    },
+    {
+      "bar": 178,
+      "time": "2026-01-05 01:00:00",
+      "price": 4411.10009765625,
+      "balance": 108.06
+    },
+    {
+      "bar": 179,
+      "time": "2026-01-05 02:00:00",
+      "price": 4415.0,
+      "balance": 108.06
+    },
+    {
+      "bar": 180,
+      "time": "2026-01-05 03:00:00",
+      "price": 4408.7998046875,
+      "balance": 108.06
+    },
+    {
+      "bar": 181,
+      "time": "2026-01-05 04:00:00",
+      "price": 4415.10009765625,
+      "balance": 108.06
+    },
+    {
+      "bar": 182,
+      "time": "2026-01-05 05:00:00",
+      "price": 4421.39990234375,
+      "balance": 108.06
+    },
+    {
+      "bar": 183,
+      "time": "2026-01-05 06:00:00",
+      "price": 4429.7001953125,
+      "balance": 108.06
+    },
+    {
+      "bar": 184,
+      "time": "2026-01-05 07:00:00",
+      "price": 4431.2001953125,
+      "balance": 108.67
+    },
+    {
+      "bar": 185,
+      "time": "2026-01-05 08:00:00",
+      "price": 4439.89990234375,
+      "balance": 108.67
+    },
+    {
+      "bar": 186,
+      "time": "2026-01-05 09:00:00",
+      "price": 4445.89990234375,
+      "balance": 108.67
+    },
+    {
+      "bar": 187,
+      "time": "2026-01-05 10:00:00",
+      "price": 4447.39990234375,
+      "balance": 108.67
+    },
+    {
+      "bar": 188,
+      "time": "2026-01-05 11:00:00",
+      "price": 4430.7001953125,
+      "balance": 108.67
+    },
+    {
+      "bar": 189,
+      "time": "2026-01-05 12:00:00",
+      "price": 4421.39990234375,
+      "balance": 108.67
+    },
+    {
+      "bar": 190,
+      "time": "2026-01-05 13:00:00",
+      "price": 4428.7998046875,
+      "balance": 108.67
+    },
+    {
+      "bar": 191,
+      "time": "2026-01-05 14:00:00",
+      "price": 4447.7998046875,
+      "balance": 108.67
+    },
+    {
+      "bar": 192,
+      "time": "2026-01-05 15:00:00",
+      "price": 4459.0,
+      "balance": 108.67
+    },
+    {
+      "bar": 193,
+      "time": "2026-01-05 16:00:00",
+      "price": 4452.7001953125,
+      "balance": 108.67
+    },
+    {
+      "bar": 194,
+      "time": "2026-01-05 17:00:00",
+      "price": 4454.2001953125,
+      "balance": 108.8
+    },
+    {
+      "bar": 195,
+      "time": "2026-01-05 18:00:00",
+      "price": 4459.7001953125,
+      "balance": 108.8
+    },
+    {
+      "bar": 196,
+      "time": "2026-01-05 19:00:00",
+      "price": 4450.89990234375,
+      "balance": 108.8
+    },
+    {
+      "bar": 197,
+      "time": "2026-01-05 20:00:00",
+      "price": 4454.89990234375,
+      "balance": 108.8
+    },
+    {
+      "bar": 198,
+      "time": "2026-01-05 21:00:00",
+      "price": 4459.7001953125,
+      "balance": 108.8
+    },
+    {
+      "bar": 199,
+      "time": "2026-01-05 23:00:00",
+      "price": 4450.7001953125,
+      "balance": 108.8
+    },
+    {
+      "bar": 200,
+      "time": "2026-01-06 00:00:00",
+      "price": 4447.39990234375,
+      "balance": 108.8
+    },
+    {
+      "bar": 201,
+      "time": "2026-01-06 01:00:00",
+      "price": 4460.0,
+      "balance": 108.8
+    },
+    {
+      "bar": 202,
+      "time": "2026-01-06 02:00:00",
+      "price": 4464.89990234375,
+      "balance": 108.8
+    },
+    {
+      "bar": 203,
+      "time": "2026-01-06 03:00:00",
+      "price": 4478.2998046875,
+      "balance": 108.8
+    },
+    {
+      "bar": 204,
+      "time": "2026-01-06 04:00:00",
+      "price": 4478.0,
+      "balance": 108.8
+    },
+    {
+      "bar": 205,
+      "time": "2026-01-06 05:00:00",
+      "price": 4463.2998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 206,
+      "time": "2026-01-06 06:00:00",
+      "price": 4475.60009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 207,
+      "time": "2026-01-06 07:00:00",
+      "price": 4469.2998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 208,
+      "time": "2026-01-06 08:00:00",
+      "price": 4478.7998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 209,
+      "time": "2026-01-06 09:00:00",
+      "price": 4456.5,
+      "balance": 109.24
+    },
+    {
+      "bar": 210,
+      "time": "2026-01-06 10:00:00",
+      "price": 4461.7001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 211,
+      "time": "2026-01-06 11:00:00",
+      "price": 4474.10009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 212,
+      "time": "2026-01-06 12:00:00",
+      "price": 4474.39990234375,
+      "balance": 109.24
+    },
+    {
+      "bar": 213,
+      "time": "2026-01-06 13:00:00",
+      "price": 4478.2001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 214,
+      "time": "2026-01-06 14:00:00",
+      "price": 4498.2998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 215,
+      "time": "2026-01-06 15:00:00",
+      "price": 4488.5,
+      "balance": 109.24
+    },
+    {
+      "bar": 216,
+      "time": "2026-01-06 16:00:00",
+      "price": 4498.7001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 217,
+      "time": "2026-01-06 17:00:00",
+      "price": 4499.89990234375,
+      "balance": 109.24
+    },
+    {
+      "bar": 218,
+      "time": "2026-01-06 18:00:00",
+      "price": 4500.0,
+      "balance": 109.24
+    },
+    {
+      "bar": 219,
+      "time": "2026-01-06 19:00:00",
+      "price": 4492.2001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 220,
+      "time": "2026-01-06 20:00:00",
+      "price": 4504.2001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 221,
+      "time": "2026-01-06 21:00:00",
+      "price": 4505.7001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 222,
+      "time": "2026-01-06 23:00:00",
+      "price": 4504.60009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 223,
+      "time": "2026-01-07 00:00:00",
+      "price": 4502.89990234375,
+      "balance": 109.24
+    },
+    {
+      "bar": 224,
+      "time": "2026-01-07 01:00:00",
+      "price": 4476.5,
+      "balance": 109.24
+    },
+    {
+      "bar": 225,
+      "time": "2026-01-07 02:00:00",
+      "price": 4486.0,
+      "balance": 109.24
+    },
+    {
+      "bar": 226,
+      "time": "2026-01-07 03:00:00",
+      "price": 4485.7001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 227,
+      "time": "2026-01-07 04:00:00",
+      "price": 4474.39990234375,
+      "balance": 109.24
+    },
+    {
+      "bar": 228,
+      "time": "2026-01-07 05:00:00",
+      "price": 4464.10009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 229,
+      "time": "2026-01-07 06:00:00",
+      "price": 4454.7998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 230,
+      "time": "2026-01-07 07:00:00",
+      "price": 4470.7998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 231,
+      "time": "2026-01-07 08:00:00",
+      "price": 4478.2998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 232,
+      "time": "2026-01-07 09:00:00",
+      "price": 4473.60009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 233,
+      "time": "2026-01-07 10:00:00",
+      "price": 4474.2001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 234,
+      "time": "2026-01-07 11:00:00",
+      "price": 4456.89990234375,
+      "balance": 109.24
+    },
+    {
+      "bar": 235,
+      "time": "2026-01-07 12:00:00",
+      "price": 4454.5,
+      "balance": 109.24
+    },
+    {
+      "bar": 236,
+      "time": "2026-01-07 13:00:00",
+      "price": 4462.89990234375,
+      "balance": 109.24
+    },
+    {
+      "bar": 237,
+      "time": "2026-01-07 14:00:00",
+      "price": 4454.60009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 238,
+      "time": "2026-01-07 15:00:00",
+      "price": 4456.60009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 239,
+      "time": "2026-01-07 16:00:00",
+      "price": 4474.2001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 240,
+      "time": "2026-01-07 17:00:00",
+      "price": 4461.7998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 241,
+      "time": "2026-01-07 18:00:00",
+      "price": 4461.60009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 242,
+      "time": "2026-01-07 19:00:00",
+      "price": 4466.7998046875,
+      "balance": 109.24
+    },
+    {
+      "bar": 243,
+      "time": "2026-01-07 20:00:00",
+      "price": 4462.60009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 244,
+      "time": "2026-01-07 21:00:00",
+      "price": 4467.10009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 245,
+      "time": "2026-01-07 23:00:00",
+      "price": 4472.2001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 246,
+      "time": "2026-01-08 00:00:00",
+      "price": 4459.0,
+      "balance": 109.24
+    },
+    {
+      "bar": 247,
+      "time": "2026-01-08 01:00:00",
+      "price": 4457.10009765625,
+      "balance": 109.24
+    },
+    {
+      "bar": 248,
+      "time": "2026-01-08 02:00:00",
+      "price": 4449.7001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 249,
+      "time": "2026-01-08 03:00:00",
+      "price": 4448.2001953125,
+      "balance": 109.24
+    },
+    {
+      "bar": 250,
+      "time": "2026-01-08 04:00:00",
+      "price": 4440.60009765625,
+      "balance": 109.59
+    },
+    {
+      "bar": 251,
+      "time": "2026-01-08 05:00:00",
+      "price": 4433.60009765625,
+      "balance": 109.59
+    },
+    {
+      "bar": 252,
+      "time": "2026-01-08 06:00:00",
+      "price": 4441.5,
+      "balance": 109.59
+    },
+    {
+      "bar": 253,
+      "time": "2026-01-08 07:00:00",
+      "price": 4438.60009765625,
+      "balance": 109.59
+    },
+    {
+      "bar": 254,
+      "time": "2026-01-08 08:00:00",
+      "price": 4439.39990234375,
+      "balance": 109.59
+    },
+    {
+      "bar": 255,
+      "time": "2026-01-08 09:00:00",
+      "price": 4440.2998046875,
+      "balance": 109.59
+    },
+    {
+      "bar": 256,
+      "time": "2026-01-08 10:00:00",
+      "price": 4441.60009765625,
+      "balance": 109.59
+    },
+    {
+      "bar": 257,
+      "time": "2026-01-08 11:00:00",
+      "price": 4431.0,
+      "balance": 109.59
+    },
+    {
+      "bar": 258,
+      "time": "2026-01-08 12:00:00",
+      "price": 4434.7001953125,
+      "balance": 109.52
+    },
+    {
+      "bar": 259,
+      "time": "2026-01-08 13:00:00",
+      "price": 4432.0,
+      "balance": 109.52
+    },
+    {
+      "bar": 260,
+      "time": "2026-01-08 14:00:00",
+      "price": 4441.39990234375,
+      "balance": 109.52
+    },
+    {
+      "bar": 261,
+      "time": "2026-01-08 15:00:00",
+      "price": 4463.5,
+      "balance": 109.52
+    },
+    {
+      "bar": 262,
+      "time": "2026-01-08 16:00:00",
+      "price": 4472.5,
+      "balance": 109.52
+    },
+    {
+      "bar": 263,
+      "time": "2026-01-08 17:00:00",
+      "price": 4472.7998046875,
+      "balance": 109.52
+    },
+    {
+      "bar": 264,
+      "time": "2026-01-08 18:00:00",
+      "price": 4458.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 265,
+      "time": "2026-01-08 19:00:00",
+      "price": 4460.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 266,
+      "time": "2026-01-08 20:00:00",
+      "price": 4485.10009765625,
+      "balance": 110.55
+    },
+    {
+      "bar": 267,
+      "time": "2026-01-08 21:00:00",
+      "price": 4487.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 268,
+      "time": "2026-01-08 23:00:00",
+      "price": 4485.2998046875,
+      "balance": 110.55
+    },
+    {
+      "bar": 269,
+      "time": "2026-01-09 00:00:00",
+      "price": 4472.39990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 270,
+      "time": "2026-01-09 01:00:00",
+      "price": 4477.39990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 271,
+      "time": "2026-01-09 02:00:00",
+      "price": 4478.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 272,
+      "time": "2026-01-09 03:00:00",
+      "price": 4472.7998046875,
+      "balance": 110.55
+    },
+    {
+      "bar": 273,
+      "time": "2026-01-09 04:00:00",
+      "price": 4474.5,
+      "balance": 110.55
+    },
+    {
+      "bar": 274,
+      "time": "2026-01-09 05:00:00",
+      "price": 4476.5,
+      "balance": 110.55
+    },
+    {
+      "bar": 275,
+      "time": "2026-01-09 06:00:00",
+      "price": 4483.0,
+      "balance": 110.55
+    },
+    {
+      "bar": 276,
+      "time": "2026-01-09 07:00:00",
+      "price": 4479.2998046875,
+      "balance": 110.55
+    },
+    {
+      "bar": 277,
+      "time": "2026-01-09 08:00:00",
+      "price": 4476.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 278,
+      "time": "2026-01-09 09:00:00",
+      "price": 4479.39990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 279,
+      "time": "2026-01-09 10:00:00",
+      "price": 4481.2998046875,
+      "balance": 110.55
+    },
+    {
+      "bar": 280,
+      "time": "2026-01-09 11:00:00",
+      "price": 4484.2998046875,
+      "balance": 110.55
+    },
+    {
+      "bar": 281,
+      "time": "2026-01-09 12:00:00",
+      "price": 4474.5,
+      "balance": 110.55
+    },
+    {
+      "bar": 282,
+      "time": "2026-01-09 13:00:00",
+      "price": 4492.0,
+      "balance": 110.55
+    },
+    {
+      "bar": 283,
+      "time": "2026-01-09 14:00:00",
+      "price": 4503.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 284,
+      "time": "2026-01-09 15:00:00",
+      "price": 4521.5,
+      "balance": 110.55
+    },
+    {
+      "bar": 285,
+      "time": "2026-01-09 16:00:00",
+      "price": 4516.5,
+      "balance": 110.55
+    },
+    {
+      "bar": 286,
+      "time": "2026-01-09 17:00:00",
+      "price": 4493.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 287,
+      "time": "2026-01-09 18:00:00",
+      "price": 4505.89990234375,
+      "balance": 110.55
+    },
+    {
+      "bar": 288,
+      "time": "2026-01-09 19:00:00",
+      "price": 4508.2998046875,
+      "balance": 110.55
+    },
+    {
+      "bar": 289,
+      "time": "2026-01-09 20:00:00",
+      "price": 4516.10009765625,
+      "balance": 110.55
+    },
+    {
+      "bar": 290,
+      "time": "2026-01-09 21:00:00",
+      "price": 4517.89990234375,
+      "balance": 110.25
+    },
+    {
+      "bar": 291,
+      "time": "2026-01-11 23:00:00",
+      "price": 4550.10009765625,
+      "balance": 110.25
+    },
+    {
+      "bar": 292,
+      "time": "2026-01-12 00:00:00",
+      "price": 4600.0,
+      "balance": 110.25
+    },
+    {
+      "bar": 293,
+      "time": "2026-01-12 01:00:00",
+      "price": 4582.10009765625,
+      "balance": 110.25
+    },
+    {
+      "bar": 294,
+      "time": "2026-01-12 02:00:00",
+      "price": 4589.39990234375,
+      "balance": 110.25
+    },
+    {
+      "bar": 295,
+      "time": "2026-01-12 03:00:00",
+      "price": 4582.60009765625,
+      "balance": 110.25
+    },
+    {
+      "bar": 296,
+      "time": "2026-01-12 04:00:00",
+      "price": 4579.39990234375,
+      "balance": 110.25
+    },
+    {
+      "bar": 297,
+      "time": "2026-01-12 05:00:00",
+      "price": 4591.2998046875,
+      "balance": 110.25
+    },
+    {
+      "bar": 298,
+      "time": "2026-01-12 06:00:00",
+      "price": 4589.2998046875,
+      "balance": 111.25
+    },
+    {
+      "bar": 299,
+      "time": "2026-01-12 07:00:00",
+      "price": 4597.7998046875,
+      "balance": 111.25
+    },
+    {
+      "bar": 300,
+      "time": "2026-01-12 08:00:00",
+      "price": 4607.0,
+      "balance": 111.25
+    },
+    {
+      "bar": 301,
+      "time": "2026-01-12 09:00:00",
+      "price": 4599.39990234375,
+      "balance": 111.25
+    },
+    {
+      "bar": 302,
+      "time": "2026-01-12 10:00:00",
+      "price": 4604.5,
+      "balance": 111.25
+    },
+    {
+      "bar": 303,
+      "time": "2026-01-12 11:00:00",
+      "price": 4594.7998046875,
+      "balance": 111.25
+    },
+    {
+      "bar": 304,
+      "time": "2026-01-12 12:00:00",
+      "price": 4600.39990234375,
+      "balance": 111.33
+    },
+    {
+      "bar": 305,
+      "time": "2026-01-12 13:00:00",
+      "price": 4626.2998046875,
+      "balance": 111.33
+    },
+    {
+      "bar": 306,
+      "time": "2026-01-12 14:00:00",
+      "price": 4612.10009765625,
+      "balance": 111.33
+    },
+    {
+      "bar": 307,
+      "time": "2026-01-12 15:00:00",
+      "price": 4630.89990234375,
+      "balance": 111.33
+    },
+    {
+      "bar": 308,
+      "time": "2026-01-12 16:00:00",
+      "price": 4627.0,
+      "balance": 111.33
+    },
+    {
+      "bar": 309,
+      "time": "2026-01-12 17:00:00",
+      "price": 4626.89990234375,
+      "balance": 111.33
+    },
+    {
+      "bar": 310,
+      "time": "2026-01-12 18:00:00",
+      "price": 4620.2998046875,
+      "balance": 112.1
+    },
+    {
+      "bar": 311,
+      "time": "2026-01-12 19:00:00",
+      "price": 4620.60009765625,
+      "balance": 112.1
+    },
+    {
+      "bar": 312,
+      "time": "2026-01-12 20:00:00",
+      "price": 4603.2998046875,
+      "balance": 112.1
+    },
+    {
+      "bar": 313,
+      "time": "2026-01-12 21:00:00",
+      "price": 4608.7998046875,
+      "balance": 112.1
+    },
+    {
+      "bar": 314,
+      "time": "2026-01-12 23:00:00",
+      "price": 4607.60009765625,
+      "balance": 112.1
+    },
+    {
+      "bar": 315,
+      "time": "2026-01-13 00:00:00",
+      "price": 4595.7998046875,
+      "balance": 112.1
+    },
+    {
+      "bar": 316,
+      "time": "2026-01-13 01:00:00",
+      "price": 4586.39990234375,
+      "balance": 112.85
+    },
+    {
+      "bar": 317,
+      "time": "2026-01-13 02:00:00",
+      "price": 4603.10009765625,
+      "balance": 112.85
+    },
+    {
+      "bar": 318,
+      "time": "2026-01-13 03:00:00",
+      "price": 4603.10009765625,
+      "balance": 112.85
+    },
+    {
+      "bar": 319,
+      "time": "2026-01-13 04:00:00",
+      "price": 4606.39990234375,
+      "balance": 112.85
+    },
+    {
+      "bar": 320,
+      "time": "2026-01-13 05:00:00",
+      "price": 4600.7001953125,
+      "balance": 112.85
+    },
+    {
+      "bar": 321,
+      "time": "2026-01-13 06:00:00",
+      "price": 4590.5,
+      "balance": 112.85
+    },
+    {
+      "bar": 322,
+      "time": "2026-01-13 07:00:00",
+      "price": 4589.10009765625,
+      "balance": 112.72
+    },
+    {
+      "bar": 323,
+      "time": "2026-01-13 08:00:00",
+      "price": 4601.60009765625,
+      "balance": 112.72
+    },
+    {
+      "bar": 324,
+      "time": "2026-01-13 09:00:00",
+      "price": 4595.2001953125,
+      "balance": 112.72
+    },
+    {
+      "bar": 325,
+      "time": "2026-01-13 10:00:00",
+      "price": 4595.0,
+      "balance": 112.72
+    },
+    {
+      "bar": 326,
+      "time": "2026-01-13 11:00:00",
+      "price": 4596.89990234375,
+      "balance": 112.72
+    },
+    {
+      "bar": 327,
+      "time": "2026-01-13 12:00:00",
+      "price": 4602.0,
+      "balance": 112.72
+    },
+    {
+      "bar": 328,
+      "time": "2026-01-13 13:00:00",
+      "price": 4619.5,
+      "balance": 113.0
+    },
+    {
+      "bar": 329,
+      "time": "2026-01-13 14:00:00",
+      "price": 4638.89990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 330,
+      "time": "2026-01-13 15:00:00",
+      "price": 4627.60009765625,
+      "balance": 113.0
+    },
+    {
+      "bar": 331,
+      "time": "2026-01-13 16:00:00",
+      "price": 4622.2001953125,
+      "balance": 113.0
+    },
+    {
+      "bar": 332,
+      "time": "2026-01-13 17:00:00",
+      "price": 4599.0,
+      "balance": 113.0
+    },
+    {
+      "bar": 333,
+      "time": "2026-01-13 18:00:00",
+      "price": 4602.2998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 334,
+      "time": "2026-01-13 19:00:00",
+      "price": 4605.2998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 335,
+      "time": "2026-01-13 20:00:00",
+      "price": 4594.10009765625,
+      "balance": 113.0
+    },
+    {
+      "bar": 336,
+      "time": "2026-01-13 21:00:00",
+      "price": 4594.39990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 337,
+      "time": "2026-01-13 23:00:00",
+      "price": 4603.89990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 338,
+      "time": "2026-01-14 00:00:00",
+      "price": 4616.89990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 339,
+      "time": "2026-01-14 01:00:00",
+      "price": 4626.7001953125,
+      "balance": 113.0
+    },
+    {
+      "bar": 340,
+      "time": "2026-01-14 02:00:00",
+      "price": 4629.10009765625,
+      "balance": 113.0
+    },
+    {
+      "bar": 341,
+      "time": "2026-01-14 03:00:00",
+      "price": 4636.5,
+      "balance": 113.0
+    },
+    {
+      "bar": 342,
+      "time": "2026-01-14 04:00:00",
+      "price": 4636.0,
+      "balance": 113.0
+    },
+    {
+      "bar": 343,
+      "time": "2026-01-14 05:00:00",
+      "price": 4626.2998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 344,
+      "time": "2026-01-14 06:00:00",
+      "price": 4644.5,
+      "balance": 113.0
+    },
+    {
+      "bar": 345,
+      "time": "2026-01-14 07:00:00",
+      "price": 4639.7001953125,
+      "balance": 113.0
+    },
+    {
+      "bar": 346,
+      "time": "2026-01-14 08:00:00",
+      "price": 4641.7998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 347,
+      "time": "2026-01-14 09:00:00",
+      "price": 4637.89990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 348,
+      "time": "2026-01-14 10:00:00",
+      "price": 4641.2001953125,
+      "balance": 113.0
+    },
+    {
+      "bar": 349,
+      "time": "2026-01-14 11:00:00",
+      "price": 4638.5,
+      "balance": 113.0
+    },
+    {
+      "bar": 350,
+      "time": "2026-01-14 12:00:00",
+      "price": 4646.89990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 351,
+      "time": "2026-01-14 13:00:00",
+      "price": 4643.7998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 352,
+      "time": "2026-01-14 14:00:00",
+      "price": 4624.5,
+      "balance": 113.0
+    },
+    {
+      "bar": 353,
+      "time": "2026-01-14 15:00:00",
+      "price": 4624.7998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 354,
+      "time": "2026-01-14 16:00:00",
+      "price": 4624.10009765625,
+      "balance": 113.0
+    },
+    {
+      "bar": 355,
+      "time": "2026-01-14 17:00:00",
+      "price": 4621.2998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 356,
+      "time": "2026-01-14 18:00:00",
+      "price": 4642.5,
+      "balance": 113.0
+    },
+    {
+      "bar": 357,
+      "time": "2026-01-14 19:00:00",
+      "price": 4646.7001953125,
+      "balance": 113.0
+    },
+    {
+      "bar": 358,
+      "time": "2026-01-14 20:00:00",
+      "price": 4639.2001953125,
+      "balance": 113.0
+    },
+    {
+      "bar": 359,
+      "time": "2026-01-14 21:00:00",
+      "price": 4633.89990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 360,
+      "time": "2026-01-14 23:00:00",
+      "price": 4619.60009765625,
+      "balance": 113.0
+    },
+    {
+      "bar": 361,
+      "time": "2026-01-15 00:00:00",
+      "price": 4619.2998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 362,
+      "time": "2026-01-15 01:00:00",
+      "price": 4604.2998046875,
+      "balance": 113.0
+    },
+    {
+      "bar": 363,
+      "time": "2026-01-15 02:00:00",
+      "price": 4606.89990234375,
+      "balance": 113.0
+    },
+    {
+      "bar": 364,
+      "time": "2026-01-15 03:00:00",
+      "price": 4596.10009765625,
+      "balance": 113.96
+    },
+    {
+      "bar": 365,
+      "time": "2026-01-15 04:00:00",
+      "price": 4596.60009765625,
+      "balance": 113.96
+    },
+    {
+      "bar": 366,
+      "time": "2026-01-15 05:00:00",
+      "price": 4599.10009765625,
+      "balance": 113.96
+    },
+    {
+      "bar": 367,
+      "time": "2026-01-15 06:00:00",
+      "price": 4614.5,
+      "balance": 113.96
+    },
+    {
+      "bar": 368,
+      "time": "2026-01-15 07:00:00",
+      "price": 4606.10009765625,
+      "balance": 113.96
+    },
+    {
+      "bar": 369,
+      "time": "2026-01-15 08:00:00",
+      "price": 4608.2001953125,
+      "balance": 113.96
+    },
+    {
+      "bar": 370,
+      "time": "2026-01-15 09:00:00",
+      "price": 4616.89990234375,
+      "balance": 113.96
+    },
+    {
+      "bar": 371,
+      "time": "2026-01-15 10:00:00",
+      "price": 4624.2001953125,
+      "balance": 114.47
+    },
+    {
+      "bar": 372,
+      "time": "2026-01-15 11:00:00",
+      "price": 4623.39990234375,
+      "balance": 114.47
+    },
+    {
+      "bar": 373,
+      "time": "2026-01-15 12:00:00",
+      "price": 4617.89990234375,
+      "balance": 114.47
+    },
+    {
+      "bar": 374,
+      "time": "2026-01-15 13:00:00",
+      "price": 4591.60009765625,
+      "balance": 114.47
+    },
+    {
+      "bar": 375,
+      "time": "2026-01-15 14:00:00",
+      "price": 4614.89990234375,
+      "balance": 114.47
+    },
+    {
+      "bar": 376,
+      "time": "2026-01-15 15:00:00",
+      "price": 4620.2001953125,
+      "balance": 114.47
+    },
+    {
+      "bar": 377,
+      "time": "2026-01-15 16:00:00",
+      "price": 4610.2001953125,
+      "balance": 114.47
+    },
+    {
+      "bar": 378,
+      "time": "2026-01-15 17:00:00",
+      "price": 4621.5,
+      "balance": 114.47
+    },
+    {
+      "bar": 379,
+      "time": "2026-01-15 18:00:00",
+      "price": 4622.10009765625,
+      "balance": 114.47
+    },
+    {
+      "bar": 380,
+      "time": "2026-01-15 19:00:00",
+      "price": 4620.0,
+      "balance": 114.47
+    },
+    {
+      "bar": 381,
+      "time": "2026-01-15 20:00:00",
+      "price": 4609.7998046875,
+      "balance": 114.47
+    },
+    {
+      "bar": 382,
+      "time": "2026-01-15 21:00:00",
+      "price": 4620.5,
+      "balance": 114.47
+    },
+    {
+      "bar": 383,
+      "time": "2026-01-15 23:00:00",
+      "price": 4614.60009765625,
+      "balance": 114.47
+    },
+    {
+      "bar": 384,
+      "time": "2026-01-16 00:00:00",
+      "price": 4604.39990234375,
+      "balance": 114.47
+    },
+    {
+      "bar": 385,
+      "time": "2026-01-16 01:00:00",
+      "price": 4604.7998046875,
+      "balance": 114.89
+    },
+    {
+      "bar": 386,
+      "time": "2026-01-16 02:00:00",
+      "price": 4598.39990234375,
+      "balance": 114.89
+    },
+    {
+      "bar": 387,
+      "time": "2026-01-16 03:00:00",
+      "price": 4599.39990234375,
+      "balance": 114.89
+    },
+    {
+      "bar": 388,
+      "time": "2026-01-16 04:00:00",
+      "price": 4604.60009765625,
+      "balance": 114.89
+    },
+    {
+      "bar": 389,
+      "time": "2026-01-16 05:00:00",
+      "price": 4615.39990234375,
+      "balance": 114.89
+    },
+    {
+      "bar": 390,
+      "time": "2026-01-16 06:00:00",
+      "price": 4601.7998046875,
+      "balance": 114.89
+    },
+    {
+      "bar": 391,
+      "time": "2026-01-16 07:00:00",
+      "price": 4611.5,
+      "balance": 114.89
+    },
+    {
+      "bar": 392,
+      "time": "2026-01-16 08:00:00",
+      "price": 4606.7998046875,
+      "balance": 114.89
+    },
+    {
+      "bar": 393,
+      "time": "2026-01-16 09:00:00",
+      "price": 4604.2001953125,
+      "balance": 114.89
+    },
+    {
+      "bar": 394,
+      "time": "2026-01-16 10:00:00",
+      "price": 4604.10009765625,
+      "balance": 114.89
+    },
+    {
+      "bar": 395,
+      "time": "2026-01-16 11:00:00",
+      "price": 4616.5,
+      "balance": 114.89
+    },
+    {
+      "bar": 396,
+      "time": "2026-01-16 12:00:00",
+      "price": 4605.7001953125,
+      "balance": 114.89
+    },
+    {
+      "bar": 397,
+      "time": "2026-01-16 13:00:00",
+      "price": 4605.7001953125,
+      "balance": 114.89
+    },
+    {
+      "bar": 398,
+      "time": "2026-01-16 14:00:00",
+      "price": 4611.89990234375,
+      "balance": 114.89
+    },
+    {
+      "bar": 399,
+      "time": "2026-01-16 15:00:00",
+      "price": 4574.7998046875,
+      "balance": 114.89
+    },
+    {
+      "bar": 400,
+      "time": "2026-01-16 16:00:00",
+      "price": 4595.7998046875,
+      "balance": 114.89
+    },
+    {
+      "bar": 401,
+      "time": "2026-01-16 17:00:00",
+      "price": 4586.0,
+      "balance": 114.89
+    },
+    {
+      "bar": 402,
+      "time": "2026-01-16 18:00:00",
+      "price": 4587.89990234375,
+      "balance": 114.89
+    },
+    {
+      "bar": 403,
+      "time": "2026-01-16 19:00:00",
+      "price": 4595.2001953125,
+      "balance": 114.89
+    },
+    {
+      "bar": 404,
+      "time": "2026-01-16 20:00:00",
+      "price": 4587.2998046875,
+      "balance": 114.89
+    },
+    {
+      "bar": 405,
+      "time": "2026-01-16 21:00:00",
+      "price": 4595.39990234375,
+      "balance": 114.89
+    },
+    {
+      "bar": 406,
+      "time": "2026-01-19 04:00:00",
+      "price": 4671.2001953125,
+      "balance": 114.89
+    },
+    {
+      "bar": 407,
+      "time": "2026-01-20 05:00:00",
+      "price": 4720.60009765625,
+      "balance": 114.89
+    },
+    {
+      "bar": 408,
+      "time": "2026-01-20 06:00:00",
+      "price": 4718.60009765625,
+      "balance": 114.89
+    },
+    {
+      "bar": 409,
+      "time": "2026-01-20 07:00:00",
+      "price": 4721.39990234375,
+      "balance": 114.89
+    },
+    {
+      "bar": 410,
+      "time": "2026-01-20 08:00:00",
+      "price": 4735.60009765625,
+      "balance": 114.89
+    },
+    {
+      "bar": 411,
+      "time": "2026-01-20 09:00:00",
+      "price": 4737.60009765625,
+      "balance": 114.89
+    },
+    {
+      "bar": 412,
+      "time": "2026-01-20 10:00:00",
+      "price": 4732.2998046875,
+      "balance": 114.89
+    },
+    {
+      "bar": 413,
+      "time": "2026-01-20 11:00:00",
+      "price": 4738.60009765625,
+      "balance": 116.39
+    },
+    {
+      "bar": 414,
+      "time": "2026-01-20 12:00:00",
+      "price": 4733.2998046875,
+      "balance": 116.39
+    },
+    {
+      "bar": 415,
+      "time": "2026-01-20 13:00:00",
+      "price": 4742.2998046875,
+      "balance": 116.39
+    },
+    {
+      "bar": 416,
+      "time": "2026-01-20 14:00:00",
+      "price": 4746.39990234375,
+      "balance": 116.39
+    },
+    {
+      "bar": 417,
+      "time": "2026-01-20 15:00:00",
+      "price": 4742.0,
+      "balance": 116.39
+    },
+    {
+      "bar": 418,
+      "time": "2026-01-20 16:00:00",
+      "price": 4758.0,
+      "balance": 116.39
+    },
+    {
+      "bar": 419,
+      "time": "2026-01-20 17:00:00",
+      "price": 4763.7001953125,
+      "balance": 117.02
+    },
+    {
+      "bar": 420,
+      "time": "2026-01-20 18:00:00",
+      "price": 4764.2001953125,
+      "balance": 117.02
+    },
+    {
+      "bar": 421,
+      "time": "2026-01-20 19:00:00",
+      "price": 4765.89990234375,
+      "balance": 117.02
+    },
+    {
+      "bar": 422,
+      "time": "2026-01-20 20:00:00",
+      "price": 4761.39990234375,
+      "balance": 117.02
+    },
+    {
+      "bar": 423,
+      "time": "2026-01-20 21:00:00",
+      "price": 4769.10009765625,
+      "balance": 117.02
+    },
+    {
+      "bar": 424,
+      "time": "2026-01-20 23:00:00",
+      "price": 4779.7998046875,
+      "balance": 117.02
+    },
+    {
+      "bar": 425,
+      "time": "2026-01-21 00:00:00",
+      "price": 4789.60009765625,
+      "balance": 117.55
+    },
+    {
+      "bar": 426,
+      "time": "2026-01-21 01:00:00",
+      "price": 4838.5,
+      "balance": 117.55
+    },
+    {
+      "bar": 427,
+      "time": "2026-01-21 02:00:00",
+      "price": 4839.39990234375,
+      "balance": 117.55
+    },
+    {
+      "bar": 428,
+      "time": "2026-01-21 03:00:00",
+      "price": 4847.60009765625,
+      "balance": 117.55
+    },
+    {
+      "bar": 429,
+      "time": "2026-01-21 04:00:00",
+      "price": 4867.5,
+      "balance": 117.55
+    },
+    {
+      "bar": 430,
+      "time": "2026-01-21 05:00:00",
+      "price": 4872.39990234375,
+      "balance": 117.55
+    },
+    {
+      "bar": 431,
+      "time": "2026-01-21 06:00:00",
+      "price": 4850.2001953125,
+      "balance": 117.55
+    },
+    {
+      "bar": 432,
+      "time": "2026-01-21 07:00:00",
+      "price": 4857.5,
+      "balance": 117.55
+    },
+    {
+      "bar": 433,
+      "time": "2026-01-21 08:00:00",
+      "price": 4856.89990234375,
+      "balance": 118.01
+    },
+    {
+      "bar": 434,
+      "time": "2026-01-21 09:00:00",
+      "price": 4862.39990234375,
+      "balance": 118.01
+    },
+    {
+      "bar": 435,
+      "time": "2026-01-21 10:00:00",
+      "price": 4864.39990234375,
+      "balance": 118.01
+    },
+    {
+      "bar": 436,
+      "time": "2026-01-21 11:00:00",
+      "price": 4869.10009765625,
+      "balance": 118.01
+    },
+    {
+      "bar": 437,
+      "time": "2026-01-21 12:00:00",
+      "price": 4868.0,
+      "balance": 118.01
+    },
+    {
+      "bar": 438,
+      "time": "2026-01-21 13:00:00",
+      "price": 4882.2998046875,
+      "balance": 118.01
+    },
+    {
+      "bar": 439,
+      "time": "2026-01-21 14:00:00",
+      "price": 4853.7001953125,
+      "balance": 118.01
+    },
+    {
+      "bar": 440,
+      "time": "2026-01-21 15:00:00",
+      "price": 4850.0,
+      "balance": 118.01
+    },
+    {
+      "bar": 441,
+      "time": "2026-01-21 16:00:00",
+      "price": 4836.5,
+      "balance": 118.31
+    },
+    {
+      "bar": 442,
+      "time": "2026-01-21 17:00:00",
+      "price": 4829.0,
+      "balance": 118.31
+    },
+    {
+      "bar": 443,
+      "time": "2026-01-21 18:00:00",
+      "price": 4853.2001953125,
+      "balance": 118.31
+    },
+    {
+      "bar": 444,
+      "time": "2026-01-21 19:00:00",
+      "price": 4783.39990234375,
+      "balance": 118.31
+    },
+    {
+      "bar": 445,
+      "time": "2026-01-21 20:00:00",
+      "price": 4830.0,
+      "balance": 118.31
+    },
+    {
+      "bar": 446,
+      "time": "2026-01-21 21:00:00",
+      "price": 4836.2001953125,
+      "balance": 118.31
+    },
+    {
+      "bar": 447,
+      "time": "2026-01-21 23:00:00",
+      "price": 4779.60009765625,
+      "balance": 118.64
+    },
+    {
+      "bar": 448,
+      "time": "2026-01-22 00:00:00",
+      "price": 4798.7998046875,
+      "balance": 118.64
+    },
+    {
+      "bar": 449,
+      "time": "2026-01-22 01:00:00",
+      "price": 4799.2001953125,
+      "balance": 118.64
+    },
+    {
+      "bar": 450,
+      "time": "2026-01-22 02:00:00",
+      "price": 4789.89990234375,
+      "balance": 118.64
+    },
+    {
+      "bar": 451,
+      "time": "2026-01-22 03:00:00",
+      "price": 4797.39990234375,
+      "balance": 118.64
+    },
+    {
+      "bar": 452,
+      "time": "2026-01-22 04:00:00",
+      "price": 4797.7001953125,
+      "balance": 118.64
+    },
+    {
+      "bar": 453,
+      "time": "2026-01-22 05:00:00",
+      "price": 4821.7998046875,
+      "balance": 118.64
+    },
+    {
+      "bar": 454,
+      "time": "2026-01-22 06:00:00",
+      "price": 4827.2998046875,
+      "balance": 118.64
+    },
+    {
+      "bar": 455,
+      "time": "2026-01-22 07:00:00",
+      "price": 4833.5,
+      "balance": 118.64
+    },
+    {
+      "bar": 456,
+      "time": "2026-01-22 08:00:00",
+      "price": 4832.2001953125,
+      "balance": 119.49
+    },
+    {
+      "bar": 457,
+      "time": "2026-01-22 09:00:00",
+      "price": 4824.39990234375,
+      "balance": 119.49
+    },
+    {
+      "bar": 458,
+      "time": "2026-01-22 10:00:00",
+      "price": 4831.0,
+      "balance": 119.49
+    },
+    {
+      "bar": 459,
+      "time": "2026-01-22 11:00:00",
+      "price": 4833.2001953125,
+      "balance": 119.49
+    },
+    {
+      "bar": 460,
+      "time": "2026-01-22 12:00:00",
+      "price": 4821.5,
+      "balance": 119.49
+    },
+    {
+      "bar": 461,
+      "time": "2026-01-22 13:00:00",
+      "price": 4823.7998046875,
+      "balance": 119.49
+    },
+    {
+      "bar": 462,
+      "time": "2026-01-22 14:00:00",
+      "price": 4836.7001953125,
+      "balance": 119.24
+    },
+    {
+      "bar": 463,
+      "time": "2026-01-22 15:00:00",
+      "price": 4874.0,
+      "balance": 119.24
+    },
+    {
+      "bar": 464,
+      "time": "2026-01-22 16:00:00",
+      "price": 4880.7998046875,
+      "balance": 119.24
+    },
+    {
+      "bar": 465,
+      "time": "2026-01-22 17:00:00",
+      "price": 4907.7998046875,
+      "balance": 119.24
+    },
+    {
+      "bar": 466,
+      "time": "2026-01-22 18:00:00",
+      "price": 4918.7001953125,
+      "balance": 119.24
+    },
+    {
+      "bar": 467,
+      "time": "2026-01-22 19:00:00",
+      "price": 4915.2001953125,
+      "balance": 119.24
+    },
+    {
+      "bar": 468,
+      "time": "2026-01-22 20:00:00",
+      "price": 4920.5,
+      "balance": 121.5
+    },
+    {
+      "bar": 469,
+      "time": "2026-01-22 21:00:00",
+      "price": 4938.39990234375,
+      "balance": 121.5
+    },
+    {
+      "bar": 470,
+      "time": "2026-01-22 23:00:00",
+      "price": 4960.7998046875,
+      "balance": 121.5
+    },
+    {
+      "bar": 471,
+      "time": "2026-01-23 00:00:00",
+      "price": 4967.60009765625,
+      "balance": 121.5
+    },
+    {
+      "bar": 472,
+      "time": "2026-01-23 01:00:00",
+      "price": 4956.7998046875,
+      "balance": 121.5
+    },
+    {
+      "bar": 473,
+      "time": "2026-01-23 02:00:00",
+      "price": 4957.7001953125,
+      "balance": 121.5
+    },
+    {
+      "bar": 474,
+      "time": "2026-01-23 03:00:00",
+      "price": 4953.0,
+      "balance": 121.5
+    },
+    {
+      "bar": 475,
+      "time": "2026-01-23 04:00:00",
+      "price": 4958.0,
+      "balance": 121.5
+    },
+    {
+      "bar": 476,
+      "time": "2026-01-23 05:00:00",
+      "price": 4962.10009765625,
+      "balance": 121.5
+    },
+    {
+      "bar": 477,
+      "time": "2026-01-23 06:00:00",
+      "price": 4954.10009765625,
+      "balance": 121.5
+    },
+    {
+      "bar": 478,
+      "time": "2026-01-23 07:00:00",
+      "price": 4945.5,
+      "balance": 121.5
+    },
+    {
+      "bar": 479,
+      "time": "2026-01-23 08:00:00",
+      "price": 4915.2998046875,
+      "balance": 121.5
+    },
+    {
+      "bar": 480,
+      "time": "2026-01-23 09:00:00",
+      "price": 4919.39990234375,
+      "balance": 121.5
+    },
+    {
+      "bar": 481,
+      "time": "2026-01-23 10:00:00",
+      "price": 4931.0,
+      "balance": 121.5
+    },
+    {
+      "bar": 482,
+      "time": "2026-01-23 11:00:00",
+      "price": 4923.2998046875,
+      "balance": 121.5
+    },
+    {
+      "bar": 483,
+      "time": "2026-01-23 12:00:00",
+      "price": 4940.0,
+      "balance": 121.5
+    },
+    {
+      "bar": 484,
+      "time": "2026-01-23 13:00:00",
+      "price": 4939.7998046875,
+      "balance": 121.5
+    },
+    {
+      "bar": 485,
+      "time": "2026-01-23 14:00:00",
+      "price": 4944.10009765625,
+      "balance": 121.5
+    },
+    {
+      "bar": 486,
+      "time": "2026-01-23 15:00:00",
+      "price": 4961.89990234375,
+      "balance": 121.5
+    },
+    {
+      "bar": 487,
+      "time": "2026-01-23 16:00:00",
+      "price": 4981.39990234375,
+      "balance": 121.5
+    },
+    {
+      "bar": 488,
+      "time": "2026-01-23 17:00:00",
+      "price": 4966.89990234375,
+      "balance": 121.5
+    },
+    {
+      "bar": 489,
+      "time": "2026-01-23 18:00:00",
+      "price": 4967.7998046875,
+      "balance": 121.5
+    },
+    {
+      "bar": 490,
+      "time": "2026-01-23 19:00:00",
+      "price": 4985.2001953125,
+      "balance": 122.18
+    },
+    {
+      "bar": 491,
+      "time": "2026-01-23 20:00:00",
+      "price": 4981.39990234375,
+      "balance": 122.18
+    },
+    {
+      "bar": 492,
+      "time": "2026-01-23 21:00:00",
+      "price": 4979.7001953125,
+      "balance": 122.18
+    },
+    {
+      "bar": 493,
+      "time": "2026-01-25 23:00:00",
+      "price": 5038.7001953125,
+      "balance": 122.18
+    },
+    {
+      "bar": 494,
+      "time": "2026-01-26 00:00:00",
+      "price": 5041.0,
+      "balance": 122.18
+    },
+    {
+      "bar": 495,
+      "time": "2026-01-26 01:00:00",
+      "price": 5068.7998046875,
+      "balance": 122.18
+    },
+    {
+      "bar": 496,
+      "time": "2026-01-26 02:00:00",
+      "price": 5078.89990234375,
+      "balance": 122.18
+    },
+    {
+      "bar": 497,
+      "time": "2026-01-26 03:00:00",
+      "price": 5073.89990234375,
+      "balance": 122.18
+    },
+    {
+      "bar": 498,
+      "time": "2026-01-26 04:00:00",
+      "price": 5068.60009765625,
+      "balance": 122.18
+    },
+    {
+      "bar": 499,
+      "time": "2026-01-26 05:00:00",
+      "price": 5072.10009765625,
+      "balance": 122.18
+    },
+    {
+      "bar": 500,
+      "time": "2026-01-26 06:00:00",
+      "price": 5074.2001953125,
+      "balance": 122.18
+    },
+    {
+      "bar": 501,
+      "time": "2026-01-26 07:00:00",
+      "price": 5086.39990234375,
+      "balance": 122.98
+    },
+    {
+      "bar": 502,
+      "time": "2026-01-26 08:00:00",
+      "price": 5081.2998046875,
+      "balance": 122.98
+    },
+    {
+      "bar": 503,
+      "time": "2026-01-26 09:00:00",
+      "price": 5082.2001953125,
+      "balance": 122.98
+    },
+    {
+      "bar": 504,
+      "time": "2026-01-26 10:00:00",
+      "price": 5090.10009765625,
+      "balance": 122.98
+    },
+    {
+      "bar": 505,
+      "time": "2026-01-26 11:00:00",
+      "price": 5089.7998046875,
+      "balance": 122.98
+    },
+    {
+      "bar": 506,
+      "time": "2026-01-26 12:00:00",
+      "price": 5076.2001953125,
+      "balance": 122.98
+    },
+    {
+      "bar": 507,
+      "time": "2026-01-26 13:00:00",
+      "price": 5065.89990234375,
+      "balance": 122.98
+    },
+    {
+      "bar": 508,
+      "time": "2026-01-26 14:00:00",
+      "price": 5093.7001953125,
+      "balance": 122.98
+    },
+    {
+      "bar": 509,
+      "time": "2026-01-26 15:00:00",
+      "price": 5088.39990234375,
+      "balance": 122.98
+    },
+    {
+      "bar": 510,
+      "time": "2026-01-26 16:00:00",
+      "price": 5086.39990234375,
+      "balance": 122.83
+    },
+    {
+      "bar": 511,
+      "time": "2026-01-26 17:00:00",
+      "price": 5098.10009765625,
+      "balance": 122.83
+    },
+    {
+      "bar": 512,
+      "time": "2026-01-26 18:00:00",
+      "price": 5064.60009765625,
+      "balance": 122.83
+    },
+    {
+      "bar": 513,
+      "time": "2026-01-26 19:00:00",
+      "price": 5023.60009765625,
+      "balance": 122.83
+    },
+    {
+      "bar": 514,
+      "time": "2026-01-26 20:00:00",
+      "price": 5049.39990234375,
+      "balance": 122.83
+    },
+    {
+      "bar": 515,
+      "time": "2026-01-26 21:00:00",
+      "price": 5004.7998046875,
+      "balance": 122.83
+    },
+    {
+      "bar": 516,
+      "time": "2026-01-26 23:00:00",
+      "price": 5037.7001953125,
+      "balance": 124.84
+    },
+    {
+      "bar": 517,
+      "time": "2026-01-27 00:00:00",
+      "price": 5027.10009765625,
+      "balance": 124.84
+    },
+    {
+      "bar": 518,
+      "time": "2026-01-27 01:00:00",
+      "price": 5055.2998046875,
+      "balance": 124.84
+    },
+    {
+      "bar": 519,
+      "time": "2026-01-27 02:00:00",
+      "price": 5067.39990234375,
+      "balance": 124.84
+    },
+    {
+      "bar": 520,
+      "time": "2026-01-27 03:00:00",
+      "price": 5071.89990234375,
+      "balance": 124.84
+    },
+    {
+      "bar": 521,
+      "time": "2026-01-27 04:00:00",
+      "price": 5061.10009765625,
+      "balance": 124.84
+    },
+    {
+      "bar": 522,
+      "time": "2026-01-27 05:00:00",
+      "price": 5078.10009765625,
+      "balance": 124.84
+    },
+    {
+      "bar": 523,
+      "time": "2026-01-27 06:00:00",
+      "price": 5081.5,
+      "balance": 123.84
+    },
+    {
+      "bar": 524,
+      "time": "2026-01-27 07:00:00",
+      "price": 5081.60009765625,
+      "balance": 123.84
+    },
+    {
+      "bar": 525,
+      "time": "2026-01-27 08:00:00",
+      "price": 5075.60009765625,
+      "balance": 123.84
+    },
+    {
+      "bar": 526,
+      "time": "2026-01-27 09:00:00",
+      "price": 5095.2998046875,
+      "balance": 123.84
+    },
+    {
+      "bar": 527,
+      "time": "2026-01-27 10:00:00",
+      "price": 5082.5,
+      "balance": 123.84
+    },
+    {
+      "bar": 528,
+      "time": "2026-01-27 11:00:00",
+      "price": 5073.10009765625,
+      "balance": 123.84
+    },
+    {
+      "bar": 529,
+      "time": "2026-01-27 12:00:00",
+      "price": 5081.60009765625,
+      "balance": 123.84
+    },
+    {
+      "bar": 530,
+      "time": "2026-01-27 13:00:00",
+      "price": 5073.7998046875,
+      "balance": 123.84
+    },
+    {
+      "bar": 531,
+      "time": "2026-01-27 14:00:00",
+      "price": 5049.60009765625,
+      "balance": 123.84
+    },
+    {
+      "bar": 532,
+      "time": "2026-01-27 15:00:00",
+      "price": 5087.60009765625,
+      "balance": 123.84
+    },
+    {
+      "bar": 533,
+      "time": "2026-01-27 16:00:00",
+      "price": 5085.10009765625,
+      "balance": 123.84
+    },
+    {
+      "bar": 534,
+      "time": "2026-01-27 17:00:00",
+      "price": 5079.2001953125,
+      "balance": 123.9
+    },
+    {
+      "bar": 535,
+      "time": "2026-01-27 18:00:00",
+      "price": 5085.89990234375,
+      "balance": 123.9
+    },
+    {
+      "bar": 536,
+      "time": "2026-01-27 19:00:00",
+      "price": 5097.2998046875,
+      "balance": 123.9
+    },
+    {
+      "bar": 537,
+      "time": "2026-01-27 20:00:00",
+      "price": 5174.7001953125,
+      "balance": 123.9
+    },
+    {
+      "bar": 538,
+      "time": "2026-01-27 21:00:00",
+      "price": 5179.60009765625,
+      "balance": 123.9
+    },
+    {
+      "bar": 539,
+      "time": "2026-01-27 23:00:00",
+      "price": 5169.2001953125,
+      "balance": 123.9
+    },
+    {
+      "bar": 540,
+      "time": "2026-01-28 00:00:00",
+      "price": 5168.5,
+      "balance": 125.94
+    },
+    {
+      "bar": 541,
+      "time": "2026-01-28 01:00:00",
+      "price": 5199.5,
+      "balance": 125.94
+    },
+    {
+      "bar": 542,
+      "time": "2026-01-28 02:00:00",
+      "price": 5226.39990234375,
+      "balance": 125.94
+    },
+    {
+      "bar": 543,
+      "time": "2026-01-28 03:00:00",
+      "price": 5229.2001953125,
+      "balance": 125.94
+    },
+    {
+      "bar": 544,
+      "time": "2026-01-28 04:00:00",
+      "price": 5242.7001953125,
+      "balance": 125.94
+    },
+    {
+      "bar": 545,
+      "time": "2026-01-28 05:00:00",
+      "price": 5253.89990234375,
+      "balance": 125.94
+    },
+    {
+      "bar": 546,
+      "time": "2026-01-28 06:00:00",
+      "price": 5262.7001953125,
+      "balance": 128.0
+    },
+    {
+      "bar": 547,
+      "time": "2026-01-28 07:00:00",
+      "price": 5286.2001953125,
+      "balance": 128.0
+    },
+    {
+      "bar": 548,
+      "time": "2026-01-28 08:00:00",
+      "price": 5327.0,
+      "balance": 128.0
+    },
+    {
+      "bar": 549,
+      "time": "2026-01-28 09:00:00",
+      "price": 5311.7998046875,
+      "balance": 128.0
+    },
+    {
+      "bar": 550,
+      "time": "2026-01-28 10:00:00",
+      "price": 5303.7001953125,
+      "balance": 128.0
+    },
+    {
+      "bar": 551,
+      "time": "2026-01-28 11:00:00",
+      "price": 5294.2001953125,
+      "balance": 128.0
+    },
+    {
+      "bar": 552,
+      "time": "2026-01-28 12:00:00",
+      "price": 5311.7001953125,
+      "balance": 128.98
+    },
+    {
+      "bar": 553,
+      "time": "2026-01-28 13:00:00",
+      "price": 5298.60009765625,
+      "balance": 128.98
+    },
+    {
+      "bar": 554,
+      "time": "2026-01-28 14:00:00",
+      "price": 5318.7998046875,
+      "balance": 128.98
+    },
+    {
+      "bar": 555,
+      "time": "2026-01-28 15:00:00",
+      "price": 5311.2998046875,
+      "balance": 128.98
+    },
+    {
+      "bar": 556,
+      "time": "2026-01-28 16:00:00",
+      "price": 5333.60009765625,
+      "balance": 128.98
+    },
+    {
+      "bar": 557,
+      "time": "2026-01-28 17:00:00",
+      "price": 5332.2001953125,
+      "balance": 128.98
+    },
+    {
+      "bar": 558,
+      "time": "2026-01-28 18:00:00",
+      "price": 5317.2998046875,
+      "balance": 128.98
+    },
+    {
+      "bar": 559,
+      "time": "2026-01-28 19:00:00",
+      "price": 5359.10009765625,
+      "balance": 128.98
+    },
+    {
+      "bar": 560,
+      "time": "2026-01-28 20:00:00",
+      "price": 5409.39990234375,
+      "balance": 128.98
+    },
+    {
+      "bar": 561,
+      "time": "2026-01-28 21:00:00",
+      "price": 5447.7998046875,
+      "balance": 128.98
+    },
+    {
+      "bar": 562,
+      "time": "2026-01-28 23:00:00",
+      "price": 5539.39990234375,
+      "balance": 128.98
+    },
+    {
+      "bar": 563,
+      "time": "2026-01-29 00:00:00",
+      "price": 5548.5,
+      "balance": 128.98
+    },
+    {
+      "bar": 564,
+      "time": "2026-01-29 01:00:00",
+      "price": 5574.0,
+      "balance": 128.98
+    },
+    {
+      "bar": 565,
+      "time": "2026-01-29 02:00:00",
+      "price": 5565.7001953125,
+      "balance": 128.98
+    },
+    {
+      "bar": 566,
+      "time": "2026-01-29 03:00:00",
+      "price": 5576.89990234375,
+      "balance": 128.98
+    },
+    {
+      "bar": 567,
+      "time": "2026-01-29 04:00:00",
+      "price": 5589.7998046875,
+      "balance": 128.98
+    },
+    {
+      "bar": 568,
+      "time": "2026-01-29 05:00:00",
+      "price": 5590.89990234375,
+      "balance": 128.98
+    },
+    {
+      "bar": 569,
+      "time": "2026-01-29 06:00:00",
+      "price": 5591.0,
+      "balance": 128.98
+    },
+    {
+      "bar": 570,
+      "time": "2026-01-29 07:00:00",
+      "price": 5578.39990234375,
+      "balance": 128.98
+    },
+    {
+      "bar": 571,
+      "time": "2026-01-29 08:00:00",
+      "price": 5540.60009765625,
+      "balance": 128.98
+    },
+    {
+      "bar": 572,
+      "time": "2026-01-29 09:00:00",
+      "price": 5544.7998046875,
+      "balance": 128.98
+    },
+    {
+      "bar": 573,
+      "time": "2026-01-29 10:00:00",
+      "price": 5514.10009765625,
+      "balance": 128.98
+    },
+    {
+      "bar": 574,
+      "time": "2026-01-29 11:00:00",
+      "price": 5553.5,
+      "balance": 128.98
+    },
+    {
+      "bar": 575,
+      "time": "2026-01-29 12:00:00",
+      "price": 5564.5,
+      "balance": 128.98
+    },
+    {
+      "bar": 576,
+      "time": "2026-01-29 13:00:00",
+      "price": 5540.2998046875,
+      "balance": 128.36
+    },
+    {
+      "bar": 577,
+      "time": "2026-01-29 14:00:00",
+      "price": 5525.2998046875,
+      "balance": 128.36
+    },
+    {
+      "bar": 578,
+      "time": "2026-01-29 15:00:00",
+      "price": 5212.89990234375,
+      "balance": 128.36
+    },
+    {
+      "bar": 579,
+      "time": "2026-01-29 16:00:00",
+      "price": 5292.5,
+      "balance": 128.36
+    },
+    {
+      "bar": 580,
+      "time": "2026-01-29 17:00:00",
+      "price": 5364.2998046875,
+      "balance": 128.36
+    },
+    {
+      "bar": 581,
+      "time": "2026-01-29 18:00:00",
+      "price": 5367.7001953125,
+      "balance": 128.36
+    },
+    {
+      "bar": 582,
+      "time": "2026-01-29 19:00:00",
+      "price": 5334.10009765625,
+      "balance": 128.36
+    },
+    {
+      "bar": 583,
+      "time": "2026-01-29 20:00:00",
+      "price": 5423.2998046875,
+      "balance": 128.36
+    },
+    {
+      "bar": 584,
+      "time": "2026-01-29 21:00:00",
+      "price": 5410.7998046875,
+      "balance": 128.36
+    },
+    {
+      "bar": 585,
+      "time": "2026-01-29 23:00:00",
+      "price": 5467.60009765625,
+      "balance": 128.36
+    },
+    {
+      "bar": 586,
+      "time": "2026-01-30 00:00:00",
+      "price": 5435.2998046875,
+      "balance": 124.11
+    },
+    {
+      "bar": 587,
+      "time": "2026-01-30 01:00:00",
+      "price": 5331.7001953125,
+      "balance": 124.11
+    },
+    {
+      "bar": 588,
+      "time": "2026-01-30 02:00:00",
+      "price": 5255.0,
+      "balance": 124.11
+    },
+    {
+      "bar": 589,
+      "time": "2026-01-30 03:00:00",
+      "price": 5225.10009765625,
+      "balance": 124.11
+    },
+    {
+      "bar": 590,
+      "time": "2026-01-30 04:00:00",
+      "price": 5243.10009765625,
+      "balance": 124.11
+    },
+    {
+      "bar": 591,
+      "time": "2026-01-30 05:00:00",
+      "price": 5212.39990234375,
+      "balance": 124.11
+    },
+    {
+      "bar": 592,
+      "time": "2026-01-30 06:00:00",
+      "price": 5183.89990234375,
+      "balance": 129.9
+    },
+    {
+      "bar": 593,
+      "time": "2026-01-30 07:00:00",
+      "price": 5209.2001953125,
+      "balance": 129.9
+    },
+    {
+      "bar": 594,
+      "time": "2026-01-30 08:00:00",
+      "price": 5145.0,
+      "balance": 129.9
+    },
+    {
+      "bar": 595,
+      "time": "2026-01-30 09:00:00",
+      "price": 5040.0,
+      "balance": 129.9
+    },
+    {
+      "bar": 596,
+      "time": "2026-01-30 10:00:00",
+      "price": 5147.7001953125,
+      "balance": 129.9
+    },
+    {
+      "bar": 597,
+      "time": "2026-01-30 11:00:00",
+      "price": 5164.7001953125,
+      "balance": 129.9
+    },
+    {
+      "bar": 598,
+      "time": "2026-01-30 12:00:00",
+      "price": 5092.0,
+      "balance": 129.9
+    },
+    {
+      "bar": 599,
+      "time": "2026-01-30 13:00:00",
+      "price": 5045.60009765625,
+      "balance": 129.9
+    },
+    {
+      "bar": 600,
+      "time": "2026-01-30 14:00:00",
+      "price": 5061.0,
+      "balance": 129.9
+    },
+    {
+      "bar": 601,
+      "time": "2026-01-30 15:00:00",
+      "price": 5078.7998046875,
+      "balance": 129.9
+    },
+    {
+      "bar": 602,
+      "time": "2026-01-30 16:00:00",
+      "price": 5011.7001953125,
+      "balance": 129.9
+    },
+    {
+      "bar": 603,
+      "time": "2026-01-30 17:00:00",
+      "price": 4874.5,
+      "balance": 129.9
+    },
+    {
+      "bar": 604,
+      "time": "2026-01-30 18:00:00",
+      "price": 4899.60009765625,
+      "balance": 129.9
+    },
+    {
+      "bar": 605,
+      "time": "2026-01-30 19:00:00",
+      "price": 4954.89990234375,
+      "balance": 129.9
+    },
+    {
+      "bar": 606,
+      "time": "2026-01-30 20:00:00",
+      "price": 4870.7998046875,
+      "balance": 129.9
+    },
+    {
+      "bar": 607,
+      "time": "2026-01-30 21:00:00",
+      "price": 4907.5,
+      "balance": 125.02
+    },
+    {
+      "bar": 608,
+      "time": "2026-02-01 23:00:00",
+      "price": 4764.7001953125,
+      "balance": 125.02
+    },
+    {
+      "bar": 609,
+      "time": "2026-02-02 00:00:00",
+      "price": 4790.60009765625,
+      "balance": 125.02
+    },
+    {
+      "bar": 610,
+      "time": "2026-02-02 01:00:00",
+      "price": 4764.7998046875,
+      "balance": 125.02
+    },
+    {
+      "bar": 611,
+      "time": "2026-02-02 02:00:00",
+      "price": 4733.2998046875,
+      "balance": 125.02
+    },
+    {
+      "bar": 612,
+      "time": "2026-02-02 03:00:00",
+      "price": 4665.60009765625,
+      "balance": 125.02
+    },
+    {
+      "bar": 613,
+      "time": "2026-02-02 04:00:00",
+      "price": 4701.39990234375,
+      "balance": 125.02
+    },
+    {
+      "bar": 614,
+      "time": "2026-02-02 05:00:00",
+      "price": 4571.5,
+      "balance": 125.02
+    },
+    {
+      "bar": 615,
+      "time": "2026-02-02 06:00:00",
+      "price": 4526.2001953125,
+      "balance": 125.02
+    },
+    {
+      "bar": 616,
+      "time": "2026-02-02 07:00:00",
+      "price": 4609.5,
+      "balance": 125.02
+    },
+    {
+      "bar": 617,
+      "time": "2026-02-02 08:00:00",
+      "price": 4662.10009765625,
+      "balance": 125.02
+    },
+    {
+      "bar": 618,
+      "time": "2026-02-02 09:00:00",
+      "price": 4743.10009765625,
+      "balance": 125.02
+    },
+    {
+      "bar": 619,
+      "time": "2026-02-02 10:00:00",
+      "price": 4727.2998046875,
+      "balance": 125.02
+    },
+    {
+      "bar": 620,
+      "time": "2026-02-02 11:00:00",
+      "price": 4790.2998046875,
+      "balance": 125.7
+    },
+    {
+      "bar": 621,
+      "time": "2026-02-02 12:00:00",
+      "price": 4816.10009765625,
+      "balance": 125.7
+    },
+    {
+      "bar": 622,
+      "time": "2026-02-02 13:00:00",
+      "price": 4729.0,
+      "balance": 125.7
+    },
+    {
+      "bar": 623,
+      "time": "2026-02-02 14:00:00",
+      "price": 4744.0,
+      "balance": 125.7
+    },
+    {
+      "bar": 624,
+      "time": "2026-02-02 15:00:00",
+      "price": 4641.7001953125,
+      "balance": 125.7
+    },
+    {
+      "bar": 625,
+      "time": "2026-02-02 16:00:00",
+      "price": 4687.5,
+      "balance": 125.7
+    },
+    {
+      "bar": 626,
+      "time": "2026-02-02 17:00:00",
+      "price": 4696.0,
+      "balance": 125.7
+    },
+    {
+      "bar": 627,
+      "time": "2026-02-02 18:00:00",
+      "price": 4679.5,
+      "balance": 125.7
+    },
+    {
+      "bar": 628,
+      "time": "2026-02-02 19:00:00",
+      "price": 4707.39990234375,
+      "balance": 125.7
+    },
+    {
+      "bar": 629,
+      "time": "2026-02-02 20:00:00",
+      "price": 4676.2998046875,
+      "balance": 125.7
+    },
+    {
+      "bar": 630,
+      "time": "2026-02-02 21:00:00",
+      "price": 4680.89990234375,
+      "balance": 125.7
+    },
+    {
+      "bar": 631,
+      "time": "2026-02-02 23:00:00",
+      "price": 4798.5,
+      "balance": 125.7
+    },
+    {
+      "bar": 632,
+      "time": "2026-02-03 00:00:00",
+      "price": 4802.7001953125,
+      "balance": 125.7
+    },
+    {
+      "bar": 633,
+      "time": "2026-02-03 01:00:00",
+      "price": 4862.7001953125,
+      "balance": 125.7
+    },
+    {
+      "bar": 634,
+      "time": "2026-02-03 02:00:00",
+      "price": 4806.2001953125,
+      "balance": 125.7
+    },
+    {
+      "bar": 635,
+      "time": "2026-02-03 03:00:00",
+      "price": 4831.60009765625,
+      "balance": 125.7
+    },
+    {
+      "bar": 636,
+      "time": "2026-02-03 04:00:00",
+      "price": 4832.60009765625,
+      "balance": 125.7
+    },
+    {
+      "bar": 637,
+      "time": "2026-02-03 05:00:00",
+      "price": 4846.2998046875,
+      "balance": 125.7
+    },
+    {
+      "bar": 638,
+      "time": "2026-02-03 06:00:00",
+      "price": 4903.0,
+      "balance": 125.7
+    },
+    {
+      "bar": 639,
+      "time": "2026-02-03 07:00:00",
+      "price": 4940.0,
+      "balance": 125.7
+    },
+    {
+      "bar": 640,
+      "time": "2026-02-03 08:00:00",
+      "price": 4935.7998046875,
+      "balance": 127.7
+    },
+    {
+      "bar": 641,
+      "time": "2026-02-03 09:00:00",
+      "price": 4939.7998046875,
+      "balance": 127.7
+    },
+    {
+      "bar": 642,
+      "time": "2026-02-03 10:00:00",
+      "price": 4924.7998046875,
+      "balance": 127.7
+    },
+    {
+      "bar": 643,
+      "time": "2026-02-03 11:00:00",
+      "price": 4938.89990234375,
+      "balance": 127.7
+    },
+    {
+      "bar": 644,
+      "time": "2026-02-03 12:00:00",
+      "price": 4938.2001953125,
+      "balance": 127.7
+    },
+    {
+      "bar": 645,
+      "time": "2026-02-03 13:00:00",
+      "price": 4958.0,
+      "balance": 127.7
+    },
+    {
+      "bar": 646,
+      "time": "2026-02-03 14:00:00",
+      "price": 4939.2001953125,
+      "balance": 128.16
+    },
+    {
+      "bar": 647,
+      "time": "2026-02-03 15:00:00",
+      "price": 4957.7001953125,
+      "balance": 128.16
+    },
+    {
+      "bar": 648,
+      "time": "2026-02-03 16:00:00",
+      "price": 4978.2001953125,
+      "balance": 128.16
+    },
+    {
+      "bar": 649,
+      "time": "2026-02-03 17:00:00",
+      "price": 4951.5,
+      "balance": 128.16
+    },
+    {
+      "bar": 650,
+      "time": "2026-02-03 18:00:00",
+      "price": 4930.5,
+      "balance": 128.16
+    },
+    {
+      "bar": 651,
+      "time": "2026-02-03 19:00:00",
+      "price": 4949.2998046875,
+      "balance": 128.16
+    },
+    {
+      "bar": 652,
+      "time": "2026-02-03 20:00:00",
+      "price": 4967.5,
+      "balance": 128.16
+    },
+    {
+      "bar": 653,
+      "time": "2026-02-03 21:00:00",
+      "price": 4970.5,
+      "balance": 128.16
+    },
+    {
+      "bar": 654,
+      "time": "2026-02-03 23:00:00",
+      "price": 4968.7001953125,
+      "balance": 128.16
+    },
+    {
+      "bar": 655,
+      "time": "2026-02-04 00:00:00",
+      "price": 5038.10009765625,
+      "balance": 128.16
+    },
+    {
+      "bar": 656,
+      "time": "2026-02-04 01:00:00",
+      "price": 5067.2001953125,
+      "balance": 128.16
+    },
+    {
+      "bar": 657,
+      "time": "2026-02-04 02:00:00",
+      "price": 5061.60009765625,
+      "balance": 128.16
+    },
+    {
+      "bar": 658,
+      "time": "2026-02-04 03:00:00",
+      "price": 5090.2998046875,
+      "balance": 128.16
+    },
+    {
+      "bar": 659,
+      "time": "2026-02-04 04:00:00",
+      "price": 5100.2001953125,
+      "balance": 128.16
+    },
+    {
+      "bar": 660,
+      "time": "2026-02-04 05:00:00",
+      "price": 5098.2998046875,
+      "balance": 128.16
+    },
+    {
+      "bar": 661,
+      "time": "2026-02-04 06:00:00",
+      "price": 5096.60009765625,
+      "balance": 128.16
+    },
+    {
+      "bar": 662,
+      "time": "2026-02-04 07:00:00",
+      "price": 5106.7998046875,
+      "balance": 129.64
+    },
+    {
+      "bar": 663,
+      "time": "2026-02-04 08:00:00",
+      "price": 5106.5,
+      "balance": 129.64
+    },
+    {
+      "bar": 664,
+      "time": "2026-02-04 09:00:00",
+      "price": 5082.2998046875,
+      "balance": 129.64
+    },
+    {
+      "bar": 665,
+      "time": "2026-02-04 10:00:00",
+      "price": 5072.2001953125,
+      "balance": 129.64
+    },
+    {
+      "bar": 666,
+      "time": "2026-02-04 11:00:00",
+      "price": 5071.2998046875,
+      "balance": 129.64
+    },
+    {
+      "bar": 667,
+      "time": "2026-02-04 12:00:00",
+      "price": 5064.60009765625,
+      "balance": 129.64
+    },
+    {
+      "bar": 668,
+      "time": "2026-02-04 13:00:00",
+      "price": 5077.0,
+      "balance": 129.64
+    },
+    {
+      "bar": 669,
+      "time": "2026-02-04 14:00:00",
+      "price": 5008.39990234375,
+      "balance": 128.88
+    },
+    {
+      "bar": 670,
+      "time": "2026-02-04 15:00:00",
+      "price": 4943.10009765625,
+      "balance": 128.88
+    },
+    {
+      "bar": 671,
+      "time": "2026-02-04 16:00:00",
+      "price": 4926.89990234375,
+      "balance": 128.88
+    },
+    {
+      "bar": 672,
+      "time": "2026-02-04 17:00:00",
+      "price": 4921.2998046875,
+      "balance": 128.88
+    },
+    {
+      "bar": 673,
+      "time": "2026-02-04 18:00:00",
+      "price": 4949.7001953125,
+      "balance": 128.88
+    },
+    {
+      "bar": 674,
+      "time": "2026-02-04 19:00:00",
+      "price": 4963.5,
+      "balance": 128.88
+    },
+    {
+      "bar": 675,
+      "time": "2026-02-04 20:00:00",
+      "price": 4961.60009765625,
+      "balance": 128.88
+    },
+    {
+      "bar": 676,
+      "time": "2026-02-04 21:00:00",
+      "price": 4986.39990234375,
+      "balance": 128.88
+    },
+    {
+      "bar": 677,
+      "time": "2026-02-04 23:00:00",
+      "price": 5033.39990234375,
+      "balance": 128.88
+    },
+    {
+      "bar": 678,
+      "time": "2026-02-05 00:00:00",
+      "price": 5028.10009765625,
+      "balance": 128.88
+    },
+    {
+      "bar": 679,
+      "time": "2026-02-05 01:00:00",
+      "price": 4978.2998046875,
+      "balance": 128.88
+    },
+    {
+      "bar": 680,
+      "time": "2026-02-05 02:00:00",
+      "price": 4831.0,
+      "balance": 128.88
+    },
+    {
+      "bar": 681,
+      "time": "2026-02-05 03:00:00",
+      "price": 4898.5,
+      "balance": 128.88
+    },
+    {
+      "bar": 682,
+      "time": "2026-02-05 04:00:00",
+      "price": 4888.5,
+      "balance": 128.88
+    },
+    {
+      "bar": 683,
+      "time": "2026-02-05 05:00:00",
+      "price": 4911.7998046875,
+      "balance": 128.88
+    },
+    {
+      "bar": 684,
+      "time": "2026-02-05 06:00:00",
+      "price": 4938.7998046875,
+      "balance": 125.76
+    },
+    {
+      "bar": 685,
+      "time": "2026-02-05 07:00:00",
+      "price": 4934.2998046875,
+      "balance": 125.76
+    },
+    {
+      "bar": 686,
+      "time": "2026-02-05 08:00:00",
+      "price": 4934.0,
+      "balance": 125.76
+    },
+    {
+      "bar": 687,
+      "time": "2026-02-05 09:00:00",
+      "price": 4876.89990234375,
+      "balance": 125.76
+    },
+    {
+      "bar": 688,
+      "time": "2026-02-05 10:00:00",
+      "price": 4897.89990234375,
+      "balance": 125.76
+    },
+    {
+      "bar": 689,
+      "time": "2026-02-05 11:00:00",
+      "price": 4889.10009765625,
+      "balance": 125.76
+    },
+    {
+      "bar": 690,
+      "time": "2026-02-05 12:00:00",
+      "price": 4876.2001953125,
+      "balance": 125.76
+    },
+    {
+      "bar": 691,
+      "time": "2026-02-05 13:00:00",
+      "price": 4858.2001953125,
+      "balance": 125.76
+    },
+    {
+      "bar": 692,
+      "time": "2026-02-05 14:00:00",
+      "price": 4867.7998046875,
+      "balance": 125.76
+    },
+    {
+      "bar": 693,
+      "time": "2026-02-05 15:00:00",
+      "price": 4838.60009765625,
+      "balance": 125.76
+    },
+    {
+      "bar": 694,
+      "time": "2026-02-05 16:00:00",
+      "price": 4912.0,
+      "balance": 125.76
+    },
+    {
+      "bar": 695,
+      "time": "2026-02-05 17:00:00",
+      "price": 4891.5,
+      "balance": 125.76
+    },
+    {
+      "bar": 696,
+      "time": "2026-02-05 18:00:00",
+      "price": 4880.39990234375,
+      "balance": 125.76
+    },
+    {
+      "bar": 697,
+      "time": "2026-02-05 19:00:00",
+      "price": 4852.5,
+      "balance": 125.76
+    },
+    {
+      "bar": 698,
+      "time": "2026-02-05 20:00:00",
+      "price": 4833.60009765625,
+      "balance": 125.76
+    },
+    {
+      "bar": 699,
+      "time": "2026-02-05 21:00:00",
+      "price": 4798.10009765625,
+      "balance": 125.76
+    },
+    {
+      "bar": 700,
+      "time": "2026-02-05 23:00:00",
+      "price": 4722.0,
+      "balance": 125.76
+    },
+    {
+      "bar": 701,
+      "time": "2026-02-06 00:00:00",
+      "price": 4779.89990234375,
+      "balance": 125.76
+    },
+    {
+      "bar": 702,
+      "time": "2026-02-06 01:00:00",
+      "price": 4792.10009765625,
+      "balance": 125.76
+    },
+    {
+      "bar": 703,
+      "time": "2026-02-06 02:00:00",
+      "price": 4833.5,
+      "balance": 125.76
+    },
+    {
+      "bar": 704,
+      "time": "2026-02-06 03:00:00",
+      "price": 4841.10009765625,
+      "balance": 125.27
+    },
+    {
+      "bar": 705,
+      "time": "2026-02-06 04:00:00",
+      "price": 4831.89990234375,
+      "balance": 125.27
+    },
+    {
+      "bar": 706,
+      "time": "2026-02-06 05:00:00",
+      "price": 4915.2998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 707,
+      "time": "2026-02-06 06:00:00",
+      "price": 4865.60009765625,
+      "balance": 125.27
+    },
+    {
+      "bar": 708,
+      "time": "2026-02-06 07:00:00",
+      "price": 4862.2998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 709,
+      "time": "2026-02-06 08:00:00",
+      "price": 4884.7998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 710,
+      "time": "2026-02-06 09:00:00",
+      "price": 4889.5,
+      "balance": 125.27
+    },
+    {
+      "bar": 711,
+      "time": "2026-02-06 10:00:00",
+      "price": 4899.89990234375,
+      "balance": 125.27
+    },
+    {
+      "bar": 712,
+      "time": "2026-02-06 11:00:00",
+      "price": 4909.10009765625,
+      "balance": 125.27
+    },
+    {
+      "bar": 713,
+      "time": "2026-02-06 12:00:00",
+      "price": 4921.7001953125,
+      "balance": 125.27
+    },
+    {
+      "bar": 714,
+      "time": "2026-02-06 13:00:00",
+      "price": 4951.0,
+      "balance": 125.27
+    },
+    {
+      "bar": 715,
+      "time": "2026-02-06 14:00:00",
+      "price": 4972.5,
+      "balance": 125.27
+    },
+    {
+      "bar": 716,
+      "time": "2026-02-06 15:00:00",
+      "price": 4967.60009765625,
+      "balance": 125.27
+    },
+    {
+      "bar": 717,
+      "time": "2026-02-06 16:00:00",
+      "price": 4975.2998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 718,
+      "time": "2026-02-06 17:00:00",
+      "price": 4984.2998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 719,
+      "time": "2026-02-06 18:00:00",
+      "price": 4986.2998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 720,
+      "time": "2026-02-06 19:00:00",
+      "price": 4980.7001953125,
+      "balance": 125.27
+    },
+    {
+      "bar": 721,
+      "time": "2026-02-06 20:00:00",
+      "price": 4977.2001953125,
+      "balance": 125.27
+    },
+    {
+      "bar": 722,
+      "time": "2026-02-06 21:00:00",
+      "price": 4979.7998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 723,
+      "time": "2026-02-08 23:00:00",
+      "price": 5057.39990234375,
+      "balance": 125.27
+    },
+    {
+      "bar": 724,
+      "time": "2026-02-09 00:00:00",
+      "price": 5041.2001953125,
+      "balance": 125.27
+    },
+    {
+      "bar": 725,
+      "time": "2026-02-09 01:00:00",
+      "price": 5002.2998046875,
+      "balance": 125.27
+    },
+    {
+      "bar": 726,
+      "time": "2026-02-09 02:00:00",
+      "price": 5026.60009765625,
+      "balance": 125.27
+    },
+    {
+      "bar": 727,
+      "time": "2026-02-09 03:00:00",
+      "price": 5037.10009765625,
+      "balance": 125.27
+    },
+    {
+      "bar": 728,
+      "time": "2026-02-09 04:00:00",
+      "price": 5034.7001953125,
+      "balance": 125.27
+    },
+    {
+      "bar": 729,
+      "time": "2026-02-09 05:00:00",
+      "price": 5058.0,
+      "balance": 125.27
+    },
+    {
+      "bar": 730,
+      "time": "2026-02-09 06:00:00",
+      "price": 5052.39990234375,
+      "balance": 125.28
+    },
+    {
+      "bar": 731,
+      "time": "2026-02-09 07:00:00",
+      "price": 5027.2001953125,
+      "balance": 125.28
+    },
+    {
+      "bar": 732,
+      "time": "2026-02-09 08:00:00",
+      "price": 5048.10009765625,
+      "balance": 125.28
+    },
+    {
+      "bar": 733,
+      "time": "2026-02-09 09:00:00",
+      "price": 5028.2001953125,
+      "balance": 125.28
+    },
+    {
+      "bar": 734,
+      "time": "2026-02-09 10:00:00",
+      "price": 5011.2998046875,
+      "balance": 125.28
+    },
+    {
+      "bar": 735,
+      "time": "2026-02-09 11:00:00",
+      "price": 5031.10009765625,
+      "balance": 125.28
+    },
+    {
+      "bar": 736,
+      "time": "2026-02-09 12:00:00",
+      "price": 5035.7001953125,
+      "balance": 125.28
+    },
+    {
+      "bar": 737,
+      "time": "2026-02-09 13:00:00",
+      "price": 5028.89990234375,
+      "balance": 125.28
+    },
+    {
+      "bar": 738,
+      "time": "2026-02-09 14:00:00",
+      "price": 5059.60009765625,
+      "balance": 125.28
+    },
+    {
+      "bar": 739,
+      "time": "2026-02-09 15:00:00",
+      "price": 5082.2001953125,
+      "balance": 125.28
+    },
+    {
+      "bar": 740,
+      "time": "2026-02-09 16:00:00",
+      "price": 5096.89990234375,
+      "balance": 125.28
+    },
+    {
+      "bar": 741,
+      "time": "2026-02-09 17:00:00",
+      "price": 5069.7998046875,
+      "balance": 127.42
+    },
+    {
+      "bar": 742,
+      "time": "2026-02-09 18:00:00",
+      "price": 5087.0,
+      "balance": 127.42
+    },
+    {
+      "bar": 743,
+      "time": "2026-02-09 19:00:00",
+      "price": 5098.39990234375,
+      "balance": 127.42
+    },
+    {
+      "bar": 744,
+      "time": "2026-02-09 20:00:00",
+      "price": 5102.89990234375,
+      "balance": 127.42
+    },
+    {
+      "bar": 745,
+      "time": "2026-02-09 21:00:00",
+      "price": 5084.2001953125,
+      "balance": 127.42
+    },
+    {
+      "bar": 746,
+      "time": "2026-02-09 23:00:00",
+      "price": 5055.2998046875,
+      "balance": 127.42
+    },
+    {
+      "bar": 747,
+      "time": "2026-02-10 00:00:00",
+      "price": 5042.60009765625,
+      "balance": 126.37
+    },
+    {
+      "bar": 748,
+      "time": "2026-02-10 01:00:00",
+      "price": 5054.89990234375,
+      "balance": 126.37
+    },
+    {
+      "bar": 749,
+      "time": "2026-02-10 02:00:00",
+      "price": 5061.2001953125,
+      "balance": 126.37
+    },
+    {
+      "bar": 750,
+      "time": "2026-02-10 03:00:00",
+      "price": 5051.5,
+      "balance": 126.37
+    },
+    {
+      "bar": 751,
+      "time": "2026-02-10 04:00:00",
+      "price": 5052.7998046875,
+      "balance": 126.37
+    },
+    {
+      "bar": 752,
+      "time": "2026-02-10 05:00:00",
+      "price": 5061.89990234375,
+      "balance": 126.37
+    },
+    {
+      "bar": 753,
+      "time": "2026-02-10 06:00:00",
+      "price": 5045.7998046875,
+      "balance": 126.2
+    },
+    {
+      "bar": 754,
+      "time": "2026-02-10 07:00:00",
+      "price": 5055.2998046875,
+      "balance": 126.2
+    },
+    {
+      "bar": 755,
+      "time": "2026-02-10 08:00:00",
+      "price": 5063.7998046875,
+      "balance": 126.2
+    },
+    {
+      "bar": 756,
+      "time": "2026-02-10 09:00:00",
+      "price": 5068.5,
+      "balance": 126.2
+    },
+    {
+      "bar": 757,
+      "time": "2026-02-10 10:00:00",
+      "price": 5070.2001953125,
+      "balance": 126.2
+    },
+    {
+      "bar": 758,
+      "time": "2026-02-10 11:00:00",
+      "price": 5079.0,
+      "balance": 126.2
+    },
+    {
+      "bar": 759,
+      "time": "2026-02-10 12:00:00",
+      "price": 5054.89990234375,
+      "balance": 126.2
+    },
+    {
+      "bar": 760,
+      "time": "2026-02-10 13:00:00",
+      "price": 5074.10009765625,
+      "balance": 126.2
+    },
+    {
+      "bar": 761,
+      "time": "2026-02-10 14:00:00",
+      "price": 5063.0,
+      "balance": 126.2
+    },
+    {
+      "bar": 762,
+      "time": "2026-02-10 15:00:00",
+      "price": 5041.60009765625,
+      "balance": 126.2
+    },
+    {
+      "bar": 763,
+      "time": "2026-02-10 16:00:00",
+      "price": 5046.5,
+      "balance": 126.2
+    },
+    {
+      "bar": 764,
+      "time": "2026-02-10 17:00:00",
+      "price": 5049.7001953125,
+      "balance": 126.2
+    },
+    {
+      "bar": 765,
+      "time": "2026-02-10 18:00:00",
+      "price": 5036.0,
+      "balance": 126.2
+    },
+    {
+      "bar": 766,
+      "time": "2026-02-10 19:00:00",
+      "price": 5050.7998046875,
+      "balance": 126.2
+    },
+    {
+      "bar": 767,
+      "time": "2026-02-10 20:00:00",
+      "price": 5052.89990234375,
+      "balance": 126.2
+    },
+    {
+      "bar": 768,
+      "time": "2026-02-10 21:00:00",
+      "price": 5047.89990234375,
+      "balance": 126.2
+    },
+    {
+      "bar": 769,
+      "time": "2026-02-10 23:00:00",
+      "price": 5064.10009765625,
+      "balance": 126.2
+    },
+    {
+      "bar": 770,
+      "time": "2026-02-11 00:00:00",
+      "price": 5060.89990234375,
+      "balance": 126.2
+    },
+    {
+      "bar": 771,
+      "time": "2026-02-11 01:00:00",
+      "price": 5075.0,
+      "balance": 125.92
+    },
+    {
+      "bar": 772,
+      "time": "2026-02-11 02:00:00",
+      "price": 5079.2001953125,
+      "balance": 125.92
+    },
+    {
+      "bar": 773,
+      "time": "2026-02-11 03:00:00",
+      "price": 5079.0,
+      "balance": 125.92
+    },
+    {
+      "bar": 774,
+      "time": "2026-02-11 04:00:00",
+      "price": 5073.2001953125,
+      "balance": 125.92
+    },
+    {
+      "bar": 775,
+      "time": "2026-02-11 05:00:00",
+      "price": 5076.7998046875,
+      "balance": 125.92
+    },
+    {
+      "bar": 776,
+      "time": "2026-02-11 06:00:00",
+      "price": 5088.2998046875,
+      "balance": 125.92
+    },
+    {
+      "bar": 777,
+      "time": "2026-02-11 07:00:00",
+      "price": 5078.7001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 778,
+      "time": "2026-02-11 08:00:00",
+      "price": 5077.0,
+      "balance": 125.23
+    },
+    {
+      "bar": 779,
+      "time": "2026-02-11 09:00:00",
+      "price": 5086.60009765625,
+      "balance": 125.23
+    },
+    {
+      "bar": 780,
+      "time": "2026-02-11 10:00:00",
+      "price": 5118.60009765625,
+      "balance": 125.23
+    },
+    {
+      "bar": 781,
+      "time": "2026-02-11 11:00:00",
+      "price": 5136.7998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 782,
+      "time": "2026-02-11 12:00:00",
+      "price": 5107.2001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 783,
+      "time": "2026-02-11 13:00:00",
+      "price": 5089.60009765625,
+      "balance": 125.23
+    },
+    {
+      "bar": 784,
+      "time": "2026-02-11 14:00:00",
+      "price": 5082.2998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 785,
+      "time": "2026-02-11 15:00:00",
+      "price": 5084.2001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 786,
+      "time": "2026-02-11 16:00:00",
+      "price": 5099.2001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 787,
+      "time": "2026-02-11 17:00:00",
+      "price": 5116.5,
+      "balance": 125.23
+    },
+    {
+      "bar": 788,
+      "time": "2026-02-11 18:00:00",
+      "price": 5107.39990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 789,
+      "time": "2026-02-11 19:00:00",
+      "price": 5106.5,
+      "balance": 125.23
+    },
+    {
+      "bar": 790,
+      "time": "2026-02-11 20:00:00",
+      "price": 5111.39990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 791,
+      "time": "2026-02-11 21:00:00",
+      "price": 5107.7998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 792,
+      "time": "2026-02-11 23:00:00",
+      "price": 5083.5,
+      "balance": 125.23
+    },
+    {
+      "bar": 793,
+      "time": "2026-02-12 00:00:00",
+      "price": 5084.89990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 794,
+      "time": "2026-02-12 01:00:00",
+      "price": 5084.7998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 795,
+      "time": "2026-02-12 02:00:00",
+      "price": 5086.7001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 796,
+      "time": "2026-02-12 03:00:00",
+      "price": 5078.2001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 797,
+      "time": "2026-02-12 04:00:00",
+      "price": 5090.39990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 798,
+      "time": "2026-02-12 05:00:00",
+      "price": 5096.2998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 799,
+      "time": "2026-02-12 06:00:00",
+      "price": 5081.10009765625,
+      "balance": 125.23
+    },
+    {
+      "bar": 800,
+      "time": "2026-02-12 07:00:00",
+      "price": 5085.2998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 801,
+      "time": "2026-02-12 08:00:00",
+      "price": 5090.0,
+      "balance": 125.23
+    },
+    {
+      "bar": 802,
+      "time": "2026-02-12 09:00:00",
+      "price": 5095.0,
+      "balance": 125.23
+    },
+    {
+      "bar": 803,
+      "time": "2026-02-12 10:00:00",
+      "price": 5083.7998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 804,
+      "time": "2026-02-12 11:00:00",
+      "price": 5085.60009765625,
+      "balance": 125.23
+    },
+    {
+      "bar": 805,
+      "time": "2026-02-12 12:00:00",
+      "price": 5074.2001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 806,
+      "time": "2026-02-12 13:00:00",
+      "price": 5098.2001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 807,
+      "time": "2026-02-12 14:00:00",
+      "price": 5067.0,
+      "balance": 125.23
+    },
+    {
+      "bar": 808,
+      "time": "2026-02-12 15:00:00",
+      "price": 5083.89990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 809,
+      "time": "2026-02-12 16:00:00",
+      "price": 4976.2998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 810,
+      "time": "2026-02-12 17:00:00",
+      "price": 4961.5,
+      "balance": 125.23
+    },
+    {
+      "bar": 811,
+      "time": "2026-02-12 18:00:00",
+      "price": 4955.89990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 812,
+      "time": "2026-02-12 19:00:00",
+      "price": 4965.0,
+      "balance": 125.23
+    },
+    {
+      "bar": 813,
+      "time": "2026-02-12 20:00:00",
+      "price": 4935.10009765625,
+      "balance": 125.23
+    },
+    {
+      "bar": 814,
+      "time": "2026-02-12 21:00:00",
+      "price": 4941.39990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 815,
+      "time": "2026-02-12 23:00:00",
+      "price": 4939.7001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 816,
+      "time": "2026-02-13 00:00:00",
+      "price": 4946.7001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 817,
+      "time": "2026-02-13 01:00:00",
+      "price": 4999.7998046875,
+      "balance": 125.23
+    },
+    {
+      "bar": 818,
+      "time": "2026-02-13 02:00:00",
+      "price": 5008.0,
+      "balance": 125.23
+    },
+    {
+      "bar": 819,
+      "time": "2026-02-13 03:00:00",
+      "price": 5001.60009765625,
+      "balance": 125.23
+    },
+    {
+      "bar": 820,
+      "time": "2026-02-13 04:00:00",
+      "price": 4994.0,
+      "balance": 125.23
+    },
+    {
+      "bar": 821,
+      "time": "2026-02-13 05:00:00",
+      "price": 4965.39990234375,
+      "balance": 125.23
+    },
+    {
+      "bar": 822,
+      "time": "2026-02-13 06:00:00",
+      "price": 4986.7001953125,
+      "balance": 125.23
+    },
+    {
+      "bar": 823,
+      "time": "2026-02-13 07:00:00",
+      "price": 4994.60009765625,
+      "balance": 126.24
+    },
+    {
+      "bar": 824,
+      "time": "2026-02-13 08:00:00",
+      "price": 5001.89990234375,
+      "balance": 126.24
+    },
+    {
+      "bar": 825,
+      "time": "2026-02-13 09:00:00",
+      "price": 4990.10009765625,
+      "balance": 126.24
+    },
+    {
+      "bar": 826,
+      "time": "2026-02-13 10:00:00",
+      "price": 4970.7998046875,
+      "balance": 126.24
+    },
+    {
+      "bar": 827,
+      "time": "2026-02-13 11:00:00",
+      "price": 4973.39990234375,
+      "balance": 126.24
+    },
+    {
+      "bar": 828,
+      "time": "2026-02-13 12:00:00",
+      "price": 4988.7998046875,
+      "balance": 126.24
+    },
+    {
+      "bar": 829,
+      "time": "2026-02-13 13:00:00",
+      "price": 5008.39990234375,
+      "balance": 126.24
+    },
+    {
+      "bar": 830,
+      "time": "2026-02-13 14:00:00",
+      "price": 5017.39990234375,
+      "balance": 126.24
+    },
+    {
+      "bar": 831,
+      "time": "2026-02-13 15:00:00",
+      "price": 4998.7001953125,
+      "balance": 126.24
+    },
+    {
+      "bar": 832,
+      "time": "2026-02-13 16:00:00",
+      "price": 5030.0,
+      "balance": 126.24
+    },
+    {
+      "bar": 833,
+      "time": "2026-02-13 17:00:00",
+      "price": 5043.5,
+      "balance": 126.24
+    },
+    {
+      "bar": 834,
+      "time": "2026-02-13 18:00:00",
+      "price": 5054.10009765625,
+      "balance": 126.24
+    },
+    {
+      "bar": 835,
+      "time": "2026-02-13 19:00:00",
+      "price": 5046.39990234375,
+      "balance": 126.24
+    },
+    {
+      "bar": 836,
+      "time": "2026-02-13 20:00:00",
+      "price": 5054.0,
+      "balance": 126.24
+    },
+    {
+      "bar": 837,
+      "time": "2026-02-13 21:00:00",
+      "price": 5046.2998046875,
+      "balance": 126.24
+    },
+    {
+      "bar": 838,
+      "time": "2026-02-15 23:00:00",
+      "price": 5038.5,
+      "balance": 126.24
+    },
+    {
+      "bar": 839,
+      "time": "2026-02-16 00:00:00",
+      "price": 5035.0,
+      "balance": 126.24
+    },
+    {
+      "bar": 840,
+      "time": "2026-02-16 01:00:00",
+      "price": 5047.60009765625,
+      "balance": 126.24
+    },
+    {
+      "bar": 841,
+      "time": "2026-02-16 02:00:00",
+      "price": 5014.7998046875,
+      "balance": 126.4
+    },
+    {
+      "bar": 842,
+      "time": "2026-02-16 03:00:00",
+      "price": 5007.2001953125,
+      "balance": 126.4
+    },
+    {
+      "bar": 843,
+      "time": "2026-02-16 04:00:00",
+      "price": 4994.7001953125,
+      "balance": 126.4
+    },
+    {
+      "bar": 844,
+      "time": "2026-02-17 05:00:00",
+      "price": 4906.89990234375,
+      "balance": 126.4
+    },
+    {
+      "bar": 845,
+      "time": "2026-02-17 06:00:00",
+      "price": 4930.0,
+      "balance": 126.4
+    },
+    {
+      "bar": 846,
+      "time": "2026-02-17 07:00:00",
+      "price": 4935.7998046875,
+      "balance": 126.4
+    },
+    {
+      "bar": 847,
+      "time": "2026-02-17 08:00:00",
+      "price": 4939.5,
+      "balance": 126.4
+    },
+    {
+      "bar": 848,
+      "time": "2026-02-17 09:00:00",
+      "price": 4945.2001953125,
+      "balance": 128.3
+    },
+    {
+      "bar": 849,
+      "time": "2026-02-17 10:00:00",
+      "price": 4932.10009765625,
+      "balance": 128.3
+    },
+    {
+      "bar": 850,
+      "time": "2026-02-17 11:00:00",
+      "price": 4948.7001953125,
+      "balance": 128.3
+    },
+    {
+      "bar": 851,
+      "time": "2026-02-17 12:00:00",
+      "price": 4951.60009765625,
+      "balance": 128.3
+    },
+    {
+      "bar": 852,
+      "time": "2026-02-17 13:00:00",
+      "price": 4889.39990234375,
+      "balance": 128.3
+    },
+    {
+      "bar": 853,
+      "time": "2026-02-17 14:00:00",
+      "price": 4881.2998046875,
+      "balance": 128.3
+    },
+    {
+      "bar": 854,
+      "time": "2026-02-17 15:00:00",
+      "price": 4897.2001953125,
+      "balance": 128.3
+    },
+    {
+      "bar": 855,
+      "time": "2026-02-17 16:00:00",
+      "price": 4887.7001953125,
+      "balance": 128.3
+    },
+    {
+      "bar": 856,
+      "time": "2026-02-17 17:00:00",
+      "price": 4884.0,
+      "balance": 128.3
+    },
+    {
+      "bar": 857,
+      "time": "2026-02-17 18:00:00",
+      "price": 4917.7001953125,
+      "balance": 128.3
+    },
+    {
+      "bar": 858,
+      "time": "2026-02-17 19:00:00",
+      "price": 4899.2998046875,
+      "balance": 128.3
+    },
+    {
+      "bar": 859,
+      "time": "2026-02-17 20:00:00",
+      "price": 4896.7001953125,
+      "balance": 128.3
+    },
+    {
+      "bar": 860,
+      "time": "2026-02-17 21:00:00",
+      "price": 4896.10009765625,
+      "balance": 128.3
+    },
+    {
+      "bar": 861,
+      "time": "2026-02-17 23:00:00",
+      "price": 4876.89990234375,
+      "balance": 128.3
+    },
+    {
+      "bar": 862,
+      "time": "2026-02-18 00:00:00",
+      "price": 4891.7998046875,
+      "balance": 128.3
+    },
+    {
+      "bar": 863,
+      "time": "2026-02-18 01:00:00",
+      "price": 4908.0,
+      "balance": 128.5
+    },
+    {
+      "bar": 864,
+      "time": "2026-02-18 02:00:00",
+      "price": 4923.7998046875,
+      "balance": 128.5
+    },
+    {
+      "bar": 865,
+      "time": "2026-02-18 03:00:00",
+      "price": 4939.5,
+      "balance": 128.5
+    },
+    {
+      "bar": 866,
+      "time": "2026-02-18 04:00:00",
+      "price": 4951.60009765625,
+      "balance": 128.5
+    },
+    {
+      "bar": 867,
+      "time": "2026-02-18 05:00:00",
+      "price": 4952.39990234375,
+      "balance": 128.5
+    },
+    {
+      "bar": 868,
+      "time": "2026-02-18 06:00:00",
+      "price": 4949.7001953125,
+      "balance": 128.5
+    },
+    {
+      "bar": 869,
+      "time": "2026-02-18 07:00:00",
+      "price": 4949.5,
+      "balance": 128.5
+    },
+    {
+      "bar": 870,
+      "time": "2026-02-18 08:00:00",
+      "price": 4937.7001953125,
+      "balance": 128.5
+    },
+    {
+      "bar": 871,
+      "time": "2026-02-18 09:00:00",
+      "price": 4937.89990234375,
+      "balance": 128.5
+    },
+    {
+      "bar": 872,
+      "time": "2026-02-18 10:00:00",
+      "price": 4935.0,
+      "balance": 128.5
+    },
+    {
+      "bar": 873,
+      "time": "2026-02-18 11:00:00",
+      "price": 4933.39990234375,
+      "balance": 128.5
+    },
+    {
+      "bar": 874,
+      "time": "2026-02-18 12:00:00",
+      "price": 4963.5,
+      "balance": 128.5
+    },
+    {
+      "bar": 875,
+      "time": "2026-02-18 13:00:00",
+      "price": 4974.2001953125,
+      "balance": 128.5
+    },
+    {
+      "bar": 876,
+      "time": "2026-02-18 14:00:00",
+      "price": 5012.2998046875,
+      "balance": 128.5
+    },
+    {
+      "bar": 877,
+      "time": "2026-02-18 15:00:00",
+      "price": 5018.7998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 878,
+      "time": "2026-02-18 16:00:00",
+      "price": 5021.2001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 879,
+      "time": "2026-02-18 17:00:00",
+      "price": 5020.10009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 880,
+      "time": "2026-02-18 18:00:00",
+      "price": 5008.2001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 881,
+      "time": "2026-02-18 19:00:00",
+      "price": 5000.7001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 882,
+      "time": "2026-02-18 20:00:00",
+      "price": 5005.2998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 883,
+      "time": "2026-02-18 21:00:00",
+      "price": 4996.10009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 884,
+      "time": "2026-02-18 23:00:00",
+      "price": 4994.7998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 885,
+      "time": "2026-02-19 00:00:00",
+      "price": 4980.2001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 886,
+      "time": "2026-02-19 01:00:00",
+      "price": 4992.10009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 887,
+      "time": "2026-02-19 02:00:00",
+      "price": 4986.89990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 888,
+      "time": "2026-02-19 03:00:00",
+      "price": 5000.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 889,
+      "time": "2026-02-19 04:00:00",
+      "price": 5002.7998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 890,
+      "time": "2026-02-19 05:00:00",
+      "price": 5015.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 891,
+      "time": "2026-02-19 06:00:00",
+      "price": 5035.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 892,
+      "time": "2026-02-19 07:00:00",
+      "price": 5028.0,
+      "balance": 130.43
+    },
+    {
+      "bar": 893,
+      "time": "2026-02-19 08:00:00",
+      "price": 5035.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 894,
+      "time": "2026-02-19 09:00:00",
+      "price": 5014.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 895,
+      "time": "2026-02-19 10:00:00",
+      "price": 5013.0,
+      "balance": 130.43
+    },
+    {
+      "bar": 896,
+      "time": "2026-02-19 11:00:00",
+      "price": 5003.2998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 897,
+      "time": "2026-02-19 12:00:00",
+      "price": 5004.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 898,
+      "time": "2026-02-19 13:00:00",
+      "price": 5016.60009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 899,
+      "time": "2026-02-19 14:00:00",
+      "price": 5024.60009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 900,
+      "time": "2026-02-19 15:00:00",
+      "price": 5033.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 901,
+      "time": "2026-02-19 16:00:00",
+      "price": 5014.2001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 902,
+      "time": "2026-02-19 17:00:00",
+      "price": 5004.2001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 903,
+      "time": "2026-02-19 18:00:00",
+      "price": 5000.7001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 904,
+      "time": "2026-02-19 19:00:00",
+      "price": 5006.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 905,
+      "time": "2026-02-19 20:00:00",
+      "price": 5020.60009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 906,
+      "time": "2026-02-19 21:00:00",
+      "price": 5015.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 907,
+      "time": "2026-02-19 23:00:00",
+      "price": 5005.60009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 908,
+      "time": "2026-02-20 00:00:00",
+      "price": 5024.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 909,
+      "time": "2026-02-20 01:00:00",
+      "price": 5016.7998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 910,
+      "time": "2026-02-20 02:00:00",
+      "price": 5013.7001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 911,
+      "time": "2026-02-20 03:00:00",
+      "price": 5006.0,
+      "balance": 130.43
+    },
+    {
+      "bar": 912,
+      "time": "2026-02-20 04:00:00",
+      "price": 5017.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 913,
+      "time": "2026-02-20 05:00:00",
+      "price": 5030.10009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 914,
+      "time": "2026-02-20 06:00:00",
+      "price": 5039.60009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 915,
+      "time": "2026-02-20 07:00:00",
+      "price": 5025.2998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 916,
+      "time": "2026-02-20 08:00:00",
+      "price": 5048.7001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 917,
+      "time": "2026-02-20 09:00:00",
+      "price": 5047.60009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 918,
+      "time": "2026-02-20 10:00:00",
+      "price": 5054.60009765625,
+      "balance": 130.43
+    },
+    {
+      "bar": 919,
+      "time": "2026-02-20 11:00:00",
+      "price": 5036.7998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 920,
+      "time": "2026-02-20 12:00:00",
+      "price": 5044.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 921,
+      "time": "2026-02-20 13:00:00",
+      "price": 5063.5,
+      "balance": 130.43
+    },
+    {
+      "bar": 922,
+      "time": "2026-02-20 14:00:00",
+      "price": 5074.7998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 923,
+      "time": "2026-02-20 15:00:00",
+      "price": 5062.2998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 924,
+      "time": "2026-02-20 16:00:00",
+      "price": 5087.0,
+      "balance": 130.43
+    },
+    {
+      "bar": 925,
+      "time": "2026-02-20 17:00:00",
+      "price": 5093.7001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 926,
+      "time": "2026-02-20 18:00:00",
+      "price": 5094.0,
+      "balance": 130.43
+    },
+    {
+      "bar": 927,
+      "time": "2026-02-20 19:00:00",
+      "price": 5102.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 928,
+      "time": "2026-02-20 20:00:00",
+      "price": 5119.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 929,
+      "time": "2026-02-20 21:00:00",
+      "price": 5080.89990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 930,
+      "time": "2026-02-22 23:00:00",
+      "price": 5187.2001953125,
+      "balance": 130.43
+    },
+    {
+      "bar": 931,
+      "time": "2026-02-23 00:00:00",
+      "price": 5165.89990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 932,
+      "time": "2026-02-23 01:00:00",
+      "price": 5179.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 933,
+      "time": "2026-02-23 02:00:00",
+      "price": 5195.0,
+      "balance": 130.43
+    },
+    {
+      "bar": 934,
+      "time": "2026-02-23 03:00:00",
+      "price": 5188.39990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 935,
+      "time": "2026-02-23 04:00:00",
+      "price": 5181.2998046875,
+      "balance": 130.43
+    },
+    {
+      "bar": 936,
+      "time": "2026-02-23 05:00:00",
+      "price": 5179.89990234375,
+      "balance": 130.43
+    },
+    {
+      "bar": 937,
+      "time": "2026-02-23 06:00:00",
+      "price": 5167.2998046875,
+      "balance": 130.25
+    },
+    {
+      "bar": 938,
+      "time": "2026-02-23 07:00:00",
+      "price": 5157.60009765625,
+      "balance": 130.25
+    },
+    {
+      "bar": 939,
+      "time": "2026-02-23 08:00:00",
+      "price": 5161.0,
+      "balance": 130.25
+    },
+    {
+      "bar": 940,
+      "time": "2026-02-23 09:00:00",
+      "price": 5170.10009765625,
+      "balance": 130.25
+    },
+    {
+      "bar": 941,
+      "time": "2026-02-23 10:00:00",
+      "price": 5184.0,
+      "balance": 130.25
+    },
+    {
+      "bar": 942,
+      "time": "2026-02-23 11:00:00",
+      "price": 5170.2998046875,
+      "balance": 130.25
+    },
+    {
+      "bar": 943,
+      "time": "2026-02-23 12:00:00",
+      "price": 5185.0,
+      "balance": 130.0
+    },
+    {
+      "bar": 944,
+      "time": "2026-02-23 13:00:00",
+      "price": 5166.2001953125,
+      "balance": 130.0
+    },
+    {
+      "bar": 945,
+      "time": "2026-02-23 14:00:00",
+      "price": 5213.5,
+      "balance": 130.0
+    },
+    {
+      "bar": 946,
+      "time": "2026-02-23 15:00:00",
+      "price": 5216.60009765625,
+      "balance": 130.0
+    },
+    {
+      "bar": 947,
+      "time": "2026-02-23 16:00:00",
+      "price": 5230.39990234375,
+      "balance": 130.0
+    },
+    {
+      "bar": 948,
+      "time": "2026-02-23 17:00:00",
+      "price": 5227.39990234375,
+      "balance": 130.0
+    },
+    {
+      "bar": 949,
+      "time": "2026-02-23 18:00:00",
+      "price": 5229.5,
+      "balance": 130.0
+    },
+    {
+      "bar": 950,
+      "time": "2026-02-23 19:00:00",
+      "price": 5235.39990234375,
+      "balance": 130.0
+    },
+    {
+      "bar": 951,
+      "time": "2026-02-23 20:00:00",
+      "price": 5255.60009765625,
+      "balance": 130.0
+    },
+    {
+      "bar": 952,
+      "time": "2026-02-23 21:00:00",
+      "price": 5247.89990234375,
+      "balance": 130.0
+    },
+    {
+      "bar": 953,
+      "time": "2026-02-23 23:00:00",
+      "price": 5254.5,
+      "balance": 130.0
+    },
+    {
+      "bar": 954,
+      "time": "2026-02-24 00:00:00",
+      "price": 5243.10009765625,
+      "balance": 130.0
+    },
+    {
+      "bar": 955,
+      "time": "2026-02-24 01:00:00",
+      "price": 5196.60009765625,
+      "balance": 130.0
+    },
+    {
+      "bar": 956,
+      "time": "2026-02-24 02:00:00",
+      "price": 5209.0,
+      "balance": 130.0
+    },
+    {
+      "bar": 957,
+      "time": "2026-02-24 03:00:00",
+      "price": 5192.0,
+      "balance": 130.0
+    },
+    {
+      "bar": 958,
+      "time": "2026-02-24 04:00:00",
+      "price": 5188.39990234375,
+      "balance": 131.57
+    },
+    {
+      "bar": 959,
+      "time": "2026-02-24 05:00:00",
+      "price": 5203.0,
+      "balance": 131.57
+    },
+    {
+      "bar": 960,
+      "time": "2026-02-24 06:00:00",
+      "price": 5193.60009765625,
+      "balance": 131.57
+    },
+    {
+      "bar": 961,
+      "time": "2026-02-24 07:00:00",
+      "price": 5198.7001953125,
+      "balance": 131.57
+    },
+    {
+      "bar": 962,
+      "time": "2026-02-24 08:00:00",
+      "price": 5193.0,
+      "balance": 131.57
+    },
+    {
+      "bar": 963,
+      "time": "2026-02-24 09:00:00",
+      "price": 5190.7001953125,
+      "balance": 131.57
+    },
+    {
+      "bar": 964,
+      "time": "2026-02-24 10:00:00",
+      "price": 5192.2998046875,
+      "balance": 131.57
+    },
+    {
+      "bar": 965,
+      "time": "2026-02-24 11:00:00",
+      "price": 5191.89990234375,
+      "balance": 131.57
+    },
+    {
+      "bar": 966,
+      "time": "2026-02-24 12:00:00",
+      "price": 5168.7998046875,
+      "balance": 131.85
+    },
+    {
+      "bar": 967,
+      "time": "2026-02-24 13:00:00",
+      "price": 5132.2998046875,
+      "balance": 131.85
+    },
+    {
+      "bar": 968,
+      "time": "2026-02-24 14:00:00",
+      "price": 5145.5,
+      "balance": 131.85
+    },
+    {
+      "bar": 969,
+      "time": "2026-02-24 15:00:00",
+      "price": 5168.2001953125,
+      "balance": 131.85
+    },
+    {
+      "bar": 970,
+      "time": "2026-02-24 16:00:00",
+      "price": 5159.7001953125,
+      "balance": 131.85
+    },
+    {
+      "bar": 971,
+      "time": "2026-02-24 17:00:00",
+      "price": 5182.0,
+      "balance": 131.85
+    },
+    {
+      "bar": 972,
+      "time": "2026-02-24 18:00:00",
+      "price": 5178.89990234375,
+      "balance": 131.85
+    },
+    {
+      "bar": 973,
+      "time": "2026-02-24 19:00:00",
+      "price": 5171.7998046875,
+      "balance": 132.1
+    },
+    {
+      "bar": 974,
+      "time": "2026-02-24 20:00:00",
+      "price": 5181.7998046875,
+      "balance": 132.1
+    },
+    {
+      "bar": 975,
+      "time": "2026-02-24 21:00:00",
+      "price": 5160.5,
+      "balance": 132.1
+    },
+    {
+      "bar": 976,
+      "time": "2026-02-24 23:00:00",
+      "price": 5165.0,
+      "balance": 132.1
+    },
+    {
+      "bar": 977,
+      "time": "2026-02-25 00:00:00",
+      "price": 5171.0,
+      "balance": 132.1
+    },
+    {
+      "bar": 978,
+      "time": "2026-02-25 01:00:00",
+      "price": 5195.10009765625,
+      "balance": 132.1
+    },
+    {
+      "bar": 979,
+      "time": "2026-02-25 02:00:00",
+      "price": 5198.60009765625,
+      "balance": 132.1
+    },
+    {
+      "bar": 980,
+      "time": "2026-02-25 03:00:00",
+      "price": 5200.60009765625,
+      "balance": 132.1
+    },
+    {
+      "bar": 981,
+      "time": "2026-02-25 04:00:00",
+      "price": 5201.2998046875,
+      "balance": 132.1
+    },
+    {
+      "bar": 982,
+      "time": "2026-02-25 05:00:00",
+      "price": 5221.2001953125,
+      "balance": 132.1
+    },
+    {
+      "bar": 983,
+      "time": "2026-02-25 06:00:00",
+      "price": 5213.2001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 984,
+      "time": "2026-02-25 07:00:00",
+      "price": 5203.7998046875,
+      "balance": 130.66
+    },
+    {
+      "bar": 985,
+      "time": "2026-02-25 08:00:00",
+      "price": 5204.5,
+      "balance": 130.66
+    },
+    {
+      "bar": 986,
+      "time": "2026-02-25 09:00:00",
+      "price": 5212.89990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 987,
+      "time": "2026-02-25 10:00:00",
+      "price": 5193.7001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 988,
+      "time": "2026-02-25 11:00:00",
+      "price": 5199.5,
+      "balance": 130.66
+    },
+    {
+      "bar": 989,
+      "time": "2026-02-25 12:00:00",
+      "price": 5201.0,
+      "balance": 130.66
+    },
+    {
+      "bar": 990,
+      "time": "2026-02-25 13:00:00",
+      "price": 5203.7001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 991,
+      "time": "2026-02-25 14:00:00",
+      "price": 5210.2001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 992,
+      "time": "2026-02-25 15:00:00",
+      "price": 5214.5,
+      "balance": 130.66
+    },
+    {
+      "bar": 993,
+      "time": "2026-02-25 16:00:00",
+      "price": 5231.7001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 994,
+      "time": "2026-02-25 17:00:00",
+      "price": 5226.5,
+      "balance": 130.66
+    },
+    {
+      "bar": 995,
+      "time": "2026-02-25 18:00:00",
+      "price": 5226.39990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 996,
+      "time": "2026-02-25 19:00:00",
+      "price": 5224.39990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 997,
+      "time": "2026-02-25 20:00:00",
+      "price": 5169.89990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 998,
+      "time": "2026-02-25 21:00:00",
+      "price": 5183.7001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 999,
+      "time": "2026-02-25 23:00:00",
+      "price": 5180.0,
+      "balance": 130.66
+    },
+    {
+      "bar": 1000,
+      "time": "2026-02-26 00:00:00",
+      "price": 5203.2001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 1001,
+      "time": "2026-02-26 01:00:00",
+      "price": 5206.7998046875,
+      "balance": 130.66
+    },
+    {
+      "bar": 1002,
+      "time": "2026-02-26 02:00:00",
+      "price": 5199.60009765625,
+      "balance": 130.66
+    },
+    {
+      "bar": 1003,
+      "time": "2026-02-26 03:00:00",
+      "price": 5208.10009765625,
+      "balance": 130.66
+    },
+    {
+      "bar": 1004,
+      "time": "2026-02-26 04:00:00",
+      "price": 5208.7001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 1005,
+      "time": "2026-02-26 05:00:00",
+      "price": 5214.39990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 1006,
+      "time": "2026-02-26 06:00:00",
+      "price": 5209.7998046875,
+      "balance": 130.66
+    },
+    {
+      "bar": 1007,
+      "time": "2026-02-26 07:00:00",
+      "price": 5202.60009765625,
+      "balance": 130.66
+    },
+    {
+      "bar": 1008,
+      "time": "2026-02-26 08:00:00",
+      "price": 5195.7998046875,
+      "balance": 130.66
+    },
+    {
+      "bar": 1009,
+      "time": "2026-02-26 09:00:00",
+      "price": 5202.39990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 1010,
+      "time": "2026-02-26 10:00:00",
+      "price": 5187.10009765625,
+      "balance": 130.66
+    },
+    {
+      "bar": 1011,
+      "time": "2026-02-26 11:00:00",
+      "price": 5180.7001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 1012,
+      "time": "2026-02-26 12:00:00",
+      "price": 5200.0,
+      "balance": 130.66
+    },
+    {
+      "bar": 1013,
+      "time": "2026-02-26 13:00:00",
+      "price": 5182.2998046875,
+      "balance": 130.66
+    },
+    {
+      "bar": 1014,
+      "time": "2026-02-26 14:00:00",
+      "price": 5181.10009765625,
+      "balance": 130.66
+    },
+    {
+      "bar": 1015,
+      "time": "2026-02-26 15:00:00",
+      "price": 5202.5,
+      "balance": 130.66
+    },
+    {
+      "bar": 1016,
+      "time": "2026-02-26 16:00:00",
+      "price": 5196.2998046875,
+      "balance": 130.66
+    },
+    {
+      "bar": 1017,
+      "time": "2026-02-26 17:00:00",
+      "price": 5184.0,
+      "balance": 130.66
+    },
+    {
+      "bar": 1018,
+      "time": "2026-02-26 18:00:00",
+      "price": 5196.89990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 1019,
+      "time": "2026-02-26 19:00:00",
+      "price": 5204.2001953125,
+      "balance": 130.66
+    },
+    {
+      "bar": 1020,
+      "time": "2026-02-26 20:00:00",
+      "price": 5213.5,
+      "balance": 130.66
+    },
+    {
+      "bar": 1021,
+      "time": "2026-02-26 21:00:00",
+      "price": 5201.5,
+      "balance": 130.66
+    },
+    {
+      "bar": 1022,
+      "time": "2026-02-26 23:00:00",
+      "price": 5200.89990234375,
+      "balance": 130.66
+    },
+    {
+      "bar": 1023,
+      "time": "2026-02-27 00:00:00",
+      "price": 5191.60009765625,
+      "balance": 130.54
+    },
+    {
+      "bar": 1024,
+      "time": "2026-02-27 01:00:00",
+      "price": 5210.2001953125,
+      "balance": 130.54
+    },
+    {
+      "bar": 1025,
+      "time": "2026-02-27 02:00:00",
+      "price": 5200.2998046875,
+      "balance": 130.54
+    },
+    {
+      "bar": 1026,
+      "time": "2026-02-27 03:00:00",
+      "price": 5201.2001953125,
+      "balance": 130.54
+    },
+    {
+      "bar": 1027,
+      "time": "2026-02-27 04:00:00",
+      "price": 5200.5,
+      "balance": 130.54
+    },
+    {
+      "bar": 1028,
+      "time": "2026-02-27 05:00:00",
+      "price": 5214.7001953125,
+      "balance": 130.54
+    },
+    {
+      "bar": 1029,
+      "time": "2026-02-27 06:00:00",
+      "price": 5202.7998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1030,
+      "time": "2026-02-27 07:00:00",
+      "price": 5193.10009765625,
+      "balance": 130.19
+    },
+    {
+      "bar": 1031,
+      "time": "2026-02-27 08:00:00",
+      "price": 5195.10009765625,
+      "balance": 130.19
+    },
+    {
+      "bar": 1032,
+      "time": "2026-02-27 09:00:00",
+      "price": 5192.2998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1033,
+      "time": "2026-02-27 10:00:00",
+      "price": 5193.60009765625,
+      "balance": 130.19
+    },
+    {
+      "bar": 1034,
+      "time": "2026-02-27 11:00:00",
+      "price": 5202.0,
+      "balance": 130.19
+    },
+    {
+      "bar": 1035,
+      "time": "2026-02-27 12:00:00",
+      "price": 5204.2998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1036,
+      "time": "2026-02-27 13:00:00",
+      "price": 5240.7998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1037,
+      "time": "2026-02-27 14:00:00",
+      "price": 5240.89990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1038,
+      "time": "2026-02-27 15:00:00",
+      "price": 5257.7998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1039,
+      "time": "2026-02-27 16:00:00",
+      "price": 5246.89990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1040,
+      "time": "2026-02-27 17:00:00",
+      "price": 5252.39990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1041,
+      "time": "2026-02-27 18:00:00",
+      "price": 5263.0,
+      "balance": 130.19
+    },
+    {
+      "bar": 1042,
+      "time": "2026-02-27 19:00:00",
+      "price": 5268.39990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1043,
+      "time": "2026-02-27 20:00:00",
+      "price": 5281.2998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1044,
+      "time": "2026-02-27 21:00:00",
+      "price": 5247.89990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1045,
+      "time": "2026-03-01 23:00:00",
+      "price": 5400.39990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1046,
+      "time": "2026-03-02 00:00:00",
+      "price": 5360.60009765625,
+      "balance": 130.19
+    },
+    {
+      "bar": 1047,
+      "time": "2026-03-02 01:00:00",
+      "price": 5338.2998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1048,
+      "time": "2026-03-02 02:00:00",
+      "price": 5358.7998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1049,
+      "time": "2026-03-02 03:00:00",
+      "price": 5378.7001953125,
+      "balance": 130.19
+    },
+    {
+      "bar": 1050,
+      "time": "2026-03-02 04:00:00",
+      "price": 5369.7998046875,
+      "balance": 130.19
+    },
+    {
+      "bar": 1051,
+      "time": "2026-03-02 05:00:00",
+      "price": 5378.89990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1052,
+      "time": "2026-03-02 06:00:00",
+      "price": 5401.5,
+      "balance": 130.19
+    },
+    {
+      "bar": 1053,
+      "time": "2026-03-02 07:00:00",
+      "price": 5423.0,
+      "balance": 130.19
+    },
+    {
+      "bar": 1054,
+      "time": "2026-03-02 08:00:00",
+      "price": 5408.89990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1055,
+      "time": "2026-03-02 09:00:00",
+      "price": 5406.89990234375,
+      "balance": 130.19
+    },
+    {
+      "bar": 1056,
+      "time": "2026-03-02 10:00:00",
+      "price": 5404.10009765625,
+      "balance": 130.87
+    },
+    {
+      "bar": 1057,
+      "time": "2026-03-02 11:00:00",
+      "price": 5399.60009765625,
+      "balance": 130.87
+    },
+    {
+      "bar": 1058,
+      "time": "2026-03-02 12:00:00",
+      "price": 5412.39990234375,
+      "balance": 130.87
+    },
+    {
+      "bar": 1059,
+      "time": "2026-03-02 13:00:00",
+      "price": 5409.7998046875,
+      "balance": 130.87
+    },
+    {
+      "bar": 1060,
+      "time": "2026-03-02 14:00:00",
+      "price": 5346.39990234375,
+      "balance": 130.87
+    },
+    {
+      "bar": 1061,
+      "time": "2026-03-02 15:00:00",
+      "price": 5329.60009765625,
+      "balance": 130.87
+    },
+    {
+      "bar": 1062,
+      "time": "2026-03-02 16:00:00",
+      "price": 5304.0,
+      "balance": 130.87
+    },
+    {
+      "bar": 1063,
+      "time": "2026-03-02 17:00:00",
+      "price": 5321.10009765625,
+      "balance": 130.87
+    },
+    {
+      "bar": 1064,
+      "time": "2026-03-02 18:00:00",
+      "price": 5329.7998046875,
+      "balance": 130.87
+    },
+    {
+      "bar": 1065,
+      "time": "2026-03-02 19:00:00",
+      "price": 5344.2001953125,
+      "balance": 130.87
+    },
+    {
+      "bar": 1066,
+      "time": "2026-03-02 20:00:00",
+      "price": 5346.10009765625,
+      "balance": 130.87
+    },
+    {
+      "bar": 1067,
+      "time": "2026-03-02 21:00:00",
+      "price": 5335.89990234375,
+      "balance": 130.87
+    },
+    {
+      "bar": 1068,
+      "time": "2026-03-02 23:00:00",
+      "price": 5359.10009765625,
+      "balance": 130.87
+    },
+    {
+      "bar": 1069,
+      "time": "2026-03-03 00:00:00",
+      "price": 5364.5,
+      "balance": 130.87
+    },
+    {
+      "bar": 1070,
+      "time": "2026-03-03 01:00:00",
+      "price": 5352.89990234375,
+      "balance": 130.87
+    },
+    {
+      "bar": 1071,
+      "time": "2026-03-03 02:00:00",
+      "price": 5380.0,
+      "balance": 130.87
+    },
+    {
+      "bar": 1072,
+      "time": "2026-03-03 03:00:00",
+      "price": 5381.2001953125,
+      "balance": 131.74
+    },
+    {
+      "bar": 1073,
+      "time": "2026-03-03 04:00:00",
+      "price": 5377.89990234375,
+      "balance": 131.74
+    },
+    {
+      "bar": 1074,
+      "time": "2026-03-03 05:00:00",
+      "price": 5331.89990234375,
+      "balance": 131.74
+    },
+    {
+      "bar": 1075,
+      "time": "2026-03-03 06:00:00",
+      "price": 5323.0,
+      "balance": 131.74
+    },
+    {
+      "bar": 1076,
+      "time": "2026-03-03 07:00:00",
+      "price": 5340.60009765625,
+      "balance": 131.74
+    },
+    {
+      "bar": 1077,
+      "time": "2026-03-03 08:00:00",
+      "price": 5308.7998046875,
+      "balance": 131.74
+    },
+    {
+      "bar": 1078,
+      "time": "2026-03-03 09:00:00",
+      "price": 5286.7998046875,
+      "balance": 131.74
+    },
+    {
+      "bar": 1079,
+      "time": "2026-03-03 10:00:00",
+      "price": 5261.2001953125,
+      "balance": 131.74
+    }
+  ],
+  "stats": {
+    "n_trades": 72,
+    "win_rate": 70.83,
+    "avg_win": 0.8657,
+    "avg_loss": 0.764,
+    "profit_factor": 2.75,
+    "total_return": 31.741,
+    "final_balance": 131.74,
+    "max_drawdown": 3.78,
+    "sharpe": 2.39,
+    "strategy": "Hybrid (Regime+Meta)",
+    "spread_cost_total": 0.216
+  },
+  "timestamp": "2026-03-03 11:10:30"
+}

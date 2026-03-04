@@ -1,0 +1,20 @@
+{
+  "signal": "SELL",
+  "confidence": 0.2226,
+  "xgb_p": 0.5503,
+  "lgb_p": 0.529,
+  "gb_p": 0.6238,
+  "catboost_p": 0.5456,
+  "rf_p": 0.555,
+  "lstm_p": 0.5177,
+  "tft_p": 0.5066,
+  "tcn_p": 0.5527,
+  "nbeats_p": 0.6218,
+  "nhits_p": 0.5786,
+  "regime_p": 0.6101,
+  "meta_p": 0.2226,
+  "current_regime": "VOLATILE",
+  "strategy_used": "stacking_meta",
+  "version": "v7",
+  "timestamp": "2026-03-04 11:36:22"
+}

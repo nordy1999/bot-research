@@ -1,0 +1,18 @@
+{
+  "risk_pct": 0.828,
+  "mode": "NORMAL",
+  "god_mode": false,
+  "trade_allowed": true,
+  "session": "LONDON_OPEN",
+  "session_mult": 1.0,
+  "conf_mult": 0.5,
+  "regime_mult": 1.0,
+  "ec_mult": 1.0,
+  "vol_mult": 1.66,
+  "news_mult": 1.0,
+  "atr_pct": 0.604,
+  "current_balance": 100,
+  "prop_firm_mode": false,
+  "reason": "NORMAL | session:LONDON_OPEN | regime:TREND_UP | conf:60%",
+  "timestamp": "2026-03-03 08:06:31"
+}

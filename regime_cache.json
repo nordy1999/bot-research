@@ -1,0 +1,11 @@
+{
+  "regime": "CHOPPY_RANGE",
+  "adx": 22.237522369287014,
+  "bbw": 0.02949155606050378,
+  "hurst": 0.40543721353330614,
+  "volume_bias": 0,
+  "risk_mult": 0.25,
+  "allows_long": false,
+  "allows_short": false,
+  "timestamp": "2026-03-04 09:33:37"
+}

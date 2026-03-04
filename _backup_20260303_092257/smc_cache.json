@@ -1,0 +1,30 @@
+{
+  "signal": -1,
+  "score": 76.0,
+  "reasons": [
+    "Bearish OB @ 5382.00",
+    "Bearish OB @ 5364.25",
+    "Bear FVG @ 5356.50"
+  ],
+  "h1": {
+    "signal": -1,
+    "score": 95,
+    "reasons": [
+      "Bearish OB @ 5382.00",
+      "Bearish OB @ 5364.25",
+      "Bear FVG @ 5356.50"
+    ]
+  },
+  "m15": {
+    "signal": 1,
+    "score": 100,
+    "reasons": [
+      "Bullish OB @ 5339.25",
+      "Bullish OB @ 5314.15",
+      "Bull sweep @ 5318.60",
+      "Bull sweep @ 5334.90",
+      "Bull FVG @ 5322.45"
+    ]
+  },
+  "timestamp": "2026-03-03 08:05:31"
+}

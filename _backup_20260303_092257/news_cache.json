@@ -1,0 +1,56 @@
+{
+  "signal": "NEUTRAL",
+  "score": 0.0176,
+  "articles_analysed": 13,
+  "top_articles": [
+    {
+      "title": "DXY: Energy shock keeps greenback supported \u2013 ING",
+      "source": "FXStreet",
+      "score": 0.778,
+      "url": "https://www.fxstreet.com/news/dxy-energy-shock-keeps-greenback-supported-ing-202603030853"
+    },
+    {
+      "title": "Forex Today: USD holds ground as Middle East chaos spreads",
+      "source": "FXStreet",
+      "score": -0.572,
+      "url": "https://www.fxstreet.com/news/forex-today-usd-holds-ground-as-middle-east-chaos-spreads-202603030801"
+    },
+    {
+      "title": "AUD/JPY Price Forecast: Steadies near 111.50, bullish bias remains intact above key EMA",
+      "source": "FXStreet",
+      "score": 0.477,
+      "url": "https://www.fxstreet.com/news/aud-jpy-price-forecast-steadies-near-11150-bullish-bias-remains-intact-above-key-ema-202603030710"
+    },
+    {
+      "title": "US-Iran war jeopardizes BoJ rate hike bets for March \u2013 Reuters",
+      "source": "FXStreet",
+      "score": -0.459,
+      "url": "https://www.fxstreet.com/news/us-iran-war-jeopardizes-boj-rate-hike-bets-for-march-reuters-202603030750"
+    },
+    {
+      "title": "Silver Price Forecast: XAG/USD holds losses near $87.20 despite safe-haven demand",
+      "source": "FXStreet",
+      "score": -0.416,
+      "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-losses-near-8720-despite-safe-haven-demand-202603030800"
+    },
+    {
+      "title": "When is the Eurozone flash HICP data for February and how could it affect EUR/USD?",
+      "source": "FXStreet",
+      "score": 0.382,
+      "url": "https://www.fxstreet.com/news/when-is-the-eurozone-flash-hicp-data-for-february-and-how-could-it-affect-eur-usd-202603030729"
+    },
+    {
+      "title": "Japanese Yen flat lines vs. rallying USD; bearish bias remains amid BoJ rate hike delay",
+      "source": "FXStreet",
+      "score": 0.361,
+      "url": "https://www.fxstreet.com/news/japanese-yen-flat-lines-vs-rallying-usd-bearish-bias-remains-amid-boj-rate-hike-delay-202603030809"
+    },
+    {
+      "title": "Fed: Three cuts still expected \u2013 BNY",
+      "source": "FXStreet",
+      "score": -0.283,
+      "url": "https://www.fxstreet.com/news/fed-three-cuts-still-expected-bny-202603030717"
+    }
+  ],
+  "timestamp": "2026-03-03T09:15:13.357486"
+}

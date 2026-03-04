@@ -1,0 +1,17 @@
+{
+  "mode": "normal",
+  "base_risk_pct": 1.0,
+  "god_mode_max_risk": 8.0,
+  "god_mode_threshold": 0.88,
+  "prop_firm_mode": false,
+  "prop_daily_dd_limit": 3.0,
+  "prop_total_dd_limit": 6.0,
+  "prop_profit_target": 8.0,
+  "equity_halve_trigger": 5.0,
+  "equity_restore_pct": 20.0,
+  "vol_target_pct": 1.0,
+  "compound_auto": true,
+  "starting_balance": 100.0,
+  "current_balance": 987.61,
+  "peak_balance": 1106.15
+}

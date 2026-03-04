@@ -1,0 +1,1308 @@
+[
+  {
+    "timestamp": "2026-03-03 11:44:30",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.536,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:47:54",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5211,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:49:02",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5261,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:50:05",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5261,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:51:08",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5261,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:52:11",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.536,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:53:14",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.568,
+    "risk_pct": 0.129,
+    "lot": 0.01,
+    "regime": "CHOPPY_RANGE",
+    "sl_pips": 500,
+    "tp_pips": 1000,
+    "balance": 1014.71
+  },
+  {
+    "timestamp": "2026-03-03 11:54:17",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.536,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:55:20",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5261,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:56:23",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5211,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:57:25",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5169,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:58:29",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.519,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 11:59:31",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.519,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:00:34",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.519,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:01:37",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5176,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:02:40",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5216,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:03:43",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5197,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:04:46",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5184,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:05:49",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5218,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:06:52",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5167,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:07:55",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5268,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:08:58",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5218,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:10:00",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5247,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:11:03",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5387,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:12:06",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5362,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:13:09",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5341,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:14:12",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5362,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:15:14",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5357,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:16:17",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.531,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:17:20",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5278,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:18:23",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5212,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:19:26",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5193,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:20:28",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5343,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:21:31",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.533,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:22:34",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5343,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:23:37",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5343,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:24:40",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5219,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:25:43",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.538,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:26:46",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5219,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:27:48",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5539,
+    "risk_pct": 0.125,
+    "lot": 0.01,
+    "regime": "CHOPPY_RANGE",
+    "sl_pips": 500,
+    "tp_pips": 1000,
+    "balance": 1022.23
+  },
+  {
+    "timestamp": "2026-03-03 12:29:54",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5479,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:30:57",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.538,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:32:00",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5269,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:33:02",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5219,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:34:05",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5539,
+    "risk_pct": 0.124,
+    "lot": 0.01,
+    "regime": "CHOPPY_RANGE",
+    "sl_pips": 500,
+    "tp_pips": 1000,
+    "balance": 1018.48
+  },
+  {
+    "timestamp": "2026-03-03 12:35:08",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5435,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:37:14",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5219,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:39:20",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5219,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:40:23",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4941,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:41:25",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4941,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:42:28",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:43:31",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:44:34",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:45:37",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:46:40",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:47:43",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4975,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:48:46",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4975,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:49:49",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4953,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:50:52",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4953,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:51:55",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4953,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:52:58",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4953,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:54:01",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4975,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:55:03",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4941,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:56:06",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:57:10",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:58:12",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4975,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 12:59:15",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:00:18",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4941,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:01:21",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4975,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:02:24",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:03:26",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:04:30",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4975,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:05:32",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5071,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:06:35",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.502,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:07:38",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.502,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:08:41",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.502,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:09:44",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.502,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:10:47",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5039,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:11:50",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5039,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:12:52",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.4928,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:13:55",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5144,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:14:58",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5188,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:16:01",
+    "type": "SKIP",
+    "signal": "NEUTRAL",
+    "confidence": 0.5188,
+    "reason": "blocked"
+  },
+  {
+    "timestamp": "2026-03-03 13:52:00",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5703,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 0,
+    "balance": 1014.73
+  },
+  {
+    "timestamp": "2026-03-03 13:56:06",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5741,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 85.0,
+    "balance": 1014.73
+  },
+  {
+    "timestamp": "2026-03-03 13:59:11",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-03 14:00:12",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5556,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 97.5,
+    "balance": 1044.79
+  },
+  {
+    "timestamp": "2026-03-03 14:03:16",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5706,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 85.0,
+    "balance": 1062.82
+  },
+  {
+    "timestamp": "2026-03-03 14:06:21",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5476,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 97.5,
+    "balance": 1062.82
+  },
+  {
+    "timestamp": "2026-03-03 14:09:26",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5649,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 97.5,
+    "balance": 1050.8
+  },
+  {
+    "timestamp": "2026-03-03 14:16:35",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.546,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 97.5,
+    "balance": 1038.67
+  },
+  {
+    "timestamp": "2026-03-03 14:27:16",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5419,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 97.5,
+    "balance": 1026.64
+  },
+  {
+    "timestamp": "2026-03-03 14:30:21",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5608,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 85.0,
+    "balance": 1014.61
+  },
+  {
+    "timestamp": "2026-03-03 14:33:26",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5629,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 85.0,
+    "balance": 1002.58
+  },
+  {
+    "timestamp": "2026-03-03 14:36:30",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5521,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 85.0,
+    "balance": 990.55
+  },
+  {
+    "timestamp": "2026-03-03 14:39:35",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5673,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 85.0,
+    "balance": 1020.62
+  },
+  {
+    "timestamp": "2026-03-03 14:50:37",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5498,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 85.0,
+    "balance": 1008.59
+  },
+  {
+    "timestamp": "2026-03-03 14:53:41",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6335,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 67.5,
+    "balance": 995.45
+  },
+  {
+    "timestamp": "2026-03-03 14:58:22",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5935,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 80.0,
+    "balance": 1025.56
+  },
+  {
+    "timestamp": "2026-03-03 15:01:27",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6377,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 80.0,
+    "balance": 1019.54
+  },
+  {
+    "timestamp": "2026-03-03 15:04:31",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5952,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 80.0,
+    "balance": 1049.78
+  },
+  {
+    "timestamp": "2026-03-03 15:07:35",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5945,
+    "risk_pct": 1.5,
+    "lot": 0.02,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 80.0,
+    "balance": 1037.73
+  },
+  {
+    "timestamp": "2026-03-03 15:12:42",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5771,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "UNKNOWN",
+    "sl_pips": 800,
+    "tp_pips": 2000,
+    "smc_score": 64.0,
+    "balance": 1025.68
+  },
+  {
+    "timestamp": "2026-03-03 15:30:18",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5727,
+    "risk_pct": 1.5,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2850,
+    "tp_pips": 5700,
+    "smc_score": 64.0,
+    "balance": 1019.65
+  },
+  {
+    "timestamp": "2026-03-03 15:50:48",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6225,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2854,
+    "tp_pips": 5708,
+    "smc_score": 64.0,
+    "balance": 1019.65
+  },
+  {
+    "timestamp": "2026-03-03 15:57:58",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6164,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2857,
+    "tp_pips": 5715,
+    "smc_score": 64.0,
+    "balance": 1019.65
+  },
+  {
+    "timestamp": "2026-03-03 16:04:00",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5862,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2895,
+    "tp_pips": 5791,
+    "smc_score": 87.5,
+    "balance": 1062.49
+  },
+  {
+    "timestamp": "2026-03-03 16:33:17",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6156,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2935,
+    "tp_pips": 5870,
+    "smc_score": 87.5,
+    "balance": 1105.37
+  },
+  {
+    "timestamp": "2026-03-03 16:46:21",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6112,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2945,
+    "tp_pips": 5890,
+    "smc_score": 87.5,
+    "balance": 1105.41
+  },
+  {
+    "timestamp": "2026-03-03 17:10:59",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6367,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2947,
+    "tp_pips": 5894,
+    "smc_score": 65.0,
+    "balance": 1083.41
+  },
+  {
+    "timestamp": "2026-03-03 17:14:04",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6507,
+    "risk_pct": 2.25,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2989,
+    "tp_pips": 5978,
+    "smc_score": 65.0,
+    "balance": 1083.41
+  },
+  {
+    "timestamp": "2026-03-03 17:32:08",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6234,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 2999,
+    "tp_pips": 5999,
+    "smc_score": 65.0,
+    "balance": 1061.31
+  },
+  {
+    "timestamp": "2026-03-03 18:43:21",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.7351,
+    "risk_pct": 1.575,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 3114,
+    "tp_pips": 6229,
+    "smc_score": 85.0,
+    "balance": 1031.67
+  },
+  {
+    "timestamp": "2026-03-03 19:18:28",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5787,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 3053,
+    "tp_pips": 6107,
+    "smc_score": 80.0,
+    "balance": 1008.35
+  },
+  {
+    "timestamp": "2026-03-03 20:41:43",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6394,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 3073,
+    "tp_pips": 6146,
+    "smc_score": 97.5,
+    "balance": 1008.39
+  },
+  {
+    "timestamp": "2026-03-03 20:51:46",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.7083,
+    "risk_pct": 1.575,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 3096,
+    "tp_pips": 6193,
+    "smc_score": 100.0,
+    "balance": 1009.5
+  },
+  {
+    "timestamp": "2026-03-03 20:54:51",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6644,
+    "risk_pct": 2.25,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 3096,
+    "tp_pips": 6193,
+    "smc_score": 92.5,
+    "balance": 1009.54
+  },
+  {
+    "timestamp": "2026-03-03 23:02:12",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6631,
+    "risk_pct": 1.575,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 3128,
+    "tp_pips": 6257,
+    "smc_score": 92.5,
+    "balance": 1008.82
+  },
+  {
+    "timestamp": "2026-03-04 08:53:38",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5748,
+    "risk_pct": 1.5,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2844,
+    "smc_score": 80.0,
+    "balance": 954.58
+  },
+  {
+    "timestamp": "2026-03-04 08:56:42",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5895,
+    "risk_pct": 1.5,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2854,
+    "smc_score": 92.5,
+    "balance": 954.58
+  },
+  {
+    "timestamp": "2026-03-04 09:02:48",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5883,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2884,
+    "smc_score": 80.0,
+    "balance": 943.33
+  },
+  {
+    "timestamp": "2026-03-04 09:11:29",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6339,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2000,
+    "smc_score": 76.0,
+    "balance": 935.62
+  },
+  {
+    "timestamp": "2026-03-04 09:27:33",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:28:34",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:29:35",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.6229,
+    "risk_pct": 1.5,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2000,
+    "smc_score": 80.0,
+    "balance": 942.84
+  },
+  {
+    "timestamp": "2026-03-04 09:32:39",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:33:40",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:34:42",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:35:43",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:36:44",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:37:46",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:38:47",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:39:48",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 09:40:49",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5727,
+    "risk_pct": 1.5,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2000,
+    "smc_score": 76.0,
+    "balance": 950.11
+  },
+  {
+    "timestamp": "2026-03-04 09:55:53",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5561,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2062,
+    "smc_score": 80.0,
+    "balance": 957.43
+  },
+  {
+    "timestamp": "2026-03-04 10:08:56",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5586,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2065,
+    "smc_score": 80.0,
+    "balance": 972.37
+  },
+  {
+    "timestamp": "2026-03-04 10:15:58",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 10:16:59",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 10:18:01",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5752,
+    "risk_pct": 1.5,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2000,
+    "smc_score": 80.0,
+    "balance": 1002.71
+  },
+  {
+    "timestamp": "2026-03-04 10:21:05",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5671,
+    "risk_pct": 1.5,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2000,
+    "smc_score": 60.0,
+    "balance": 1016.4
+  },
+  {
+    "timestamp": "2026-03-04 10:24:09",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5671,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2000,
+    "smc_score": 60.0,
+    "balance": 1005.19
+  },
+  {
+    "timestamp": "2026-03-04 10:27:13",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 10:28:14",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 10:29:16",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 10:30:17",
+    "type": "FAIL",
+    "signal": "BUY",
+    "reason": "rejected"
+  },
+  {
+    "timestamp": "2026-03-04 10:31:19",
+    "type": "TRADE",
+    "signal": "BUY",
+    "confidence": 0.5645,
+    "risk_pct": 1.05,
+    "lot": 0.01,
+    "regime": "VOLATILE",
+    "sl_pips": 1500,
+    "tp_pips": 2000,
+    "smc_score": 60.0,
+    "balance": 987.61
+  },
+  {
+    "timestamp": "2026-03-04 11:36:23",
+    "type": "trade",
+    "signal": "SELL",
+    "lot": 0.01,
+    "sl": 1046,
+    "tp": 1794,
+    "conf": 0.22258087012980637,
+    "regime": "VOLATILE"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "kill_switch": false,
+  "reduce_risk": false,
+  "risk_multiplier": 1.0,
+  "trading_ok": true,
+  "warnings": [],
+  "boosts": [],
+  "assets": {
+    "gold": {
+      "current": 5113.5,
+      "change_1h": 0.472,
+      "change_4h": 1.298
+    },
+    "dxy": {
+      "current": 99.134,
+      "change_1h": -0.095,
+      "change_4h": -0.289
+    },
+    "us10y": {
+      "current": 4.063,
+      "change_1h": 0.049,
+      "change_4h": -1.168
+    },
+    "spx": {
+      "current": 6814.27,
+      "change_1h": 0.239,
+      "change_4h": -0.956
+    },
+    "btc": {
+      "current": 68489.5938,
+      "change_1h": 0.264,
+      "change_4h": 2.882
+    },
+    "vix": {
+      "current": 23.78,
+      "change_1h": -1.776,
+      "change_4h": -10.332
+    }
+  },
+  "timestamp": "2026-03-03 18:24:51"
+}

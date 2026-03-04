@@ -1,0 +1,11 @@
+{
+  "signal": "NEUTRAL",
+  "confidence": 0.4815,
+  "kelly_fraction": 0.02339,
+  "risk_multiplier": 0.5,
+  "sized_risk_pct": 1.169,
+  "xgb_p": 0.506,
+  "lgb_p": 0.5451,
+  "gb_p": 0.3872,
+  "timestamp": "2026-03-03 08:15:39"
+}
