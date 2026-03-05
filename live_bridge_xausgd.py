@@ -24,7 +24,7 @@ os.system("")
 
 G="\033[92m";R="\033[91m";Y="\033[93m";C="\033[96m";B="\033[1m";M="\033[95m";DIM="\033[2m";RST="\033[0m"
 SYMBOL="XAUSGD";MODEL_PREFIX="xausgd_";MAGIC_NUMBER=1000;CYCLE_SECONDS=60
-MAX_POSITIONS=3;MAX_TRADES_PER_DAY=10;VIRTUAL_BALANCE=100.0
+MAX_POSITIONS=3;MAX_TRADES_PER_DAY=999;VIRTUAL_BALANCE=100
 SEQ = 20
 
 # v3: Confidence thresholds (optimised)
@@ -48,6 +48,45 @@ BLOCKED_REGIMES = {"HIGH_VOL_BREAKOUT"}
 
 session_pnl=0.0;session_wins=0;session_losses=0;session_trades=0
 active_trades={};position_state={}
+
+# ── Model Cache (load once at startup) ──────────────────────────
+_sgd_model_cache = {}
+
+def get_cached_models():
+    """Load all xausgd_ models once. Returns cached dict."""
+    global _sgd_model_cache
+    if _sgd_model_cache:
+        return _sgd_model_cache
+    import joblib
+    cache = {}
+    try:
+        cache["scaler"] = joblib.load(os.path.join(BASE, f"{MODEL_PREFIX}scaler.pkl"))
+        for name in ["xgb_model", "lgb_model", "gb_model", "catboost_model", "rf_model"]:
+            try: cache[name] = joblib.load(os.path.join(BASE, f"{MODEL_PREFIX}{name}.pkl"))
+            except: cache[name] = None
+        try: cache["meta"] = joblib.load(os.path.join(BASE, f"{MODEL_PREFIX}meta_model.pkl"))
+        except: cache["meta"] = None
+
+        import torch
+        mc = get_model_classes()
+        for name in ["lstm", "tft", "tcn", "nbeats", "nhits"]:
+            try:
+                pt_path = os.path.join(BASE, f"{MODEL_PREFIX}{name}_model.pt")
+                if os.path.exists(pt_path):
+                    ckpt = torch.load(pt_path, map_location="cpu", weights_only=False)
+                    model = mc[name](ckpt["n_features"])
+                    model.load_state_dict(ckpt["model_state"]); model.eval()
+                    cache[name] = model
+                else:
+                    cache[name] = None
+            except: cache[name] = None
+
+        _sgd_model_cache = cache
+        loaded = sum(1 for k in ["xgb_model","lgb_model","gb_model","catboost_model","rf_model","lstm","tft","tcn","nbeats","nhits"] if cache.get(k) is not None)
+        print(f"  {G}[OK] XAUSGD: {loaded}/10 models cached{RST}")
+    except Exception as e:
+        print(f"  {R}[ERR] XAUSGD model cache failed: {e}{RST}")
+    return _sgd_model_cache
 
 def get_session(hour):
     if 0<=hour<2: return "ASIA_EARLY",0.9
@@ -426,27 +465,32 @@ def run_ml():
             with open(ec_path) as f: ec = json.load(f)
         best_strat = ec.get("best_strategy", "top3")
         
-        scaler_path = os.path.join(BASE, f"{MODEL_PREFIX}scaler.pkl")
-        if not os.path.exists(scaler_path):
-            return "NEUTRAL", 0.5, "VOLATILE", []
-        scaler = joblib.load(scaler_path)
+        # FIX: Use cached models
+        mc = get_cached_models()
+        scaler = mc.get("scaler")
+        if scaler is None:
+            scaler_path = os.path.join(BASE, f"{MODEL_PREFIX}scaler.pkl")
+            if not os.path.exists(scaler_path):
+                return "NEUTRAL", 0.5, "VOLATILE", []
+            scaler = joblib.load(scaler_path)
         X_live = scaler.transform(feat_df.iloc[[-1]])
         X_all = scaler.transform(feat_df)
         
         # ════════════════════════════════════════════════════════════════
-        # TREE MODELS (5)
+        # TREE MODELS (5) — from cache
         # ════════════════════════════════════════════════════════════════
-        def load_model(name):
-            path = os.path.join(BASE, f"{MODEL_PREFIX}{name}.pkl")
-            if os.path.exists(path):
-                return float(joblib.load(path).predict_proba(X_live)[0][1])
+        def get_prob(name):
+            m = mc.get(name)
+            if m is not None:
+                try: return float(m.predict_proba(X_live)[0][1])
+                except: pass
             return 0.5
         
-        p_xgb = load_model("xgb_model")
-        p_lgb = load_model("lgb_model")
-        p_gb = load_model("gb_model")
-        p_cb = load_model("catboost_model")
-        p_rf = load_model("rf_model")
+        p_xgb = get_prob("xgb_model")
+        p_lgb = get_prob("lgb_model")
+        p_gb = get_prob("gb_model")
+        p_cb = get_prob("catboost_model")
+        p_rf = get_prob("rf_model")
         
         # ════════════════════════════════════════════════════════════════
         # DEEP LEARNING MODELS (5) - v7
@@ -454,57 +498,48 @@ def run_ml():
         p_lstm = p_tft = p_tcn = p_nbeats = p_nhits = 0.5
         
         try:
-            model_classes = get_model_classes()
+            import torch
             seq_len = ec.get("seq_len", SEQ)
             
             if len(X_all) >= seq_len:
                 seq_in = torch.tensor(X_all[-seq_len:].reshape(1, seq_len, -1), dtype=torch.float32)
                 
-                def load_pt_model(name, model_class):
-                    path = os.path.join(BASE, f"{MODEL_PREFIX}{name}_model.pt")
-                    if os.path.exists(path):
-                        ckpt = torch.load(path, map_location="cpu", weights_only=False)
-                        model = model_class(ckpt["n_features"])
-                        model.load_state_dict(ckpt["model_state"]); model.eval()
-                        with torch.no_grad():
-                            return float(model(seq_in).item())
-                    return 0.5
-                
-                p_lstm = load_pt_model("lstm", model_classes["lstm"])
-                p_tft = load_pt_model("tft", model_classes["tft"])
-                p_tcn = load_pt_model("tcn", model_classes["tcn"])
-                p_nbeats = load_pt_model("nbeats", model_classes["nbeats"])
-                p_nhits = load_pt_model("nhits", model_classes["nhits"])
+                for name, setter in [("lstm","p_lstm"),("tft","p_tft"),("tcn","p_tcn"),("nbeats","p_nbeats"),("nhits","p_nhits")]:
+                    model = mc.get(name)
+                    if model is not None:
+                        try:
+                            with torch.no_grad():
+                                val = float(model(seq_in).item())
+                            if name == "lstm": p_lstm = val
+                            elif name == "tft": p_tft = val
+                            elif name == "tcn": p_tcn = val
+                            elif name == "nbeats": p_nbeats = val
+                            elif name == "nhits": p_nhits = val
+                        except: pass
         except Exception:
             pass
         
         # ════════════════════════════════════════════════════════════════
-        # REGIME DETECTION
+        # REGIME DETECTION — FIX: use detect_regime() like training
         # ════════════════════════════════════════════════════════════════
         cur_regime = "VOLATILE"
         try:
-            atr_pct = feat_df["atr_pct"].iloc[-1] if "atr_pct" in feat_df.columns else 0.01
-            adx_v = feat_df["adx"].iloc[-1] if "adx" in feat_df.columns else 0.25
-            ret5 = feat_df["ret_5"].iloc[-1] if "ret_5" in feat_df.columns else 0.0
-            bb_w = feat_df["bb_width"].iloc[-1] if "bb_width" in feat_df.columns else 0.02
-            if adx_v > 0.30 and abs(ret5) > 0.005:
-                cur_regime = "TRENDING"
-            elif adx_v > 0.25 and abs(ret5) > 0.003:
-                cur_regime = "TREND_UP" if ret5 > 0 else "TREND_DOWN"
-            elif atr_pct < 0.005 and adx_v < 0.20:
-                cur_regime = "LOW_VOL"
-            elif adx_v < 0.20 and bb_w < 0.015:
-                cur_regime = "CHOPPY_RANGE"
-        except: pass
+            from market_regime import detect_regime
+            regs, _, _, _ = detect_regime(df)
+            cur_regime = regs[-1] if regs else "VOLATILE"
+        except Exception: pass
 
         # ════════════════════════════════════════════════════════════════
         # META-LEARNER
         # ════════════════════════════════════════════════════════════════
         p_meta = 0.5
         try:
-            mm_path = os.path.join(BASE, f"{MODEL_PREFIX}meta_model.pkl")
-            if os.path.exists(mm_path):
-                mm = joblib.load(mm_path)
+            mm = mc.get("meta")
+            if mm is None:
+                mm_path = os.path.join(BASE, f"{MODEL_PREFIX}meta_model.pkl")
+                if os.path.exists(mm_path):
+                    mm = joblib.load(mm_path)
+            if mm is not None:
                 regime_codes = ec.get("regime_codes", {})
                 rc = regime_codes.get(cur_regime, 0)
                 # v7: 10 model probs + regime
@@ -602,12 +637,67 @@ def main_loop(mode):
                 print(f"  {R}BLOCKED: {regime} regime{RST}")
                 time.sleep(CYCLE_SECONDS)
                 continue
+
+            # ── Guards (FIX: XAUSGD had NO guards before) ───────────────
+            guard_blocked = False
+            risk_mult = 1.0
+
+            # News Guard
+            try:
+                from news_guard import is_blocked as nb
+                ng = nb()
+                if isinstance(ng, dict):
+                    if ng.get("blocked"):
+                        guard_blocked = True
+                        print(f"    {R}NEWS BLOCKED: {ng.get('reason','')}{RST}")
+                    elif ng.get("risk_factor"):
+                        risk_mult *= (1 - ng["risk_factor"])
+                        print(f"    {Y}News: risk x{1 - ng['risk_factor']:.1f} — {ng.get('reason','')}{RST}")
+            except Exception: pass
+
+            # Correlation Guard
+            try:
+                from correlation_guard import check_correlation
+                corr = check_correlation(signal)
+                if corr:
+                    if corr.get("kill_switch"):
+                        guard_blocked = True
+                        print(f"    {R}CORR KILL SWITCH: {corr.get('reason','')}{RST}")
+                    elif corr.get("reduce_risk"):
+                        risk_mult *= corr.get("risk_mult", 0.4)
+                        print(f"    {Y}Correlation: risk x{corr.get('risk_mult',0.4):.1f}{RST}")
+                    for b in corr.get("boosts", []):
+                        print(f"    {G}✓ {b}{RST}")
+            except Exception: pass
+
+            # SMC Guard
+            smc_status = ""
+            try:
+                from smc_logic import get_bias
+                smc = get_bias()
+                smc_dir = smc.get("direction", 0)
+                smc_score = abs(smc.get("score", 0))
+                ml_dir = 1 if signal == "BUY" else -1
+                if smc_dir != 0 and smc_dir == ml_dir:
+                    smc_status = f"{G}✓ SMC CONFIRMS {signal} (score {smc_score}){RST}"
+                elif smc_dir != 0 and smc_dir != ml_dir:
+                    smc_status = f"{Y}⚠ SMC CONFLICT (score {smc_score}){RST}"
+                else:
+                    smc_status = f"{DIM}SMC: Neutral{RST}"
+            except Exception:
+                smc_status = f"{DIM}SMC: unavailable{RST}"
+            print(f"    {smc_status}")
+
+            if guard_blocked:
+                print(f"  {R}Trade blocked by guards{RST}")
+                time.sleep(CYCLE_SECONDS)
+                continue
             
             # Risk calculation from virtual balance
             if regime in TRENDING: base_risk = RISK_TRENDING
             elif regime in RANGING: base_risk = RISK_RANGING
             else: base_risk = RISK_BASE
-            risk_pct = base_risk * session_mult
+            risk_pct = base_risk * session_mult * risk_mult  # FIX: apply guard risk_mult
             
             # SL/TP
             if regime in TRENDING:
@@ -696,4 +786,6 @@ if __name__ == "__main__":
     
     print("  Connecting to MT5...")
     init_mt5()
+    print("  Loading XAUSGD models into memory...")
+    get_cached_models()
     main_loop(args.mode)

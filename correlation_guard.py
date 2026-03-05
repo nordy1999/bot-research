@@ -3,6 +3,8 @@ AlmostFinishedBot - Correlation Guard
 Monitors DXY, US10Y yield, SPX, BTC in real-time.
 Detects gold decoupling, VIX spikes, correlation breakdowns.
 Saves correlation_status.json for EA and Control Center.
+
+v2.1 FIX: Added check_correlation() bridge-compatible wrapper
 """
 import os, sys, json, time
 import numpy as np
@@ -89,7 +91,6 @@ def check_correlations(changes):
     btc_1h  = changes.get("btc", {}).get("change_1h", 0)
 
     # ── Gold/DXY decoupling ──────────────────────────────────────
-    # Both moving same direction strongly = unusual = pause
     if gold_1h > 0.4 and dxy_1h > 0.4:
         warnings.append(f"DECOUPLE: Gold +{gold_1h:.2f}% AND DXY +{dxy_1h:.2f}% simultaneously (unusual)")
         kill_switch = True
@@ -107,31 +108,25 @@ def check_correlations(changes):
         reduce_risk = True
 
     # ── Gold/US10Y decoupling ─────────────────────────────────────
-    # Both rising = gold ignoring yield pressure = geopolitical bid
     if gold_1h > 0.5 and y10_1h > 2.0:
         warnings.append(f"GEOPOLITICAL BID: Gold +{gold_1h:.2f}% despite yields +{y10_1h:.2f}% — geopolitical/CB buying")
-        # This is actually a STRONG BULLISH signal for gold — don't kill, just note
 
     # ── SPX crash (risk-off, gold likely to spike) ────────────────
     if spx_1h < -1.5:
         warnings.append(f"SPX CRASH: {spx_1h:.2f}% in 1h — potential gold spike, be careful of reversals")
-        reduce_risk = True   # vol too high for normal sizing
+        reduce_risk = True
 
     # ── BTC/Gold correlation break ────────────────────────────────
-    # BTC and gold sometimes move together in risk-off (both are "stores of value")
     if btc_1h < -5 and gold_1h < -0.5:
         warnings.append(f"RISK ASSETS DUMP: BTC {btc_1h:.1f}% + Gold {gold_1h:.2f}% — broad risk-off")
         reduce_risk = True
 
     # ── Positive signal detectors ─────────────────────────────────
     boosts = []
-    # Classic gold setup: DXY falling + yields falling + gold rising
     if gold_1h > 0.3 and dxy_1h < -0.2 and y10_1h < -1.0:
         boosts.append("PERFECT BULL: Gold rising + DXY falling + Yields falling")
-    # Fear spike: VIX up + gold up (flight to safety)
     if vix_1h > 5 and gold_1h > 0.3:
         boosts.append(f"FLIGHT TO SAFETY: VIX +{vix_1h:.1f}% + Gold +{gold_1h:.2f}%")
-    # CB buying signal: gold up despite strong dollar (only CBs can do this)
     if gold_1h > 0.6 and dxy_1h > 0.3:
         boosts.append(f"CB/INSTITUTIONAL BUY: Gold +{gold_1h:.2f}% vs DXY +{dxy_1h:.2f}%")
 
@@ -141,7 +136,7 @@ def check_correlations(changes):
     elif reduce_risk:
         risk_mult = 0.4
     elif boosts:
-        risk_mult = 1.3   # boost size on perfect setups
+        risk_mult = 1.3
     else:
         risk_mult = 1.0
 
@@ -185,6 +180,49 @@ def run_correlation_check():
         print(f"    {name.upper():8s} {bar} {chg:+.3f}%  (current: {d.get('current',0):.4f})")
 
     return status
+
+
+# ── Bridge-compatible wrapper ─────────────────────────────────────────────────
+# FIX: Bridge imports `from correlation_guard import check_correlation` — this was missing
+def check_correlation(signal=None):
+    """
+    Returns dict with 'conflict', 'kill_switch', 'reduce_risk', 'risk_mult', 'reason', 'boosts'.
+    Reads correlation_status.json if fresh (<5 min), otherwise runs live check.
+    """
+    import datetime as _dt
+    cache_path = os.path.join(BASE, "correlation_status.json")
+    status = None
+
+    # Try cache first (avoid 6-ticker yfinance download every 60s cycle)
+    try:
+        if os.path.exists(cache_path):
+            with open(cache_path) as f:
+                status = json.load(f)
+            ts = status.get("timestamp", "")
+            if ts:
+                cache_time = _dt.datetime.strptime(ts, "%Y-%m-%d %H:%M:%S")
+                age = (_dt.datetime.now() - cache_time).total_seconds()
+                if age > 300:  # stale after 5 min
+                    status = None
+    except Exception:
+        status = None
+
+    if status is None:
+        status = run_correlation_check()
+
+    conflict = status.get("kill_switch", False) or status.get("reduce_risk", False)
+    warnings_list = status.get("warnings", [])
+    reason = "; ".join(warnings_list[:2]) if warnings_list else "OK"
+
+    return {
+        "conflict":    conflict,
+        "kill_switch": status.get("kill_switch", False),
+        "reduce_risk": status.get("reduce_risk", False),
+        "risk_mult":   status.get("risk_multiplier", 1.0),
+        "reason":      reason,
+        "boosts":      status.get("boosts", []),
+    }
+
 
 if __name__ == "__main__":
     print("=" * 55)

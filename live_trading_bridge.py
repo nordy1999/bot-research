@@ -47,16 +47,69 @@ win_streak = 0
 last_trade_profit = 0.0
 sys.path.insert(0, BASE)
 
+# ── Model Cache (load once at startup, not every 60s cycle) ──────
+_model_cache = {}
+
+def get_cached_models():
+    """Load all 10 models + scaler + meta once. Returns cached dict."""
+    global _model_cache
+    if _model_cache:
+        return _model_cache
+    import joblib
+    cache = {}
+    try:
+        cache["scaler"] = joblib.load(os.path.join(BASE, "scaler.pkl"))
+        cache["xgb"] = joblib.load(os.path.join(BASE, "xgb_model.pkl"))
+        cache["lgb"] = joblib.load(os.path.join(BASE, "lgb_model.pkl"))
+        cache["gb"]  = joblib.load(os.path.join(BASE, "gb_model.pkl"))
+        try: cache["cb"] = joblib.load(os.path.join(BASE, "catboost_model.pkl"))
+        except: cache["cb"] = None
+        try: cache["rf"] = joblib.load(os.path.join(BASE, "rf_model.pkl"))
+        except: cache["rf"] = None
+        try: cache["meta"] = joblib.load(os.path.join(BASE, "meta_model.pkl"))
+        except: cache["meta"] = None
+        try: cache["regime_models"] = joblib.load(os.path.join(BASE, "regime_models.pkl"))
+        except: cache["regime_models"] = {}
+
+        # PyTorch deep learning models
+        import torch
+        mc = get_model_classes()
+        for name in ["lstm", "tft", "tcn", "nbeats", "nhits"]:
+            try:
+                pt_path = os.path.join(BASE, f"{name}_model.pt")
+                if os.path.exists(pt_path):
+                    ckpt = torch.load(pt_path, map_location="cpu", weights_only=False)
+                    model = mc[name](ckpt["n_features"])
+                    model.load_state_dict(ckpt["model_state"]); model.eval()
+                    cache[name] = model
+                else:
+                    cache[name] = None
+            except Exception:
+                cache[name] = None
+
+        _model_cache = cache
+        loaded = sum(1 for k in ["xgb","lgb","gb","cb","rf","lstm","tft","tcn","nbeats","nhits"] if cache.get(k) is not None)
+        print(f"  {G}[OK] {loaded}/10 models cached in memory{RST}")
+    except Exception as e:
+        print(f"  {R}[ERR] Model cache failed: {e}{RST}")
+    return _model_cache
+
+def reload_models():
+    """Force reload after retrain."""
+    global _model_cache
+    _model_cache = {}
+    return get_cached_models()
+
 # ── Config ────────────────────────────────────────────────────────
 SYMBOL        = "XAUUSD"
 CYCLE_SECONDS = 60
-MAX_TRADES_PER_DAY = 10
+MAX_TRADES_PER_DAY = 999
 MAGIC_NUMBER  = 999
 
 # v3: Confidence thresholds (regime-dependent)
 CONF_TRENDING     = 0.54
-CONF_VOLATILE     = 0.53
-CONF_RANGING      = 0.62
+CONF_VOLATILE     = 0.55
+CONF_RANGING      = 0.57
 CONF_SMC_BOOST    = -0.03
 
 # Risk per trade (% of balance)
@@ -65,6 +118,34 @@ RISK_TRENDING     = 2.0
 RISK_RANGING      = 0.5
 RISK_HIGH_CONF    = 2.5
 RISK_MAX          = 3.0
+
+# ── HIGH REWARD CONFIDENCE TIERS ─────────────────────────────────
+# Lot size and TP multiplier scales with ML confidence
+# Goal: £100+ profit on high-conviction trades
+# Confidence is directional (BUY conf or SELL conf = 1-conf)
+#
+#  Tier      | Dir.Conf | Max Lot | SL ATR | TP ATR | Potential (at $22 ATR)
+#  STANDARD  |  54-64%  |  0.01   |  0.30  |  0.65  | ~$14  profit
+#  MEDIUM    |  65-74%  |  0.03   |  0.40  |  1.50  | ~$99  profit
+#  HIGH      |  75-84%  |  0.05   |  0.50  |  2.50  | ~$275 profit
+#  GOD MODE  |  85%+    |  0.10   |  0.50  |  4.00  | ~$880 profit
+#
+# GOD MODE also requires: SMC CONFIRMS + no news block + trending/breakout regime
+
+TIER_STANDARD  = 0.54   # minimum threshold
+TIER_MEDIUM    = 0.65   # larger lot, wider TP
+TIER_HIGH      = 0.75   # serious money
+TIER_GOD       = 0.85   # maximum conviction only
+
+# Session: block Asian session (wide spreads, fake moves, low volume)
+# Trade ONLY during: LONDON (08:00-13:00 UTC) + NY_OVERLAP (13:00-16:00) + NY (16:00-21:00)
+BLOCK_ASIAN_SESSION = True  # set False to disable
+ASIA_START_UTC = 21         # 21:00 UTC = Asian session opens
+ASIA_END_UTC   = 8          # 08:00 UTC = Asian session ends
+
+# SMC Conflict: block trade if SMC strongly disagrees with ML signal
+BLOCK_ON_SMC_CONFLICT = True   # True = block trades when SMC conflicts
+SMC_CONFLICT_THRESHOLD = 60    # only block if conflicting SMC score >= this value
 
 # v3: Position management (optimised from backtest)
 TRAIL_ACTIVATE_PCT = 0.35
@@ -512,111 +593,73 @@ def run_all_guards(account_info):
         best_strat = ec.get("best_strategy", "stacking_meta")
         trainer_ver = ec.get("trainer_version", "v7")
 
-        scaler = joblib.load(os.path.join(BASE, "scaler.pkl"))
+        # FIX: Use cached models instead of loading from disk every cycle
+        mc = get_cached_models()
+        if not mc.get("scaler"):
+            blocked = True; reasons.append("ML: scaler not loaded")
+            return not blocked, signal, conf, 1.0, cur_regime, 0, 0, reasons
+
+        scaler = mc["scaler"]
         X_live = scaler.transform(feat_df.iloc[[-1]])
         X_all = scaler.transform(feat_df)
 
         # ════════════════════════════════════════════════════════════════
-        # TREE MODELS (5)
+        # TREE MODELS (5) — from cache
         # ════════════════════════════════════════════════════════════════
-        p_xgb = float(joblib.load(os.path.join(BASE, "xgb_model.pkl")).predict_proba(X_live)[0][1])
-        p_lgb = float(joblib.load(os.path.join(BASE, "lgb_model.pkl")).predict_proba(X_live)[0][1])
-        p_gb  = float(joblib.load(os.path.join(BASE, "gb_model.pkl")).predict_proba(X_live)[0][1])
+        p_xgb = float(mc["xgb"].predict_proba(X_live)[0][1]) if mc.get("xgb") else 0.5
+        p_lgb = float(mc["lgb"].predict_proba(X_live)[0][1]) if mc.get("lgb") else 0.5
+        p_gb  = float(mc["gb"].predict_proba(X_live)[0][1]) if mc.get("gb") else 0.5
 
         p_cb = 0.5
-        try:
-            cb_path = os.path.join(BASE, "catboost_model.pkl")
-            if os.path.exists(cb_path):
-                p_cb = float(joblib.load(cb_path).predict_proba(X_live)[0][1])
-        except Exception: pass
+        if mc.get("cb"):
+            try: p_cb = float(mc["cb"].predict_proba(X_live)[0][1])
+            except Exception: pass
 
         p_rf = 0.5
-        try:
-            rf_path = os.path.join(BASE, "rf_model.pkl")
-            if os.path.exists(rf_path):
-                p_rf = float(joblib.load(rf_path).predict_proba(X_live)[0][1])
-        except Exception: pass
+        if mc.get("rf"):
+            try: p_rf = float(mc["rf"].predict_proba(X_live)[0][1])
+            except Exception: pass
 
         # ════════════════════════════════════════════════════════════════
-        # DEEP LEARNING MODELS (5) - v7 NEW!
+        # DEEP LEARNING MODELS (5) - v7 — from cache
         # ════════════════════════════════════════════════════════════════
         p_lstm = p_tft = p_tcn = p_nbeats = p_nhits = 0.5
         
         try:
-            model_classes = get_model_classes()
+            import torch
             seq_len = ec.get("seq_len", SEQ)
             
             if len(X_all) >= seq_len:
                 seq_in = torch.tensor(X_all[-seq_len:].reshape(1, seq_len, -1), dtype=torch.float32)
                 
-                # LSTM
-                lstm_path = os.path.join(BASE, "lstm_model.pt")
-                if os.path.exists(lstm_path):
-                    ckpt = torch.load(lstm_path, map_location="cpu", weights_only=False)
-                    model = model_classes["lstm"](ckpt["n_features"])
-                    model.load_state_dict(ckpt["model_state"]); model.eval()
-                    with torch.no_grad():
-                        p_lstm = float(model(seq_in).item())
-                
-                # TFT
-                tft_path = os.path.join(BASE, "tft_model.pt")
-                if os.path.exists(tft_path):
-                    ckpt = torch.load(tft_path, map_location="cpu", weights_only=False)
-                    model = model_classes["tft"](ckpt["n_features"])
-                    model.load_state_dict(ckpt["model_state"]); model.eval()
-                    with torch.no_grad():
-                        p_tft = float(model(seq_in).item())
-                
-                # TCN (v7 NEW!)
-                tcn_path = os.path.join(BASE, "tcn_model.pt")
-                if os.path.exists(tcn_path):
-                    ckpt = torch.load(tcn_path, map_location="cpu", weights_only=False)
-                    model = model_classes["tcn"](ckpt["n_features"])
-                    model.load_state_dict(ckpt["model_state"]); model.eval()
-                    with torch.no_grad():
-                        p_tcn = float(model(seq_in).item())
-                
-                # N-BEATS (v7 NEW!)
-                nbeats_path = os.path.join(BASE, "nbeats_model.pt")
-                if os.path.exists(nbeats_path):
-                    ckpt = torch.load(nbeats_path, map_location="cpu", weights_only=False)
-                    model = model_classes["nbeats"](ckpt["n_features"])
-                    model.load_state_dict(ckpt["model_state"]); model.eval()
-                    with torch.no_grad():
-                        p_nbeats = float(model(seq_in).item())
-                
-                # N-HiTS (v7 NEW!)
-                nhits_path = os.path.join(BASE, "nhits_model.pt")
-                if os.path.exists(nhits_path):
-                    ckpt = torch.load(nhits_path, map_location="cpu", weights_only=False)
-                    model = model_classes["nhits"](ckpt["n_features"])
-                    model.load_state_dict(ckpt["model_state"]); model.eval()
-                    with torch.no_grad():
-                        p_nhits = float(model(seq_in).item())
+                for name, var_name in [("lstm","p_lstm"),("tft","p_tft"),("tcn","p_tcn"),("nbeats","p_nbeats"),("nhits","p_nhits")]:
+                    model = mc.get(name)
+                    if model is not None:
+                        try:
+                            with torch.no_grad():
+                                val = float(model(seq_in).item())
+                            if name == "lstm": p_lstm = val
+                            elif name == "tft": p_tft = val
+                            elif name == "tcn": p_tcn = val
+                            elif name == "nbeats": p_nbeats = val
+                            elif name == "nhits": p_nhits = val
+                        except Exception:
+                            pass
         except Exception as e:
             pass  # Deep learning models are optional
 
         # ════════════════════════════════════════════════════════════════
-        # REGIME DETECTION
+        # REGIME DETECTION — FIX: use same detect_regime() as training
         # ════════════════════════════════════════════════════════════════
         p_regime = 0.5
         try:
-            rm = joblib.load(os.path.join(BASE, "regime_models.pkl"))
+            rm = mc.get("regime_models", {})
+            if not rm:
+                rm = joblib.load(os.path.join(BASE, "regime_models.pkl"))
             try:
-                atr_pct = feat_df["atr_pct"].iloc[-1] if "atr_pct" in feat_df.columns else 0.01
-                adx_v = feat_df["adx"].iloc[-1] if "adx" in feat_df.columns else 0.25
-                ret5 = feat_df["ret_5"].iloc[-1] if "ret_5" in feat_df.columns else 0.0
-                bb_w = feat_df["bb_width"].iloc[-1] if "bb_width" in feat_df.columns else 0.02
-                if adx_v > 0.30 and abs(ret5) > 0.005:
-                    cur_regime = "TRENDING"
-                elif adx_v > 0.25 and abs(ret5) > 0.003:
-                    cur_regime = "TREND_UP" if ret5 > 0 else "TREND_DOWN"
-                elif atr_pct < 0.005 and adx_v < 0.20:
-                    cur_regime = "LOW_VOL"
-                elif adx_v < 0.20 and bb_w < 0.015:
-                    cur_regime = "CHOPPY_RANGE"
-                else:
-                    cur_regime = "VOLATILE"
+                from market_regime import detect_regime
+                regs, _, _, _ = detect_regime(df_feat)
+                cur_regime = regs[-1] if regs else "VOLATILE"
             except Exception:
                 cur_regime = "VOLATILE"
             
@@ -633,7 +676,9 @@ def run_all_guards(account_info):
         # ════════════════════════════════════════════════════════════════
         p_meta = 0.5
         try:
-            mm = joblib.load(os.path.join(BASE, "meta_model.pkl"))
+            mm = mc.get("meta")
+            if mm is None:
+                mm = joblib.load(os.path.join(BASE, "meta_model.pkl"))
             regime_codes = ec.get("regime_codes", {})
             rc = regime_codes.get(cur_regime, 0)
             
@@ -701,13 +746,17 @@ def run_all_guards(account_info):
     if cur_regime in BLOCKED_REGIMES:
         blocked = True; reasons.append(f"BLOCKED: {cur_regime} regime (v3: confirmed loser)")
 
-    # 2. News Guard
+    # 2. News Guard — FIX: single call, check both blocked and risk_factor
+    risk_mult = 1.0
     try:
         from news_guard import is_blocked as nb
         ng = nb()
         if isinstance(ng, dict):
-            if ng.get("blocked"): blocked = True; reasons.append(f"NEWS BLOCKED: {ng.get('reason','')}")
-            elif ng.get("risk_factor"): reasons.append(f"News: {ng.get('reason','')}")
+            if ng.get("blocked"):
+                blocked = True; reasons.append(f"NEWS BLOCKED: {ng.get('reason','')}")
+            elif ng.get("risk_factor"):
+                risk_mult *= (1 - ng["risk_factor"])
+                reasons.append(f"News: risk x{1 - ng['risk_factor']:.1f} — {ng.get('reason','')}")
     except Exception: pass
 
     # 3. SMC Guard
@@ -728,21 +777,19 @@ def run_all_guards(account_info):
             reasons.append(f"{G}SMC CONFIRMS {signal}{RST}")
     except Exception: pass
 
-    # 4. Correlation Guard
+    # 4. Correlation Guard — FIX: was importing non-existent function
     try:
         from correlation_guard import check_correlation
         corr = check_correlation(signal)
-        if corr and corr.get("conflict"):
-            reasons.append(f"Correlation: CONFLICT - {corr.get('reason','')}")
-    except Exception: pass
-
-    risk_mult = 1.0
-    try:
-        from news_guard import is_blocked as nb
-        ng = nb()
-        if isinstance(ng, dict) and ng.get("risk_factor"):
-            risk_mult *= (1 - ng["risk_factor"])
-            reasons.append(f"News: REDUCED risk ({-ng['risk_factor']*100:.0f}%): {ng.get('reason','')}")
+        if corr:
+            if corr.get("kill_switch"):
+                blocked = True; reasons.append(f"CORR KILL SWITCH: {corr.get('reason','')}")
+            elif corr.get("reduce_risk"):
+                risk_mult *= corr.get("risk_mult", 0.4)
+                reasons.append(f"Correlation: risk x{corr.get('risk_mult',0.4):.1f} — {corr.get('reason','')}")
+            # Boosts
+            for b in corr.get("boosts", []):
+                reasons.append(f"  {G}✓ {b}{RST}")
     except Exception: pass
 
     return not blocked, signal, conf, risk_mult, cur_regime, smc_score, smc_dir, reasons
@@ -795,30 +842,42 @@ def main_loop(mode, max_positions=3):
                 time.sleep(CYCLE_SECONDS)
                 continue
 
-            # Regime-dependent risk
-            if regime in TRENDING: base_risk = RISK_TRENDING
-            elif regime in RANGING: base_risk = RISK_RANGING
-            else: base_risk = RISK_BASE
-            risk_pct = min(base_risk * risk_mult, RISK_MAX)
-
-            # Session detection
+            # ── Session Block: no trading during Asian session ────────
             hour = now_utc.hour
-            session = "ASIA" if hour < 8 else ("LONDON" if hour < 13 else ("NY" if hour < 17 else "LONDON_OPEN"))
-            print(f"    Risk: {risk_pct:.2f}% | {regime} | {session}")
+            in_asia = (hour >= ASIA_START_UTC or hour < ASIA_END_UTC)
+            if BLOCK_ASIAN_SESSION and in_asia:
+                session = "ASIA"
+                print(f"  {Y}BLOCKED: Asian session ({hour:02d}:00 UTC) — wide spreads, low volume{RST}")
+                time.sleep(CYCLE_SECONDS)
+                continue
+            session = ("LONDON" if hour < 13 else ("NY_OVERLAP" if hour < 16 else ("NY" if hour < 21 else "LONDON_OPEN")))
 
-            # Check SMC confirmation
+            # ── Compute directional confidence ─────────────────────────
+            # conf = probability of BUY. For SELL signals, dir_conf = 1 - conf
+            if regime in TRENDING: used_thresh = CONF_TRENDING
+            elif regime in RANGING: used_thresh = CONF_RANGING
+            else: used_thresh = CONF_VOLATILE
+            dir_conf = conf if signal == "BUY" else (1.0 - conf)
+
+            # ── SMC Conflict Block ─────────────────────────────────────
             ml_dir = 1 if signal == "BUY" else -1
+            smc_conflict = (smc_dir != 0 and smc_dir != ml_dir)
             smc_status = ""
             if smc_dir != 0:
-                if smc_dir == ml_dir:
+                if not smc_conflict:
                     smc_status = f"{G}✓ SMC CONFIRMS {signal} (score {smc_score}){RST}"
                 else:
-                    smc_status = f"{Y}⚠ SMC CONFLICT (score {smc_score}){RST}"
+                    smc_status = f"{R}✗ SMC CONFLICT: ML={signal} vs SMC={'BUY' if smc_dir>0 else 'SELL'} (score {smc_score}){RST}"
             else:
                 smc_status = f"{DIM}SMC: Neutral{RST}"
             print(f"    {smc_status}")
-            
-            # Correlation check
+
+            if BLOCK_ON_SMC_CONFLICT and smc_conflict and smc_score >= SMC_CONFLICT_THRESHOLD:
+                print(f"  {R}BLOCKED: SMC strongly conflicts with ML signal — skipping trade{RST}")
+                time.sleep(CYCLE_SECONDS)
+                continue
+
+            # ── Correlation check ──────────────────────────────────────
             corr_status = f"{G}✓ Correlations OK{RST}"
             try:
                 from correlation_guard import check_correlation
@@ -828,44 +887,73 @@ def main_loop(mode, max_positions=3):
             except: pass
             print(f"    {corr_status}")
 
-            # SL/TP based on regime (v3 tighter targets)
-            if regime in TRENDING:
-                sl_dollars = atr_val * 0.30
-                tp_dollars = atr_val * 0.65
-            elif regime in RANGING:
-                sl_dollars = atr_val * 0.20
-                tp_dollars = atr_val * 0.35
+            # ── Regime-dependent risk base ─────────────────────────────
+            if regime in TRENDING: base_risk = RISK_TRENDING
+            elif regime in RANGING: base_risk = RISK_RANGING
+            else: base_risk = RISK_BASE
+            risk_pct = min(base_risk * risk_mult, RISK_MAX)
+
+            # ── CONFIDENCE TIER SYSTEM ─────────────────────────────────
+            # Tier determines lot size and TP multiplier
+            # Higher confidence = bigger lot + wider TP = £100+ trades possible
+            smc_confirmed = (smc_dir != 0 and not smc_conflict)
+            news_ok = (risk_mult >= 0.8)  # news guard hasn't blocked
+
+            if dir_conf >= TIER_GOD and smc_confirmed and news_ok:
+                tier = "GOD MODE"
+                max_lot = 0.10
+                sl_atr_mult = 0.50
+                tp_atr_mult = 4.00   # ~$91 TP at current ATR → 0.10 lot × $91 × 10 = $910 potential
+                tier_color = f"\033[95m"  # magenta
+            elif dir_conf >= TIER_HIGH:
+                tier = "HIGH"
+                max_lot = 0.05
+                sl_atr_mult = 0.50
+                tp_atr_mult = 2.50   # ~$57 TP → 0.05 lot × $57 × 10 = $285 potential
+                tier_color = f"\033[93m"  # yellow
+            elif dir_conf >= TIER_MEDIUM:
+                tier = "MEDIUM"
+                max_lot = 0.03
+                sl_atr_mult = 0.40
+                tp_atr_mult = 1.50   # ~$34 TP → 0.03 lot × $34 × 10 = $102 potential
+                tier_color = f"\033[36m"  # cyan
             else:
-                sl_dollars = atr_val * 0.35
-                tp_dollars = atr_val * 0.60
+                tier = "STANDARD"
+                max_lot = 0.01
+                sl_atr_mult = 0.30
+                tp_atr_mult = 0.65
+                tier_color = G
+
+            sl_dollars = atr_val * sl_atr_mult
+            tp_dollars = atr_val * tp_atr_mult
 
             si = mt5.symbol_info(SYMBOL)
             pt = si.point if si else 0.01
             sl_pips = int(sl_dollars / pt)
             tp_pips = int(tp_dollars / pt)
 
-            risk_usd = acc["balance"] * (risk_pct / 100.0)
-            # For XAUUSD: 1 lot = 100oz, so $1 move = $100 per lot
-            # Risk per lot = sl_dollars * 100
-            risk_per_lot = sl_dollars * 100
-            lot = round(risk_usd / risk_per_lot, 2)
-            lot = max(0.01, min(lot, 0.10))  # Cap at 0.10 for small accounts
-            
-            # Determine threshold used
-            if regime in TRENDING: used_thresh = CONF_TRENDING
-            elif regime in RANGING: used_thresh = CONF_RANGING
-            else: used_thresh = CONF_VOLATILE
+            # Lot sizing: risk-based but capped by tier
+            risk_usd      = acc["balance"] * (risk_pct / 100.0)
+            risk_per_lot  = sl_dollars * 100   # XAUUSD: 1 lot = 100oz
+            lot_from_risk = round(risk_usd / risk_per_lot, 2)
+            lot = max(0.01, min(lot_from_risk, max_lot))
+
+            # Estimated profit/loss at current tier
+            est_profit = lot * tp_dollars * 100
+            est_loss   = lot * sl_dollars * 100
 
             print(f"\n  {'─'*55}")
-            print(f"  >>> {G if signal == 'BUY' else R}{B}{signal} SIGNAL{RST} <<<")
+            print(f"  >>> {tier_color}{B}{signal} SIGNAL — {tier}{RST} <<<")
             print(f"  {'─'*55}")
-            print(f"      Confidence : {conf:.1%}  (Threshold: {used_thresh:.0%})")
-            print(f"      Regime     : {regime}")
-            print(f"      Session    : {session}")
-            print(f"      Risk       : {risk_pct:.2f}% (${risk_usd:.2f})")
-            print(f"      ATR        : ${atr_val:.2f}")
-            print(f"      SL/TP      : ${sl_dollars:.2f} / ${tp_dollars:.2f}")
-            print(f"      Lot Size   : {lot} (max 0.10 for safety)")
+            print(f"      Dir.Confidence : {dir_conf:.1%}  (Threshold: {used_thresh:.0%})")
+            print(f"      Tier           : {tier_color}{tier}{RST}")
+            print(f"      Regime         : {regime}")
+            print(f"      Session        : {session}")
+            print(f"      Risk           : {risk_pct:.2f}% (${risk_usd:.2f})")
+            print(f"      ATR            : ${atr_val:.2f}")
+            print(f"      SL / TP        : ${sl_dollars:.2f} / ${tp_dollars:.2f}")
+            print(f"      Lot Size       : {lot}")
+            print(f"      Est. Profit    : {G}+${est_profit:.2f}{RST}  |  Est. Loss: {R}-${est_loss:.2f}{RST}")
 
             # Cooldown check
             if time.time() < cooldown_until:
@@ -875,11 +963,13 @@ def main_loop(mode, max_positions=3):
                 continue
 
             # Place trade
-            if place_trade(signal, lot, sl_pips, tp_pips, f"AFBv7_{regime[:4]}"):
-                print(f"  {G}[OK] Trade placed!{RST}")
-                log_event("trade", {"signal": signal, "lot": lot, "sl": sl_pips, "tp": tp_pips, "conf": conf, "regime": regime})
-                send_telegram(f"{signal} {lot}lot @ {conf:.1%} conf | {regime}")
-                cooldown_until = time.time() + 180  # 3 min cooldown
+            if place_trade(signal, lot, sl_pips, tp_pips, f"AFBv7_{regime[:4]}_{tier[:3]}"):
+                print(f"  {G}[OK] Trade placed! {tier_color}[{tier}]{RST}")
+                log_event("trade", {"signal": signal, "lot": lot, "sl": sl_pips, "tp": tp_pips,
+                                    "conf": conf, "dir_conf": dir_conf, "tier": tier, "regime": regime,
+                                    "est_profit": est_profit, "est_loss": est_loss})
+                send_telegram(f"{signal} {lot}lot [{tier}] @ {dir_conf:.1%} conf | {regime} | TP:${tp_dollars:.0f}")
+                cooldown_until = time.time() + 180
             else:
                 print(f"  {R}[FAIL] Trade not placed{RST}")
 
@@ -916,4 +1006,6 @@ if __name__ == "__main__":
 
     print("  Connecting to MT5...")
     init_mt5(args.mode)
+    print("  Loading models into memory...")
+    get_cached_models()
     main_loop(args.mode, args.max_pos)

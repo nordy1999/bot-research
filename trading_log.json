@@ -1304,5 +1304,381 @@
     "tp": 1794,
     "conf": 0.22258087012980637,
     "regime": "VOLATILE"
+  },
+  {
+    "timestamp": "2026-03-04 13:11:43",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 596,
+    "tp": 1043,
+    "conf": 0.8109093680701959,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:14:45",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.8854989122321996,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:17:47",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.932219560212161,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:20:48",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.8124369664376426,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:29:23",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5821956164376714,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:32:25",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5992668033176719,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:35:27",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5907634140292326,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:38:29",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5772778319323227,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:40:48",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.580449458989077,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:41:25",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5791645145351357,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:43:25",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5904182571186355,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:53:26",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.588111091189656,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:55:43",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5865472132650474,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:56:27",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5790462658162575,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:58:44",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5799175195293411,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 13:59:29",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 601,
+    "tp": 1053,
+    "conf": 0.5793977591270549,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:01:46",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 577,
+    "tp": 1011,
+    "conf": 0.5994663113443989,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:02:31",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 577,
+    "tp": 1011,
+    "conf": 0.5959478220152041,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:04:48",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 577,
+    "tp": 1011,
+    "conf": 0.5997787619908633,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:05:33",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 577,
+    "tp": 1011,
+    "conf": 0.6044084143313121,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:09:34",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 577,
+    "tp": 1011,
+    "conf": 0.5938727169146579,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:09:49",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 577,
+    "tp": 1011,
+    "conf": 0.5897695554139143,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:12:49",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 577,
+    "tp": 1011,
+    "conf": 0.5883835517766741,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:13:35",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 580,
+    "tp": 1016,
+    "conf": 0.5904466819552134,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:15:51",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 583,
+    "tp": 1021,
+    "conf": 0.5916746300596661,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:22:37",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 584,
+    "tp": 1023,
+    "conf": 0.5861586540536163,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:22:51",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 585,
+    "tp": 1023,
+    "conf": 0.5845490163638034,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-04 14:25:52",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 587,
+    "tp": 1027,
+    "conf": 0.5788090952352207,
+    "regime": "CHOPPY_RANGE"
+  },
+  {
+    "timestamp": "2026-03-05 09:31:38",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 681,
+    "tp": 1477,
+    "conf": 0.7059007409339415,
+    "regime": "TREND_DOWN"
+  },
+  {
+    "timestamp": "2026-03-05 09:34:40",
+    "type": "trade",
+    "signal": "BUY",
+    "lot": 0.01,
+    "sl": 681,
+    "tp": 1477,
+    "conf": 0.5897215422144161,
+    "regime": "TREND_DOWN"
+  },
+  {
+    "timestamp": "2026-03-05 09:42:45",
+    "type": "trade",
+    "signal": "SELL",
+    "lot": 0.01,
+    "sl": 697,
+    "tp": 1512,
+    "conf": 0.339879834063013,
+    "regime": "TREND_DOWN"
+  },
+  {
+    "timestamp": "2026-03-05 09:45:48",
+    "type": "trade",
+    "signal": "SELL",
+    "lot": 0.01,
+    "sl": 697,
+    "tp": 1512,
+    "conf": 0.339879834063013,
+    "regime": "TREND_DOWN"
+  },
+  {
+    "timestamp": "2026-03-05 10:21:54",
+    "type": "trade",
+    "signal": "SELL",
+    "lot": 0.01,
+    "sl": 694,
+    "tp": 1505,
+    "conf": 0.3932589552006041,
+    "dir_conf": 0.606741044799396,
+    "tier": "STANDARD",
+    "regime": "TREND_DOWN",
+    "est_profit": 15.051678571428639,
+    "est_loss": 6.946928571428603
+  },
+  {
+    "timestamp": "2026-03-05 10:24:57",
+    "type": "trade",
+    "signal": "SELL",
+    "lot": 0.01,
+    "sl": 694,
+    "tp": 1505,
+    "conf": 0.37811204151625,
+    "dir_conf": 0.62188795848375,
+    "tier": "STANDARD",
+    "regime": "TREND_DOWN",
+    "est_profit": 15.051678571428639,
+    "est_loss": 6.946928571428603
+  },
+  {
+    "timestamp": "2026-03-05 10:49:25",
+    "type": "trade",
+    "signal": "SELL",
+    "lot": 0.01,
+    "sl": 929,
+    "tp": 3484,
+    "conf": 0.30954673435991087,
+    "dir_conf": 0.6904532656400891,
+    "tier": "MEDIUM",
+    "regime": "TREND_DOWN",
+    "est_profit": 34.84285714285722,
+    "est_loss": 9.291428571428593
+  },
+  {
+    "timestamp": "2026-03-05 10:52:27",
+    "type": "trade",
+    "signal": "SELL",
+    "lot": 0.01,
+    "sl": 705,
+    "tp": 1528,
+    "conf": 0.3568788295593867,
+    "dir_conf": 0.6431211704406132,
+    "tier": "STANDARD",
+    "regime": "TREND_DOWN",
+    "est_profit": 15.286607142857184,
+    "est_loss": 7.0553571428571615
   }
 ]

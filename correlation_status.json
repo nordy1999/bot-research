@@ -7,35 +7,35 @@
   "boosts": [],
   "assets": {
     "gold": {
-      "current": 5113.5,
-      "change_1h": 0.472,
-      "change_4h": 1.298
+      "current": 5165.8999,
+      "change_1h": -0.114,
+      "change_4h": -0.205
     },
     "dxy": {
-      "current": 99.134,
-      "change_1h": -0.095,
-      "change_4h": -0.289
+      "current": 98.982,
+      "change_1h": 0.083,
+      "change_4h": -0.026
     },
     "us10y": {
-      "current": 4.063,
-      "change_1h": 0.049,
-      "change_4h": -1.168
+      "current": 4.08,
+      "change_1h": 0.025,
+      "change_4h": 0.27
     },
     "spx": {
-      "current": 6814.27,
-      "change_1h": 0.239,
-      "change_4h": -0.956
+      "current": 6868.9502,
+      "change_1h": -0.121,
+      "change_4h": 0.003
     },
     "btc": {
-      "current": 68489.5938,
-      "change_1h": 0.264,
-      "change_4h": 2.882
+      "current": 73304.3906,
+      "change_1h": 0.972,
+      "change_4h": 1.025
     },
     "vix": {
-      "current": 23.78,
-      "change_1h": -1.776,
-      "change_4h": -10.332
+      "current": 21.24,
+      "change_1h": -0.933,
+      "change_4h": 0.047
     }
   },
-  "timestamp": "2026-03-03 18:24:51"
+  "timestamp": "2026-03-05 10:49:25"
 }

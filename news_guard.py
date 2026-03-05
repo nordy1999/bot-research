@@ -2,6 +2,8 @@
 AlmostFinishedBot - News Event Guard
 Blocks trading 30 min before/after FOMC, NFP, CPI, PPI, GDP, Fed speeches
 Writes news_guard.json that the EA reads every tick
+
+v2.1 FIX: Added risk_factor field to is_blocked() return for bridge consumption
 """
 import json, os, sys, datetime, time
 BASE = os.path.join(os.path.expanduser("~"), "Desktop", "AlmostFinishedBot")
@@ -63,7 +65,8 @@ def fetch_events():
 def is_blocked():
     now    = datetime.datetime.utcnow()
     events = fetch_events()
-    result = {"blocked":False,"reduced":False,"reason":"Clear",
+    # FIX: Added risk_factor field (was missing, bridge checked for it but got None)
+    result = {"blocked":False,"reduced":False,"risk_factor":0.0,"reason":"Clear",
               "minutes_to_event":999,"next_event":"None",
               "events_today":len(events),"timestamp":now.isoformat()}
 
@@ -71,6 +74,7 @@ def is_blocked():
         t_str = ev.get("time","")
         if not t_str or t_str.lower() in ("tentative","all day",""):
             result["reduced"] = True
+            result["risk_factor"] = 0.2   # FIX: 20% reduction for tentative events
             result["reason"]  = f"Tentative event: {ev['title']}"
             continue
         try:
@@ -79,6 +83,7 @@ def is_blocked():
 
             if -BUFFER_MINS <= diff <= BUFFER_MINS:
                 result["blocked"] = True
+                result["risk_factor"] = 1.0   # FIX: full block = 100% risk reduction
                 result["reason"]  = f"NEWS GUARD: {ev['title']} ({t_str} UTC)"
                 result["minutes_to_event"] = int(diff)
                 result["next_event"] = ev["title"]
@@ -89,6 +94,7 @@ def is_blocked():
                     result["next_event"]        = ev["title"]
                 if diff < BUFFER_MINS * 1.5:
                     result["reduced"] = True
+                    result["risk_factor"] = 0.3   # FIX: 30% reduction approaching event
                     result["reason"]  = f"Pre-event caution: {ev['title']} in {int(diff)} min"
         except Exception:
             continue
